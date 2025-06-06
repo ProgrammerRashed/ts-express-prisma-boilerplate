@@ -8,3 +8,6 @@ prisma/migrations
 
 # Optional: ignore all generated files
 src/generated/
+
+logs/
+*.log

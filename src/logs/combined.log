@@ -1,3 +1,400 @@
 2025-06-06T06:53:53.627Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /sa - Method: GET
 2025-06-06T06:53:53.629Z | INFO    | METHOD: GET /sa 404 1.070 ms
 2025-06-06T06:56:25.001Z | INFO    | Server is up and running on 
+2025-06-06T16:35:15.594Z | INFO    | Server is up and running on 
+2025-06-06T16:35:27.562Z | INFO    | METHOD: GET / 304 2.441 ms
+2025-06-06T16:35:28.284Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /favicon.ico - Method: GET
+2025-06-06T16:35:28.287Z | INFO    | METHOD: GET /favicon.ico 404 2.512 ms
+2025-06-06T16:35:30.444Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: //api-docs - Method: GET
+2025-06-06T16:35:30.448Z | INFO    | METHOD: GET //api-docs 404 1.528 ms
+2025-06-06T16:35:34.531Z | INFO    | METHOD: GET /api-docs 301 2.515 ms
+2025-06-06T16:35:34.540Z | INFO    | METHOD: GET /api-docs/ 200 2.715 ms
+2025-06-06T16:35:34.592Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 200 4.521 ms
+2025-06-06T16:35:34.601Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 0.731 ms
+2025-06-06T16:35:34.617Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 200 10.586 ms
+2025-06-06T16:35:34.628Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 200 9.788 ms
+2025-06-06T16:35:35.018Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 200 0.635 ms
+2025-06-06T16:38:47.309Z | INFO    | Server is up and running on 
+2025-06-06T16:39:05.432Z | INFO    | Server is up and running on 
+2025-06-06T16:39:08.338Z | INFO    | METHOD: GET /api-docs/ 304 4.998 ms
+2025-06-06T16:39:08.445Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.680 ms
+2025-06-06T16:39:08.471Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.283 ms
+2025-06-06T16:39:08.475Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 1.103 ms
+2025-06-06T16:39:08.479Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 8.875 ms
+2025-06-06T16:39:40.380Z | INFO    | Server is up and running on 
+2025-06-06T16:39:47.078Z | INFO    | Server is up and running on 
+2025-06-06T16:39:48.897Z | INFO    | Server is up and running on 
+2025-06-06T16:42:34.778Z | INFO    | Server is up and running on 
+2025-06-06T16:42:46.895Z | INFO    | Server is up and running on 
+2025-06-06T16:42:47.668Z | INFO    | Server is up and running on 
+2025-06-06T16:42:55.086Z | INFO    | Server is up and running on 
+2025-06-06T16:43:24.156Z | INFO    | Server is up and running on 
+2025-06-06T16:43:24.628Z | INFO    | Server is up and running on 
+2025-06-06T16:43:32.026Z | INFO    | Server is up and running on 
+2025-06-06T16:43:35.703Z | INFO    | Server is up and running on 
+2025-06-06T16:43:38.319Z | INFO    | Server is up and running on 
+2025-06-06T16:43:42.787Z | INFO    | Server is up and running on 
+2025-06-06T16:44:25.153Z | INFO    | Server is up and running on 
+2025-06-06T16:44:40.886Z | INFO    | Server is up and running on 
+2025-06-06T16:44:45.612Z | INFO    | Server is up and running on 
+2025-06-06T16:44:46.490Z | INFO    | Server is up and running on 
+2025-06-06T16:44:52.396Z | INFO    | METHOD: GET /api-docs/ 304 5.239 ms
+2025-06-06T16:44:52.428Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.390 ms
+2025-06-06T16:44:52.452Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 1.112 ms
+2025-06-06T16:44:52.454Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 4.579 ms
+2025-06-06T16:44:52.464Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 3.984 ms
+2025-06-06T16:44:53.129Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 1.648 ms
+2025-06-06T16:44:54.966Z | INFO    | METHOD: GET /api-docs/ 304 1.121 ms
+2025-06-06T16:44:54.995Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 0.619 ms
+2025-06-06T16:44:55.012Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.621 ms
+2025-06-06T16:44:55.014Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 6.993 ms
+2025-06-06T16:44:55.018Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 8.553 ms
+2025-06-06T16:44:55.231Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 1.272 ms
+2025-06-06T16:46:12.205Z | INFO    | Server is up and running on 
+2025-06-06T16:46:27.862Z | INFO    | Server is up and running on 
+2025-06-06T16:46:32.664Z | INFO    | METHOD: GET /api-docs/ 304 5.034 ms
+2025-06-06T16:46:32.697Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.949 ms
+2025-06-06T16:46:32.710Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 0.652 ms
+2025-06-06T16:46:32.712Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 6.854 ms
+2025-06-06T16:46:32.715Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 8.318 ms
+2025-06-06T16:46:33.039Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 0.620 ms
+2025-06-06T16:46:43.218Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /test - Method: GET
+2025-06-06T16:46:43.220Z | INFO    | METHOD: GET /test 404 1.595 ms
+2025-06-06T16:47:03.536Z | INFO    | Server is up and running on 
+2025-06-06T16:47:04.027Z | INFO    | Server is up and running on 
+2025-06-06T16:47:12.432Z | INFO    | METHOD: GET /api-docs/ 304 4.797 ms
+2025-06-06T16:47:12.488Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.134 ms
+2025-06-06T16:47:12.511Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.512 ms
+2025-06-06T16:47:12.513Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 5.215 ms
+2025-06-06T16:47:12.516Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 6.385 ms
+2025-06-06T16:47:12.878Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 2.211 ms
+2025-06-06T16:47:25.005Z | INFO    | Server is up and running on 
+2025-06-06T16:47:27.795Z | INFO    | METHOD: GET /api-docs/ 304 4.125 ms
+2025-06-06T16:47:27.830Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.430 ms
+2025-06-06T16:47:27.839Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 4.038 ms
+2025-06-06T16:47:27.841Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 3.886 ms
+2025-06-06T16:47:27.847Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.865 ms
+2025-06-06T16:47:28.088Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 2.183 ms
+2025-06-06T16:47:29.090Z | INFO    | METHOD: GET /api-docs/ 304 1.011 ms
+2025-06-06T16:47:29.138Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 0.701 ms
+2025-06-06T16:47:29.150Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.707 ms
+2025-06-06T16:47:29.152Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 7.827 ms
+2025-06-06T16:47:29.154Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 7.242 ms
+2025-06-06T16:47:29.362Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 1.295 ms
+2025-06-06T16:47:30.023Z | INFO    | METHOD: GET /api-docs/ 304 0.467 ms
+2025-06-06T16:47:30.061Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 1.515 ms
+2025-06-06T16:47:30.071Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.611 ms
+2025-06-06T16:47:30.073Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 4.846 ms
+2025-06-06T16:47:30.074Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 4.382 ms
+2025-06-06T16:47:30.324Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 0.627 ms
+2025-06-06T16:47:35.496Z | INFO    | METHOD: GET /api-docs/ 304 0.585 ms
+2025-06-06T16:47:35.526Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 0.510 ms
+2025-06-06T16:47:35.541Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.354 ms
+2025-06-06T16:47:35.543Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.846 ms
+2025-06-06T16:47:35.545Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 4.297 ms
+2025-06-06T16:47:35.769Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 0.658 ms
+2025-06-06T16:47:39.698Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /test - Method: GET
+2025-06-06T16:47:39.700Z | INFO    | METHOD: GET /test 404 1.318 ms
+2025-06-06T16:52:45.048Z | INFO    | Server is up and running on 
+2025-06-06T16:52:48.129Z | INFO    | Server is up and running on 
+2025-06-06T16:53:07.136Z | INFO    | Server is up and running on 
+2025-06-06T16:53:14.612Z | INFO    | Server is up and running on 
+2025-06-06T16:53:19.902Z | INFO    | Server is up and running on 
+2025-06-06T16:53:20.320Z | INFO    | Server is up and running on 
+2025-06-06T16:53:23.856Z | INFO    | Server is up and running on 
+2025-06-06T16:54:14.321Z | INFO    | Server is up and running on 
+2025-06-06T16:54:20.088Z | INFO    | METHOD: GET /api-docs/ 304 3.933 ms
+2025-06-06T16:54:20.122Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.884 ms
+2025-06-06T16:54:20.136Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.530 ms
+2025-06-06T16:54:20.137Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 3.298 ms
+2025-06-06T16:54:20.141Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 0.855 ms
+2025-06-06T16:54:20.515Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 2.508 ms
+2025-06-06T16:54:37.934Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /auth/login - Method: POST
+2025-06-06T16:54:37.937Z | INFO    | METHOD: POST /auth/login 404 1.529 ms
+2025-06-06T16:54:52.850Z | INFO    | Server is up and running on 
+2025-06-06T16:54:53.754Z | INFO    | Server is up and running on 
+2025-06-06T16:54:57.008Z | INFO    | Server is up and running on 
+2025-06-06T16:55:00.316Z | INFO    | Server is up and running on 
+2025-06-06T16:55:04.775Z | INFO    | Server is up and running on 
+2025-06-06T16:55:05.601Z | INFO    | Server is up and running on 
+2025-06-06T16:55:06.403Z | INFO    | Server is up and running on 
+2025-06-06T16:55:23.336Z | INFO    | Server is up and running on 
+2025-06-06T16:59:11.138Z | INFO    | Server is up and running on 
+2025-06-06T16:59:24.095Z | INFO    | METHOD: GET /api-docs/ 304 4.933 ms
+2025-06-06T16:59:24.127Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 1.935 ms
+2025-06-06T16:59:24.147Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.869 ms
+2025-06-06T16:59:24.150Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 5.008 ms
+2025-06-06T16:59:24.157Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 1.115 ms
+2025-06-06T16:59:24.936Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 1.042 ms
+2025-06-06T16:59:50.809Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "body"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-06T16:59:50.811Z | INFO    | METHOD: POST /api/v1/users/create-user 500 5.516 ms
+2025-06-06T17:09:27.127Z | INFO    | Server is up and running on 
+2025-06-06T17:09:36.889Z | INFO    | METHOD: GET /api-docs/ 304 4.593 ms
+2025-06-06T17:09:36.937Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.316 ms
+2025-06-06T17:09:36.951Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.219 ms
+2025-06-06T17:09:36.956Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 2.003 ms
+2025-06-06T17:09:36.964Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 1.405 ms
+2025-06-06T17:10:19.957Z | INFO    | Server is up and running on 
+2025-06-06T17:10:22.464Z | INFO    | Server is up and running on 
+2025-06-06T17:10:24.539Z | INFO    | Server is up and running on 
+2025-06-06T17:10:29.925Z | INFO    | Server is up and running on 
+2025-06-06T17:10:33.105Z | INFO    | METHOD: GET /api-docs/ 304 4.316 ms
+2025-06-06T17:10:33.140Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.993 ms
+2025-06-06T17:10:33.149Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.493 ms
+2025-06-06T17:10:33.151Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 5.382 ms
+2025-06-06T17:10:33.157Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 1.283 ms
+2025-06-06T17:10:33.452Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 4.822 ms
+2025-06-06T17:10:45.864Z | INFO    | Server is up and running on 
+2025-06-06T17:10:49.361Z | INFO    | METHOD: GET /api-docs/ 304 3.835 ms
+2025-06-06T17:10:49.390Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 1.496 ms
+2025-06-06T17:10:49.405Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 3.564 ms
+2025-06-06T17:10:49.407Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 4.184 ms
+2025-06-06T17:10:49.412Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 0.991 ms
+2025-06-06T17:10:49.669Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 3.778 ms
+2025-06-06T17:16:06.333Z | INFO    | Server is up and running on 
+2025-06-06T17:16:19.925Z | INFO    | Server is up and running on 
+2025-06-06T17:16:31.204Z | INFO    | Server is up and running on 
+2025-06-06T17:16:39.970Z | INFO    | METHOD: GET / 304 3.112 ms
+2025-06-06T17:16:42.930Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /account - Method: GET
+2025-06-06T17:16:42.933Z | INFO    | METHOD: GET /account 404 1.859 ms
+2025-06-06T17:16:48.707Z | INFO    | METHOD: GET /api-docs/ 304 1.967 ms
+2025-06-06T17:16:48.749Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.709 ms
+2025-06-06T17:16:48.758Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.591 ms
+2025-06-06T17:16:48.759Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 2.684 ms
+2025-06-06T17:16:48.762Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 0.498 ms
+2025-06-06T17:16:48.814Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 0.435 ms
+2025-06-06T17:16:48.824Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 200 8.622 ms
+2025-06-06T17:16:48.833Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 200 8.943 ms
+2025-06-06T17:16:49.253Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 0.857 ms
+2025-06-06T17:17:17.530Z | INFO    | Server is up and running on 
+2025-06-06T17:17:25.890Z | INFO    | Server is up and running on 
+2025-06-06T17:17:30.529Z | INFO    | METHOD: GET /api-docs/ 304 4.820 ms
+2025-06-06T17:17:30.565Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 3.967 ms
+2025-06-06T17:17:30.576Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 3.570 ms
+2025-06-06T17:17:30.578Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 5.285 ms
+2025-06-06T17:17:30.582Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.493 ms
+2025-06-06T17:17:30.608Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 1.958 ms
+2025-06-06T17:17:30.611Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 0.945 ms
+2025-06-06T17:17:30.614Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.514 ms
+2025-06-06T17:17:30.907Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 1.146 ms
+2025-06-06T17:17:42.916Z | INFO    | Server is up and running on 
+2025-06-06T17:18:26.164Z | INFO    | Server is up and running on 
+2025-06-06T17:18:27.201Z | INFO    | Server is up and running on 
+2025-06-06T17:18:27.620Z | INFO    | Server is up and running on 
+2025-06-06T17:18:28.142Z | INFO    | Server is up and running on 
+2025-06-06T17:18:32.276Z | INFO    | METHOD: GET /api-docs/ 304 6.030 ms
+2025-06-06T17:18:32.311Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.999 ms
+2025-06-06T17:18:32.320Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.884 ms
+2025-06-06T17:18:32.321Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 2.825 ms
+2025-06-06T17:18:32.325Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.483 ms
+2025-06-06T17:18:32.365Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 1.149 ms
+2025-06-06T17:18:32.367Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 1.795 ms
+2025-06-06T17:18:32.369Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.668 ms
+2025-06-06T17:18:32.708Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 1.332 ms
+2025-06-06T17:18:41.445Z | ERROR   | ❌ Your are unauthorized
+2025-06-06T17:18:41.448Z | INFO    | METHOD: GET /api/v1/users/all-users 500 11.325 ms
+2025-06-06T17:19:08.424Z | INFO    | Server is up and running on 
+2025-06-06T17:19:52.865Z | INFO    | METHOD: GET /api-docs/ 304 5.023 ms
+2025-06-06T17:19:52.928Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.205 ms
+2025-06-06T17:19:52.954Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 1.363 ms
+2025-06-06T17:19:52.962Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.520 ms
+2025-06-06T17:19:52.964Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 4.828 ms
+2025-06-06T17:19:53.379Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 1.517 ms
+2025-06-06T17:20:12.020Z | INFO    | Server is up and running on 
+2025-06-06T17:20:15.095Z | INFO    | METHOD: GET /api-docs/ 304 7.241 ms
+2025-06-06T17:20:15.153Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 3.178 ms
+2025-06-06T17:20:15.165Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.986 ms
+2025-06-06T17:20:15.169Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 5.841 ms
+2025-06-06T17:20:15.177Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 0.999 ms
+2025-06-06T17:20:15.224Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 0.613 ms
+2025-06-06T17:20:15.235Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 5.319 ms
+2025-06-06T17:20:15.245Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.515 ms
+2025-06-06T17:20:15.567Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 1.221 ms
+2025-06-06T17:21:54.605Z | INFO    | Server is up and running on 
+2025-06-06T17:22:05.215Z | INFO    | Server is up and running on 
+2025-06-06T17:22:06.589Z | INFO    | Server is up and running on 
+2025-06-06T17:22:14.161Z | INFO    | Server is up and running on 
+2025-06-06T17:22:15.818Z | INFO    | Server is up and running on 
+2025-06-06T17:22:25.230Z | INFO    | Server is up and running on 
+2025-06-06T17:22:26.204Z | INFO    | Server is up and running on 
+2025-06-06T17:23:09.503Z | INFO    | Server is up and running on 
+2025-06-06T17:23:17.051Z | INFO    | Server is up and running on 
+2025-06-06T17:30:22.848Z | INFO    | Server is up and running on 3000
+2025-06-06T17:31:13.789Z | INFO    | METHOD: GET /api-docs/ 304 4.281 ms
+2025-06-06T17:31:13.825Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.355 ms
+2025-06-06T17:31:13.841Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.569 ms
+2025-06-06T17:31:13.842Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 3.071 ms
+2025-06-06T17:31:13.846Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.500 ms
+2025-06-06T17:31:14.193Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 0.755 ms
+2025-06-06T17:33:22.177Z | INFO    | Server is up and running on 3000
+2025-06-06T17:33:24.581Z | INFO    | Server is up and running on 3000
+2025-06-06T17:34:22.395Z | INFO    | Server is up and running on 3000
+2025-06-06T17:34:35.755Z | INFO    | Server is up and running on 3000
+2025-06-06T17:34:38.631Z | INFO    | METHOD: GET /api-docs/ 304 6.562 ms
+2025-06-06T17:34:38.684Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.122 ms
+2025-06-06T17:34:38.708Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 3.371 ms
+2025-06-06T17:34:38.712Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 6.996 ms
+2025-06-06T17:34:38.718Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 1.059 ms
+2025-06-06T17:34:39.195Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 1.124 ms
+2025-06-06T17:36:27.578Z | INFO    | METHOD: GET /api-docs/ 304 1.780 ms
+2025-06-06T17:36:27.684Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 0.973 ms
+2025-06-06T17:36:27.699Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.409 ms
+2025-06-06T17:36:27.702Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 5.395 ms
+2025-06-06T17:36:27.706Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 1.429 ms
+2025-06-06T17:36:28.196Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 0.877 ms
+2025-06-06T17:36:40.675Z | INFO    | Server is up and running on 3000
+2025-06-06T17:36:43.799Z | INFO    | METHOD: GET /api-docs/ 304 7.926 ms
+2025-06-06T17:36:43.843Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.506 ms
+2025-06-06T17:36:43.864Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 4.728 ms
+2025-06-06T17:36:43.869Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 9.573 ms
+2025-06-06T17:36:43.875Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 1.414 ms
+2025-06-06T17:36:44.238Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 1.243 ms
+2025-06-06T17:36:47.525Z | INFO    | METHOD: GET / 304 0.674 ms
+2025-06-06T17:37:01.276Z | ERROR   | ❌ Cannot read properties of undefined (reading 'email')
+2025-06-06T17:37:01.278Z | INFO    | METHOD: POST /api/v1/auth/login 500 12.293 ms
+2025-06-06T17:38:43.209Z | INFO    | Server is up and running on 3000
+2025-06-06T17:38:44.793Z | INFO    | Server is up and running on 3000
+2025-06-06T17:38:56.670Z | INFO    | Server is up and running on 3000
+2025-06-06T17:38:57.728Z | INFO    | Server is up and running on 3000
+2025-06-06T17:39:08.224Z | INFO    | Server is up and running on 3000
+2025-06-06T17:39:10.612Z | INFO    | Server is up and running on 3000
+2025-06-06T17:39:13.067Z | INFO    | Server is up and running on 3000
+2025-06-06T17:39:17.927Z | INFO    | Server is up and running on 3000
+2025-06-06T17:39:29.514Z | INFO    | METHOD: GET /api-docs/ 304 6.477 ms
+2025-06-06T17:39:29.555Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 3.092 ms
+2025-06-06T17:39:29.566Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 3.877 ms
+2025-06-06T17:39:29.568Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 5.198 ms
+2025-06-06T17:39:29.575Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 0.954 ms
+2025-06-06T17:39:36.088Z | INFO    | METHOD: GET /api-docs/ 304 1.187 ms
+2025-06-06T17:39:36.130Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 0.460 ms
+2025-06-06T17:39:36.143Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 3.075 ms
+2025-06-06T17:39:36.145Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 3.905 ms
+2025-06-06T17:39:36.149Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.470 ms
+2025-06-06T17:39:50.698Z | INFO    | Server is up and running on 3000
+2025-06-06T17:39:51.548Z | INFO    | Server is up and running on 3000
+2025-06-06T17:39:55.351Z | INFO    | Server is up and running on 3000
+2025-06-06T17:39:57.267Z | INFO    | METHOD: GET /api-docs/ 304 5.198 ms
+2025-06-06T17:39:57.297Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 1.941 ms
+2025-06-06T17:39:57.315Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 3.484 ms
+2025-06-06T17:39:57.316Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 3.418 ms
+2025-06-06T17:39:57.322Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 1.286 ms
+2025-06-06T17:39:57.573Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 0.734 ms
+2025-06-06T17:42:17.425Z | INFO    | Server is up and running on 3000
+2025-06-06T17:43:22.822Z | INFO    | Server is up and running on 3000
+2025-06-06T17:43:31.429Z | INFO    | METHOD: GET /api-docs/ 304 4.355 ms
+2025-06-06T17:43:31.466Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.998 ms
+2025-06-06T17:43:31.486Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.175 ms
+2025-06-06T17:43:31.487Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 2.761 ms
+2025-06-06T17:43:31.493Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 1.166 ms
+2025-06-06T17:43:31.833Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 0.767 ms
+2025-06-06T17:43:46.184Z | INFO    | Server is up and running on 3000
+2025-06-06T17:44:24.613Z | INFO    | Server is up and running on 3000
+2025-06-06T17:44:30.155Z | INFO    | METHOD: GET /api-docs/ 304 4.588 ms
+2025-06-06T17:44:30.193Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.303 ms
+2025-06-06T17:44:30.216Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.704 ms
+2025-06-06T17:44:30.219Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.454 ms
+2025-06-06T17:44:30.223Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 7.743 ms
+2025-06-06T17:44:30.524Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 0.642 ms
+2025-06-06T17:44:31.622Z | INFO    | METHOD: GET /api-docs/ 304 0.622 ms
+2025-06-06T17:44:31.659Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 0.792 ms
+2025-06-06T17:44:31.673Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.244 ms
+2025-06-06T17:44:31.676Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 8.424 ms
+2025-06-06T17:44:31.677Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 5.445 ms
+2025-06-06T17:44:31.905Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 0.586 ms
+2025-06-06T17:44:32.835Z | INFO    | METHOD: GET /api-docs/ 200 0.962 ms
+2025-06-06T17:44:32.892Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 200 2.701 ms
+2025-06-06T17:44:32.900Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 0.704 ms
+2025-06-06T17:44:32.916Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 200 7.890 ms
+2025-06-06T17:44:32.938Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 200 7.954 ms
+2025-06-06T17:44:33.214Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 0.507 ms
+2025-06-06T17:45:15.166Z | INFO    | Server is up and running on 3000
+2025-06-06T17:45:27.155Z | INFO    | Server is up and running on 3000
+2025-06-06T17:45:31.974Z | INFO    | METHOD: GET /api-docs/ 304 5.285 ms
+2025-06-06T17:45:32.009Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 1.388 ms
+2025-06-06T17:45:32.030Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 0.800 ms
+2025-06-06T17:45:32.033Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 8.357 ms
+2025-06-06T17:45:32.040Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 13.353 ms
+2025-06-06T17:45:32.389Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 3.689 ms
+2025-06-06T17:45:48.385Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /api/v1/api/v1/auth/login - Method: POST
+2025-06-06T17:45:48.388Z | INFO    | METHOD: POST /api/v1/api/v1/auth/login 404 1.917 ms
+2025-06-06T17:46:07.789Z | INFO    | Server is up and running on 3000
+2025-06-06T17:46:11.112Z | INFO    | Server is up and running on 3000
+2025-06-06T17:46:14.666Z | INFO    | METHOD: GET /api-docs/ 304 3.522 ms
+2025-06-06T17:46:14.725Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.379 ms
+2025-06-06T17:46:14.751Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.881 ms
+2025-06-06T17:46:14.752Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 3.038 ms
+2025-06-06T17:46:14.755Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 0.532 ms
+2025-06-06T17:46:15.082Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 0.904 ms
+2025-06-06T17:46:25.962Z | ERROR   | ❌ 
+Invalid `prisma.user.findUniqueOrThrow()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/Auth/auth.service.ts:11:38
+
+   8 import AppError from "@middleware/AppError";
+   9 
+  10 const loginUser = async (payload: { email: string; password: string }) => {
+→ 11   const userData = await prisma.user.findUniqueOrThrow(
+An operation failed because it depends on one or more records that were required but not found. No record was found for a query.
+2025-06-06T17:46:25.963Z | INFO    | METHOD: POST /api/v1/auth/login 500 3051.960 ms
+2025-06-06T17:47:17.909Z | INFO    | Server is up and running on 3000
+2025-06-06T17:47:23.455Z | INFO    | Server is up and running on 3000
+2025-06-06T17:47:25.940Z | INFO    | Server is up and running on 3000
+2025-06-06T17:47:27.004Z | INFO    | Server is up and running on 3000
+2025-06-06T17:47:28.166Z | INFO    | Server is up and running on 3000
+2025-06-06T17:50:27.740Z | INFO    | Server is up and running on 3000
+2025-06-06T17:50:30.014Z | INFO    | Server is up and running on 3000
+2025-06-06T17:50:34.164Z | INFO    | METHOD: GET /api-docs/ 304 5.183 ms
+2025-06-06T17:50:34.199Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.110 ms
+2025-06-06T17:50:34.222Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.902 ms
+2025-06-06T17:50:34.224Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 4.085 ms
+2025-06-06T17:50:34.229Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 0.916 ms
+2025-06-06T17:50:35.045Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 1.094 ms
+2025-06-06T17:50:40.947Z | ERROR   | ❌ 
+Invalid `prisma.user.findUniqueOrThrow()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/Auth/auth.service.ts:11:38
+
+   8 import AppError from "@middleware/AppError";
+   9 
+  10 const loginUser = async (payload: { email: string; password: string }) => {
+→ 11   const userData = await prisma.user.findUniqueOrThrow(
+An operation failed because it depends on one or more records that were required but not found. No record was found for a query.
+2025-06-06T17:50:40.949Z | INFO    | METHOD: POST /api/v1/auth/login 404 1863.529 ms
+2025-06-06T17:52:00.111Z | INFO    | Server is up and running on 3000
+2025-06-06T17:52:19.688Z | INFO    | Server is up and running on 3000
+2025-06-06T17:52:21.311Z | INFO    | Server is up and running on 3000
+2025-06-06T17:52:28.075Z | INFO    | Server is up and running on 3000
+2025-06-06T17:52:38.627Z | INFO    | Server is up and running on 3000
+2025-06-06T17:52:41.138Z | INFO    | Server is up and running on 3000
+2025-06-06T17:52:51.872Z | INFO    | Server is up and running on 3000
+2025-06-06T17:52:55.819Z | INFO    | Server is up and running on 3000
+2025-06-06T17:53:02.583Z | INFO    | Server is up and running on 3000
+2025-06-06T17:53:10.349Z | INFO    | Server is up and running on 3000
+2025-06-06T17:53:15.582Z | INFO    | Server is up and running on 3000
+2025-06-06T17:53:16.639Z | INFO    | Server is up and running on 3000
+2025-06-06T17:53:19.087Z | INFO    | Server is up and running on 3000
+2025-06-06T17:53:23.619Z | INFO    | METHOD: GET /api-docs/ 304 5.014 ms
+2025-06-06T17:53:23.663Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 304 2.548 ms
+2025-06-06T17:53:23.677Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 304 2.254 ms
+2025-06-06T17:53:23.678Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 304 3.764 ms
+2025-06-06T17:53:23.682Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 304 0.377 ms
+2025-06-06T17:53:24.062Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 304 0.755 ms
+2025-06-06T17:53:31.226Z | ERROR   | ❌ 
+Invalid `prisma.user.findUniqueOrThrow()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/Auth/auth.service.ts:11:38
+
+   8 import AppError from "@middleware/AppError";
+   9 
+  10 const loginUser = async (payload: { email: string; password: string }) => {
+→ 11   const userData = await prisma.user.findUniqueOrThrow(
+An operation failed because it depends on one or more records that were required but not found. No record was found for a query.
+2025-06-06T17:53:31.229Z | INFO    | METHOD: POST /api/v1/auth/login 401 1683.906 ms
+2025-06-06T17:53:58.153Z | INFO    | Server is up and running on 3000

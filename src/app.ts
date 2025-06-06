@@ -1,12 +1,12 @@
-import express, { Application, NextFunction, Request, Response } from "express"
+import express, { Application, Request, Response } from "express"
 import cors from "cors"
 import globalErrorHandler from "./middlewares/globalErrorHandler"
 import morgan from "morgan"
 import router from "./app/routers"
-import { StatusCodes } from "http-status-codes"
 import logger, { morganErrorLogFormat } from "@helpers/logger"
 import notFoundHandler from "@middleware/notFoundHandler"
-
+import swaggerUi from 'swagger-ui-express';
+import { swaggerSpec } from "./swagger"
 const app: Application = express()
 
 app.use(cors())
@@ -20,7 +20,7 @@ app.use(express.urlencoded({extended: true}))
 // Stream morgan logs to winston
 app.use(morgan(morganErrorLogFormat, {
     stream: {
-      write: (message) => logger.info(message.trim())
+      write: (message: string) => logger.info(message.trim())
     }
   }));
 
@@ -32,7 +32,12 @@ app.get("/", (req: Request, res: Response)=>{
 })
 
 
-app.use("/api", router);
+// Mount API routes under /api/v1 prefix
+app.use("/api/v1", router);
+
+// Serve Swagger documentation
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+
 
 app.use(globalErrorHandler);
 // Not Found
