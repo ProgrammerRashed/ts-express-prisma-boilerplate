@@ -1,22 +1,25 @@
 import { Response } from "express";
+import logger from "@helpers/logger";
 
 const SendResponse = <T>(res: Response, jsonData: {
-    statusCode: number,
-    success: boolean,
-    message: string,
-    meta?: {
-        page: number,
-        limit: number,
-        total: number
-    },
-    data: T | null | undefined
+  statusCode: number,
+  success: boolean,
+  message: string,
+  meta?: {
+    page: number,
+    limit: number,
+    total: number
+  },
+  data: T | null | undefined
 }) => {
-    res.status(jsonData.statusCode).json({
-        success: jsonData.success,
-        message: jsonData.message,
-        meta: jsonData.meta || null || undefined,
-        data: jsonData.data || null || undefined
-    })
-}
+  const { statusCode, success, message, meta, data } = jsonData;
+  logger.info(`↩️ Response Sent | ${statusCode} | ${success ? 'SUCCESS' : 'FAILURE'} | ${message}`);
+  res.status(statusCode).json({
+    success,
+    message,
+    meta: meta || null,
+    data: data || null
+  });
+};
 
-export default SendResponse
+export default SendResponse;

@@ -1,0 +1,3 @@
+2025-06-06T06:53:53.627Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /sa - Method: GET
+2025-06-06T06:53:53.629Z | INFO    | METHOD: GET /sa 404 1.070 ms
+2025-06-06T06:56:25.001Z | INFO    | Server is up and running on 

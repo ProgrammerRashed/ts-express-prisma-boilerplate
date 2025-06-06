@@ -1,4 +1,5 @@
 
+import logger from "@helpers/logger";
 import { Prisma } from "@prisma/client";
 import { NextFunction, Request, Response } from "express"
 import { StatusCodes } from "http-status-codes";
@@ -20,7 +21,13 @@ const globalErrorHandler = (err: any, req: Request, res: Response, next: NextFun
             error = err.meta;
         }
     }
-
+    logger.error(`❌ ${err.message}`, {
+        stack: err.stack,
+        path: req.originalUrl,
+        method: req.method,
+        body: req.body
+      });
+      
     res.status(statusCode).json({
         success,
         message,
