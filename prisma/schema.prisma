@@ -1,0 +1,51 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ENUMS
+enum ServiceStatus {
+  pending
+  in_progress
+  done
+}
+
+enum UserRole {
+  SUPER_ADMIN
+  ADMIN
+  USER
+}
+
+model User {
+  id        String    @id @default(uuid())
+  email     String    @unique
+  name      String
+  password  String
+  role      UserRole  @default(USER)
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  qr_codes  QRCodes[]
+
+  @@map("users")
+}
+
+model QRCodes {
+  id              String   @id @default(uuid())
+  name            String
+  description     String
+  url             String
+  totalScans      Int      @map("total_scans")
+  uniqueScan      Int      @map("unique_scans")
+  lastScan        DateTime @map("last_scan")
+  trackingEnabled Boolean  @map("tracking_enabled")
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+  creatorId       String
+  creator         User     @relation(fields: [creatorId], references: [id])
+
+  @@map("qr_codes")
+}

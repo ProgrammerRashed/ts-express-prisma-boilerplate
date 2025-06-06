@@ -1,0 +1,10 @@
+node_modules
+# Keep environment variables out of version control
+.env
+prisma/migrations
+/dist
+.vercel
+
+
+# Optional: ignore all generated files
+src/generated/
