@@ -3,6 +3,7 @@ import { Prisma } from "@prisma/client";
 import { NextFunction, Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
 import AppError from "./AppError";
+import { ZodError } from "zod";
 
 const globalErrorHandler = (
   err: any,
@@ -15,11 +16,24 @@ const globalErrorHandler = (
   let message = "Something went wrong!";
   let errorDetails: any = {};
 
+
+  console.log("error for app", err)
   // ✅ Handle AppError (custom error class)
   if (err instanceof AppError) {
     statusCode = err.statusCode;
     message = err.message;
     errorDetails = err.stack;
+  }
+
+
+  // Inside globalErrorHandler
+  else if (err instanceof ZodError) {
+    statusCode = StatusCodes.BAD_REQUEST;
+    message = "Validation error";
+    errorDetails = err.issues.map(issue => ({
+      path: issue.path.join("."),
+      message: issue.message,
+    }));
   }
 
   // ✅ Handle Prisma validation error (e.g., wrong data types)

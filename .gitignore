@@ -11,4 +11,4 @@ src/generated/
 
 logs/
 *.log
-src/app/modules/QRCode
+# src/app/modules/QRCode

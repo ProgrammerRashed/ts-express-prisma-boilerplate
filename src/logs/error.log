@@ -418,3 +418,79 @@ An operation failed because it depends on one or more records that were required
   }
 ]
 2025-06-09T07:33:44.704Z | ERROR   | ❌ You are unauthorized
+2025-06-09T10:25:36.218Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.create()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:7:49
+
+  4 const createQRCode = async (req: Request) => {
+  5 
+  6   console.log("qr-cody-body", req.body)
+→ 7   const createdQRCodeData = await prisma.qRCode.create({
+        name: "'Test QR Code'",
+        ~~~~
+        description: "This is a test description",
+        targetUrl: "http://localhost:3000/api/v1/auth/login",
+        trackingEnabled: true,
+        creatorId: "d8838466-f285-421e-b6f9-81e796278682",
+      ? data?: QRCodeCreateInput | QRCodeUncheckedCreateInput
+      })
+
+Unknown argument `name`. Did you mean `data`? Available options are marked with ?.
+2025-06-09T10:28:24.825Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.create()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:7:49
+
+  4 const createQRCode = async (req: Request) => {
+  5 
+  6   console.log("qr-cody-body", req.body)
+→ 7   const createdQRCodeData = await prisma.qRCode.create({
+        name: "Test QR Code",
+        ~~~~
+        description: "This is a test description",
+        targetUrl: "http://localhost:3000/api/v1/auth/login",
+        trackingEnabled: true,
+        creatorId: "d8838466-f285-421e-b6f9-81e796278682",
+      ? data?: QRCodeCreateInput | QRCodeUncheckedCreateInput
+      })
+
+Unknown argument `name`. Did you mean `data`? Available options are marked with ?.
+2025-06-09T10:31:17.704Z | ERROR   | ❌ [
+  {
+    "validation": "url",
+    "code": "invalid_string",
+    "message": "Must be a valid URL",
+    "path": [
+      "targetUrl"
+    ]
+  }
+]
+2025-06-09T10:32:34.074Z | ERROR   | ❌ [
+  {
+    "validation": "url",
+    "code": "invalid_string",
+    "message": "Must be a valid URL",
+    "path": [
+      "targetUrl"
+    ]
+  }
+]
+2025-06-09T10:33:11.105Z | ERROR   | ❌ [
+  {
+    "validation": "url",
+    "code": "invalid_string",
+    "message": "Must be a valid URL",
+    "path": [
+      "targetUrl"
+    ]
+  }
+]
+2025-06-09T10:34:45.728Z | ERROR   | ❌ [
+  {
+    "validation": "url",
+    "code": "invalid_string",
+    "message": "Must be a valid URL",
+    "path": [
+      "targetUrl"
+    ]
+  }
+]

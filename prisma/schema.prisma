@@ -48,6 +48,21 @@ model QRCode {
   updatedAt       DateTime  @updatedAt @map("updated_at")
   creatorId       String
   creator         User      @relation(fields: [creatorId], references: [id])
+  Scan            Scan[]
 
   @@map("qr_codes")
+}
+
+model Scan {
+  id          String   @id @default(cuid())
+  qrId        String
+  qrCode      QRCode   @relation(fields: [qrId], references: [id])
+  fingerprint String
+  userAgent   String
+  ip          String
+  location    Json?
+  timestamp   DateTime @default(now())
+  isUnique    Boolean
+
+  @@map("scans")
 }

@@ -330,3 +330,256 @@
 2025-06-09T10:20:32.770Z | INFO    | Server is up and running on 3000
 2025-06-09T10:20:41.316Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | User Created Successfully!
 2025-06-09T10:20:41.324Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 200 11.561 ms
+2025-06-09T10:21:59.770Z | INFO    | Server is up and running on 3000
+2025-06-09T10:22:54.288Z | INFO    | Server is up and running on 3000
+2025-06-09T10:23:00.134Z | INFO    | Server is up and running on 3000
+2025-06-09T10:23:04.150Z | INFO    | Server is up and running on 3000
+2025-06-09T10:23:18.093Z | INFO    | Server is up and running on 3000
+2025-06-09T10:23:49.069Z | INFO    | Server is up and running on 3000
+2025-06-09T10:23:52.622Z | INFO    | Server is up and running on 3000
+2025-06-09T10:23:54.350Z | INFO    | Server is up and running on 3000
+2025-06-09T10:23:56.601Z | INFO    | Server is up and running on 3000
+2025-06-09T10:23:58.352Z | INFO    | Server is up and running on 3000
+2025-06-09T10:24:01.598Z | INFO    | Server is up and running on 3000
+2025-06-09T10:24:02.532Z | INFO    | Server is up and running on 3000
+2025-06-09T10:24:06.624Z | INFO    | Server is up and running on 3000
+2025-06-09T10:25:02.458Z | INFO    | Server is up and running on 3000
+2025-06-09T10:25:03.460Z | INFO    | Server is up and running on 3000
+2025-06-09T10:25:09.484Z | INFO    | Server is up and running on 3000
+2025-06-09T10:25:11.761Z | INFO    | Server is up and running on 3000
+2025-06-09T10:25:22.680Z | INFO    | Server is up and running on 3000
+2025-06-09T10:25:25.810Z | INFO    | Server is up and running on 3000
+2025-06-09T10:25:29.471Z | INFO    | Server is up and running on 3000
+2025-06-09T10:25:36.218Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.create()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:7:49
+
+  4 const createQRCode = async (req: Request) => {
+  5 
+  6   console.log("qr-cody-body", req.body)
+→ 7   const createdQRCodeData = await prisma.qRCode.create({
+        name: "'Test QR Code'",
+        ~~~~
+        description: "This is a test description",
+        targetUrl: "http://localhost:3000/api/v1/auth/login",
+        trackingEnabled: true,
+        creatorId: "d8838466-f285-421e-b6f9-81e796278682",
+      ? data?: QRCodeCreateInput | QRCodeUncheckedCreateInput
+      })
+
+Unknown argument `name`. Did you mean `data`? Available options are marked with ?.
+2025-06-09T10:25:36.224Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 400 2081.486 ms
+2025-06-09T10:28:24.825Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.create()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:7:49
+
+  4 const createQRCode = async (req: Request) => {
+  5 
+  6   console.log("qr-cody-body", req.body)
+→ 7   const createdQRCodeData = await prisma.qRCode.create({
+        name: "Test QR Code",
+        ~~~~
+        description: "This is a test description",
+        targetUrl: "http://localhost:3000/api/v1/auth/login",
+        trackingEnabled: true,
+        creatorId: "d8838466-f285-421e-b6f9-81e796278682",
+      ? data?: QRCodeCreateInput | QRCodeUncheckedCreateInput
+      })
+
+Unknown argument `name`. Did you mean `data`? Available options are marked with ?.
+2025-06-09T10:28:24.827Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 400 211.740 ms
+2025-06-09T10:29:19.284Z | INFO    | Server is up and running on 3000
+2025-06-09T10:29:23.547Z | INFO    | Server is up and running on 3000
+2025-06-09T10:29:31.092Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | User Created Successfully!
+2025-06-09T10:29:31.098Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 200 1660.343 ms
+2025-06-09T10:30:03.012Z | INFO    | Server is up and running on 3000
+2025-06-09T10:30:05.054Z | INFO    | Server is up and running on 3000
+2025-06-09T10:30:21.731Z | INFO    | Server is up and running on 3000
+2025-06-09T10:30:31.843Z | INFO    | Server is up and running on 3000
+2025-06-09T10:31:17.704Z | ERROR   | ❌ [
+  {
+    "validation": "url",
+    "code": "invalid_string",
+    "message": "Must be a valid URL",
+    "path": [
+      "targetUrl"
+    ]
+  }
+]
+2025-06-09T10:31:17.710Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 500 9.777 ms
+2025-06-09T10:32:24.939Z | INFO    | Server is up and running on 3000
+2025-06-09T10:32:30.012Z | INFO    | Server is up and running on 3000
+2025-06-09T10:32:34.074Z | ERROR   | ❌ [
+  {
+    "validation": "url",
+    "code": "invalid_string",
+    "message": "Must be a valid URL",
+    "path": [
+      "targetUrl"
+    ]
+  }
+]
+2025-06-09T10:32:34.080Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 500 9.738 ms
+2025-06-09T10:33:02.184Z | INFO    | Server is up and running on 3000
+2025-06-09T10:33:11.105Z | ERROR   | ❌ [
+  {
+    "validation": "url",
+    "code": "invalid_string",
+    "message": "Must be a valid URL",
+    "path": [
+      "targetUrl"
+    ]
+  }
+]
+2025-06-09T10:33:11.110Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 500 10.002 ms
+2025-06-09T10:34:17.657Z | INFO    | Server is up and running on 3000
+2025-06-09T10:34:23.869Z | INFO    | Server is up and running on 3000
+2025-06-09T10:34:32.227Z | INFO    | Server is up and running on 3000
+2025-06-09T10:34:36.486Z | INFO    | Server is up and running on 3000
+2025-06-09T10:34:37.720Z | INFO    | Server is up and running on 3000
+2025-06-09T10:34:40.168Z | INFO    | Server is up and running on 3000
+2025-06-09T10:34:40.834Z | INFO    | Server is up and running on 3000
+2025-06-09T10:34:45.728Z | ERROR   | ❌ [
+  {
+    "validation": "url",
+    "code": "invalid_string",
+    "message": "Must be a valid URL",
+    "path": [
+      "targetUrl"
+    ]
+  }
+]
+2025-06-09T10:34:45.734Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 400 10.360 ms
+2025-06-09T10:35:14.303Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code Created Successfully!
+2025-06-09T10:35:14.304Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 200 2258.954 ms
+2025-06-09T10:35:57.028Z | INFO    | Server is up and running on 3000
+2025-06-09T10:35:59.050Z | INFO    | Server is up and running on 3000
+2025-06-09T10:36:10.198Z | INFO    | ↩️ Response Sent | 201 | SUCCESS | QR Code Created Successfully!
+2025-06-09T10:36:10.202Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 201 1209.255 ms
+2025-06-09T10:38:31.605Z | INFO    | Server is up and running on 3000
+2025-06-09T10:38:42.857Z | INFO    | Server is up and running on 3000
+2025-06-09T10:38:45.669Z | INFO    | Server is up and running on 3000
+2025-06-09T10:38:50.305Z | INFO    | Server is up and running on 3000
+2025-06-09T10:39:04.597Z | INFO    | Server is up and running on 3000
+2025-06-09T10:39:06.369Z | INFO    | Server is up and running on 3000
+2025-06-09T10:39:12.057Z | INFO    | Server is up and running on 3000
+2025-06-09T10:39:19.723Z | INFO    | Server is up and running on 3000
+2025-06-09T10:39:26.015Z | INFO    | Server is up and running on 3000
+2025-06-09T10:39:27.240Z | INFO    | Server is up and running on 3000
+2025-06-09T10:40:20.051Z | INFO    | Server is up and running on 3000
+2025-06-09T10:40:20.530Z | INFO    | Server is up and running on 3000
+2025-06-09T10:40:34.632Z | INFO    | Server is up and running on 3000
+2025-06-09T10:40:49.579Z | INFO    | Server is up and running on 3000
+2025-06-09T10:40:54.763Z | INFO    | Server is up and running on 3000
+2025-06-09T10:44:07.678Z | INFO    | Server is up and running on 3000
+2025-06-09T10:44:17.950Z | INFO    | Server is up and running on 3000
+2025-06-09T10:44:49.089Z | INFO    | Server is up and running on 3000
+2025-06-09T10:44:51.761Z | INFO    | Server is up and running on 3000
+2025-06-09T10:44:57.252Z | INFO    | Server is up and running on 3000
+2025-06-09T10:44:59.217Z | INFO    | Server is up and running on 3000
+2025-06-09T10:45:03.548Z | INFO    | Server is up and running on 3000
+2025-06-09T10:45:06.882Z | INFO    | Server is up and running on 3000
+2025-06-09T10:45:09.062Z | INFO    | Server is up and running on 3000
+2025-06-09T10:45:18.073Z | INFO    | Server is up and running on 3000
+2025-06-09T10:45:19.316Z | INFO    | Server is up and running on 3000
+2025-06-09T10:45:25.592Z | INFO    | Server is up and running on 3000
+2025-06-09T10:45:52.913Z | INFO    | Server is up and running on 3000
+2025-06-09T10:46:02.253Z | INFO    | Server is up and running on 3000
+2025-06-09T10:46:03.561Z | INFO    | Server is up and running on 3000
+2025-06-09T10:46:05.449Z | INFO    | Server is up and running on 3000
+2025-06-09T10:46:06.976Z | INFO    | Server is up and running on 3000
+2025-06-09T10:46:07.942Z | INFO    | Server is up and running on 3000
+2025-06-09T10:46:13.186Z | INFO    | Server is up and running on 3000
+2025-06-09T10:46:17.027Z | INFO    | Server is up and running on 3000
+2025-06-09T10:46:17.851Z | INFO    | Server is up and running on 3000
+2025-06-09T10:46:18.503Z | INFO    | Server is up and running on 3000
+2025-06-09T10:46:44.511Z | INFO    | Server is up and running on 3000
+2025-06-09T10:47:04.968Z | INFO    | Server is up and running on 3000
+2025-06-09T10:47:06.707Z | INFO    | Server is up and running on 3000
+2025-06-09T10:47:12.994Z | INFO    | Server is up and running on 3000
+2025-06-09T10:47:13.848Z | INFO    | Server is up and running on 3000
+2025-06-09T10:47:23.380Z | INFO    | Server is up and running on 3000
+2025-06-09T10:55:47.316Z | INFO    | Server is up and running on 3000
+2025-06-09T10:55:53.746Z | INFO    | Server is up and running on 3000
+2025-06-09T10:56:07.910Z | INFO    | Server is up and running on 3000
+2025-06-09T10:56:13.635Z | INFO    | Server is up and running on 3000
+2025-06-09T10:56:27.169Z | INFO    | Server is up and running on 3000
+2025-06-09T10:56:28.303Z | INFO    | Server is up and running on 3000
+2025-06-09T10:56:31.207Z | INFO    | Server is up and running on 3000
+2025-06-09T10:56:34.768Z | INFO    | Server is up and running on 3000
+2025-06-09T10:56:39.291Z | INFO    | Server is up and running on 3000
+2025-06-09T10:56:46.260Z | INFO    | Server is up and running on 3000
+2025-06-09T10:56:54.703Z | INFO    | Server is up and running on 3000
+2025-06-09T10:57:32.585Z | INFO    | Server is up and running on 3000
+2025-06-09T10:57:33.661Z | INFO    | Server is up and running on 3000
+2025-06-09T10:57:42.146Z | INFO    | Server is up and running on 3000
+2025-06-09T10:57:48.150Z | INFO    | Server is up and running on 3000
+2025-06-09T10:59:42.304Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /api/v1/qr-code/update-qr/ - Method: PATCH
+2025-06-09T10:59:42.309Z | INFO    | METHOD: PATCH /api/v1/qr-code/update-qr/ 404 4.756 ms
+2025-06-09T11:00:03.406Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /api/v1/qr-code/update-qr/fada6873-aa3c-4ecc-bae0-272bcd78a536 - Method: PATCH
+2025-06-09T11:00:03.408Z | INFO    | METHOD: PATCH /api/v1/qr-code/update-qr/fada6873-aa3c-4ecc-bae0-272bcd78a536 404 1.734 ms
+2025-06-09T11:00:31.481Z | INFO    | Server is up and running on 3000
+2025-06-09T11:00:33.878Z | INFO    | Server is up and running on 3000
+2025-06-09T11:00:36.033Z | INFO    | Server is up and running on 3000
+2025-06-09T11:00:52.542Z | INFO    | Server is up and running on 3000
+2025-06-09T11:00:57.855Z | INFO    | Server is up and running on 3000
+2025-06-09T11:01:04.529Z | INFO    | Server is up and running on 3000
+2025-06-09T11:01:13.831Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /api/v1/qr-code/update-qr/fada6873-aa3c-4ecc-bae0-272bcd78a536 - Method: PATCH
+2025-06-09T11:01:13.836Z | INFO    | METHOD: PATCH /api/v1/qr-code/update-qr/fada6873-aa3c-4ecc-bae0-272bcd78a536 404 3.110 ms
+2025-06-09T11:01:30.123Z | INFO    | Server is up and running on 3000
+2025-06-09T11:01:41.512Z | INFO    | Server is up and running on 3000
+2025-06-09T11:01:43.073Z | INFO    | Server is up and running on 3000
+2025-06-09T11:01:48.258Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code Updated Successfully!
+2025-06-09T11:01:48.264Z | INFO    | METHOD: PATCH /api/v1/qr-code/update-qr/fada6873-aa3c-4ecc-bae0-272bcd78a536 200 11.151 ms
+2025-06-09T11:02:45.485Z | INFO    | Server is up and running on 3000
+2025-06-09T11:02:49.448Z | INFO    | Server is up and running on 3000
+2025-06-09T11:02:55.540Z | INFO    | Server is up and running on 3000
+2025-06-09T11:03:04.652Z | INFO    | Server is up and running on 3000
+2025-06-09T11:03:07.107Z | INFO    | Server is up and running on 3000
+2025-06-09T11:03:09.762Z | INFO    | Server is up and running on 3000
+2025-06-09T11:03:15.923Z | INFO    | Server is up and running on 3000
+2025-06-09T11:04:18.670Z | INFO    | Server is up and running on 3000
+2025-06-09T11:10:51.217Z | INFO    | Server is up and running on 3000
+2025-06-09T11:21:41.939Z | INFO    | Server is up and running on 3000
+2025-06-09T11:21:43.261Z | INFO    | Server is up and running on 3000
+2025-06-09T11:22:10.036Z | INFO    | Server is up and running on 3000
+2025-06-09T11:22:14.490Z | INFO    | Server is up and running on 3000
+2025-06-09T11:22:29.806Z | INFO    | Server is up and running on 3000
+2025-06-09T11:24:42.488Z | INFO    | Server is up and running on 3000
+2025-06-09T11:24:47.699Z | INFO    | Server is up and running on 3000
+2025-06-09T11:24:48.547Z | INFO    | Server is up and running on 3000
+2025-06-09T11:24:52.488Z | INFO    | Server is up and running on 3000
+2025-06-09T11:25:06.998Z | INFO    | Server is up and running on 3000
+2025-06-09T11:25:17.297Z | INFO    | Server is up and running on 3000
+2025-06-09T11:25:40.578Z | INFO    | Server is up and running on 3000
+2025-06-09T11:26:11.621Z | INFO    | Server is up and running on 3000
+2025-06-09T11:26:13.768Z | INFO    | Server is up and running on 3000
+2025-06-09T11:26:20.143Z | INFO    | Server is up and running on 3000
+2025-06-09T11:26:29.132Z | INFO    | Server is up and running on 3000
+2025-06-09T11:26:34.860Z | INFO    | Server is up and running on 3000
+2025-06-09T11:26:41.493Z | INFO    | Server is up and running on 3000
+2025-06-09T11:26:53.749Z | INFO    | Server is up and running on 3000
+2025-06-09T11:37:57.401Z | INFO    | Server is up and running on 3000
+2025-06-09T11:38:58.831Z | INFO    | Server is up and running on 3000
+2025-06-09T11:39:02.544Z | INFO    | Server is up and running on 3000
+2025-06-09T11:39:05.966Z | INFO    | Server is up and running on 3000
+2025-06-09T11:39:07.847Z | INFO    | Server is up and running on 3000
+2025-06-09T11:41:05.176Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /api/v1/qr-code/track-scan/fada6873-aa3c-4ecc-bae0-272bcd78a536 - Method: PATCH
+2025-06-09T11:41:05.181Z | INFO    | METHOD: PATCH /api/v1/qr-code/track-scan/fada6873-aa3c-4ecc-bae0-272bcd78a536 404 4.030 ms
+2025-06-09T11:42:37.686Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-09T11:42:37.688Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 3394.452 ms
+2025-06-09T11:42:59.240Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-09T11:42:59.241Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 1095.706 ms
+2025-06-09T11:43:02.452Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-09T11:43:02.454Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 878.105 ms
+2025-06-09T11:43:05.114Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-09T11:43:05.116Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 1293.153 ms
+2025-06-09T11:43:07.317Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-09T11:43:07.319Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 773.837 ms
+2025-06-09T11:43:55.903Z | INFO    | Server is up and running on 3000
+2025-06-09T11:44:22.098Z | INFO    | Server is up and running on 3000
+2025-06-09T11:44:25.830Z | INFO    | Server is up and running on 3000
+2025-06-09T11:44:35.376Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-09T11:44:35.382Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 2273.771 ms
+2025-06-09T11:44:44.254Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-09T11:44:44.257Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 1035.943 ms
