@@ -21,31 +21,33 @@ enum UserRole {
 }
 
 model User {
-  id        String    @id @default(uuid())
-  email     String    @unique
+  id        String   @id @default(uuid())
+  email     String   @unique
   name      String
   password  String
-  role      UserRole  @default(USER)
-  createdAt DateTime  @default(now()) @map("created_at")
-  updatedAt DateTime  @updatedAt @map("updated_at")
-  qr_codes  QRCodes[]
+  role      UserRole @default(USER)
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+  qr_codes  QRCode[]
 
   @@map("users")
 }
 
-model QRCodes {
-  id              String   @id @default(uuid())
+model QRCode {
+  id              String    @id @default(uuid())
   name            String
-  description     String
-  url             String
-  totalScans      Int      @map("total_scans")
-  uniqueScan      Int      @map("unique_scans")
-  lastScan        DateTime @map("last_scan")
-  trackingEnabled Boolean  @map("tracking_enabled")
-  createdAt       DateTime @default(now()) @map("created_at")
-  updatedAt       DateTime @updatedAt @map("updated_at")
+  description     String?
+  settings        Json?
+  totalEdits      Int       @default(0) @map("total_edits")
+  targetUrl       String    @map("target_url")
+  totalScans      Int       @default(0) @map("total_scans")
+  uniqueScans     Int       @default(0) @map("unique_scans")
+  lastScans       DateTime? @map("last_scan")
+  trackingEnabled Boolean   @map("tracking_enabled")
+  createdAt       DateTime  @default(now()) @map("created_at")
+  updatedAt       DateTime  @updatedAt @map("updated_at")
   creatorId       String
-  creator         User     @relation(fields: [creatorId], references: [id])
+  creator         User      @relation(fields: [creatorId], references: [id])
 
   @@map("qr_codes")
 }

@@ -15,17 +15,6 @@ const createUser = CatchAsync(async (req, res) => {
   });
 });
 
-const createAdmin = CatchAsync(async (req, res) => {
-  const result = await UserService.createAdmin(req);
-  SendResponse(res, {
-    statusCode: StatusCodes.OK,
-    success: true,
-    message: "Admin Created Successfully!",
-    data: result,
-  });
-});
-
-
 const getAllUserFromDB = CatchAsync(async (req, res) => {
   const filters = pick(req.query, userFilterableFields);
   const options = pick(req.query, ["limit", "page", "sortBy", "sortOrder"]);
@@ -69,29 +58,6 @@ const myProfile = CatchAsync(
   }
 );
 
-const changeProfileStatus = CatchAsync(async (req, res) => {
-  const { id } = req.params;
-  const result = await UserService.changeProfileStatus(id, req.body);
-
-  SendResponse(res, {
-    statusCode: StatusCodes.OK,
-    success: true,
-    message: "Users profile status changed!",
-    data: result,
-  });
-});
-
-const updateRole = CatchAsync(async (req, res) => {
-  const { id } = req.params;
-  const result = await UserService.updateRole(id, req.body);
-
-  SendResponse(res, {
-    statusCode: StatusCodes.OK,
-    success: true,
-    message: "Role is updated successfully",
-    data: result,
-  });
-});
 
 const updateMyProfile = CatchAsync(
   async (req, res) => {
@@ -110,11 +76,8 @@ const updateMyProfile = CatchAsync(
 
 export const UserController = {
   createUser,
-  createAdmin,
   getAllUserFromDB,
   getSingleUserFromDB,
   myProfile,
-  changeProfileStatus,
-  updateRole,
   updateMyProfile,
 };

@@ -1,4 +1,5 @@
-import { NextFunction, Request, RequestHandler, Response } from "express";
+import logger from "@helpers/logger";
+import { NextFunction, Request, Response } from "express";
 
 import { AnyZodObject, z } from "zod";
 

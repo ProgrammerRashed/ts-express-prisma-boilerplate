@@ -15,10 +15,7 @@ const createUser = async (req:Request ): Promise<TSafeUser> => {
     email: req.body.email,
     password: hashedPassword,
     role: UserRole.USER,
-    photo: req.body.photo,
     name: req.body.name,
-    contactNumber: req.body.contactNumber,
-    gender: req.body.gender,
   };
 
   const existingUser = await prisma.user.findUnique({

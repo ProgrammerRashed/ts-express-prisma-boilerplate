@@ -1,4 +1,5 @@
 export const userSearchAbleFields: string[] = ["email"];
+import { UserRole } from "@prisma/client";
 
 export const userFilterableFields: string[] = [
   "email",
@@ -14,16 +15,10 @@ export const safeUserSelect = {
   name: true,
   email: true,
   role: true,
-  contactNumber: true,
-  gender: true,
-  photo: true,
-  status: true,
-  needPasswordChange: true,
   createdAt: true,
   updatedAt: true,
 };
 
-import { UserRole } from "@prisma/client";
 
 export type TAuthUser = {
   email: string;

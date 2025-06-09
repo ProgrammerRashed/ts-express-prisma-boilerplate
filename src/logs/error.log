@@ -38,3 +38,233 @@ Invalid `prisma.user.findUniqueOrThrow()` invocation in
   10 const loginUser = async (payload: { email: string; password: string }) => {
 → 11   const userData = await prisma.user.findUniqueOrThrow(
 An operation failed because it depends on one or more records that were required but not found. No record was found for a query.
+2025-06-09T06:18:45.943Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "body"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-09T06:20:08.460Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "body"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-09T06:20:27.540Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "body"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-09T06:20:45.187Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "body"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-09T06:20:47.023Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "body"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-09T06:20:59.054Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "body"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-09T06:22:34.195Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "password"
+    ],
+    "message": "Password is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "name"
+    ],
+    "message": "Name is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "email"
+    ],
+    "message": "Email is required"
+  }
+]
+2025-06-09T06:23:06.382Z | ERROR   | ❌ Unexpected token '"', ""body": {
+"... is not valid JSON
+2025-06-09T06:23:14.068Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "password"
+    ],
+    "message": "Password is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "name"
+    ],
+    "message": "Name is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "email"
+    ],
+    "message": "Email is required"
+  }
+]
+2025-06-09T06:27:38.720Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "password"
+    ],
+    "message": "Password is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "name"
+    ],
+    "message": "Name is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "email"
+    ],
+    "message": "Email is required"
+  }
+]
+2025-06-09T06:28:40.043Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "password"
+    ],
+    "message": "Password is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "name"
+    ],
+    "message": "Name is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "email"
+    ],
+    "message": "Email is required"
+  }
+]
+2025-06-09T06:32:12.209Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "password"
+    ],
+    "message": "Password is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "name"
+    ],
+    "message": "Name is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "email"
+    ],
+    "message": "Email is required"
+  }
+]
+2025-06-09T06:32:37.479Z | ERROR   | ❌ Illegal arguments: undefined, number
+2025-06-09T06:34:24.485Z | ERROR   | ❌ Email already exists. Please use another email.

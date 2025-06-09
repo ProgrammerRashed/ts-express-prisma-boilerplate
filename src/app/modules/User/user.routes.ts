@@ -25,31 +25,10 @@ router.get(
   UserController.myProfile
 );
 
-
-
-
 router.post(
   "/create-user",
   validateRequest(UserValidation.createUser),
   UserController.createUser
-);
-
-router.post(
-  "/create-admin",
-  validateRequest(UserValidation.createAdmin),
-  UserController.createAdmin
-);
-
-router.patch(
-  "/status/:id",
-  auth(UserRole.SUPER_ADMIN, UserRole.ADMIN, UserRole.USER),
-  UserController.changeProfileStatus
-);
-
-router.patch(
-  "/update-role/:id",
-  auth(UserRole.SUPER_ADMIN, UserRole.ADMIN, UserRole.USER),
-  UserController.updateRole
 );
 
 router.patch(
