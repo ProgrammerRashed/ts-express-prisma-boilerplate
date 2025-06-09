@@ -2,6 +2,8 @@ import express from "express";
 import { AuthController } from "./auth.controller";
 import { UserRole } from "@prisma/client";
 import auth from "@middleware/auth";
+import validateRequest from "@middleware/validationRequest";
+import { AuthValidation } from "./auth.validatioin";
 const router = express.Router();
 /**
  * @swagger
@@ -34,7 +36,7 @@ const router = express.Router();
  *       401:
  *         description: Invalid credentials
  */
-router.post("/login", AuthController.loginUser);
+router.post("/login",validateRequest(AuthValidation.loginSchema), AuthController.loginUser);
 
 
 router.post("/refresh-token", AuthController.refreshToken);

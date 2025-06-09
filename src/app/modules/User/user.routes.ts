@@ -27,7 +27,7 @@ router.get(
 
 router.post(
   "/create-user",
-  validateRequest(UserValidation.createUser),
+  validateRequest(UserValidation.createUserSchema),
   UserController.createUser
 );
 

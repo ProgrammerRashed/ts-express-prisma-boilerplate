@@ -2,7 +2,7 @@ import { UserRole } from "@prisma/client";
 import { z } from "zod";
 const UserRoleEnum = z.nativeEnum(UserRole);
 
-const createUser = z.object({
+const createUserSchema = z.object({
   body: z.object({
     password: z.string({
       required_error: "Password is required",
@@ -21,5 +21,5 @@ const createUser = z.object({
 
 
 export const UserValidation = {
-  createUser,
+  createUserSchema,
 };
