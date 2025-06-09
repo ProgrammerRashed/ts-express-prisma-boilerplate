@@ -268,3 +268,16 @@ An operation failed because it depends on one or more records that were required
 ]
 2025-06-09T06:32:37.479Z | ERROR   | ❌ Illegal arguments: undefined, number
 2025-06-09T06:34:24.485Z | ERROR   | ❌ Email already exists. Please use another email.
+2025-06-09T06:51:47.042Z | ERROR   | ❌ Your are unauthorized
+2025-06-09T06:53:48.318Z | ERROR   | ❌ Your are unauthorized
+2025-06-09T06:53:52.484Z | ERROR   | ❌ Your are unauthorized
+2025-06-09T06:55:14.458Z | ERROR   | ❌ Your are unauthorized
+2025-06-09T06:59:07.309Z | ERROR   | ❌ Your are unauthorized
+2025-06-09T06:59:50.282Z | ERROR   | ❌ Your are unauthorized
+2025-06-09T07:02:47.841Z | ERROR   | ❌ invalid token
+2025-06-09T07:02:57.073Z | ERROR   | ❌ invalid token
+2025-06-09T07:05:17.646Z | ERROR   | ❌ invalid token
+2025-06-09T07:09:16.434Z | ERROR   | ❌ Cannot read properties of undefined (reading 'user')
+2025-06-09T07:10:21.405Z | ERROR   | ❌ Cannot set properties of undefined (setting 'user')
+2025-06-09T07:12:03.123Z | ERROR   | ❌ Cannot read properties of undefined (reading 'user')
+2025-06-09T07:14:13.804Z | ERROR   | ❌ Cannot set properties of undefined (setting 'user')

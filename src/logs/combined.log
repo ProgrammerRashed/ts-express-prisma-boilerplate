@@ -3,3 +3,92 @@
 2025-06-09T06:43:00.028Z | INFO    | Server is up and running on 3000
 2025-06-09T06:43:17.621Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Logged in Successful
 2025-06-09T06:43:17.625Z | INFO    | METHOD: POST /api/v1/auth/login 200 3099.645 ms
+2025-06-09T06:46:09.020Z | INFO    | Server is up and running on 3000
+2025-06-09T06:46:14.068Z | INFO    | Server is up and running on 3000
+2025-06-09T06:51:09.807Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /api/v1/users/me - Method: POST
+2025-06-09T06:51:09.812Z | INFO    | METHOD: POST /api/v1/users/me 404 3.753 ms
+2025-06-09T06:51:47.042Z | ERROR   | ❌ Your are unauthorized
+2025-06-09T06:51:47.043Z | INFO    | METHOD: GET /api/v1/users/me 500 7.352 ms
+2025-06-09T06:53:00.639Z | INFO    | Server is up and running on 3000
+2025-06-09T06:53:36.663Z | INFO    | Server is up and running on 3000
+2025-06-09T06:53:39.030Z | INFO    | Server is up and running on 3000
+2025-06-09T06:53:40.837Z | INFO    | Server is up and running on 3000
+2025-06-09T06:53:43.953Z | INFO    | Server is up and running on 3000
+2025-06-09T06:53:48.318Z | ERROR   | ❌ Your are unauthorized
+2025-06-09T06:53:48.322Z | INFO    | METHOD: GET /api/v1/users/me 500 8.922 ms
+2025-06-09T06:53:52.484Z | ERROR   | ❌ Your are unauthorized
+2025-06-09T06:53:52.485Z | INFO    | METHOD: GET /api/v1/users/me 500 1.917 ms
+2025-06-09T06:54:25.262Z | INFO    | Server is up and running on 3000
+2025-06-09T06:54:34.614Z | INFO    | Server is up and running on 3000
+2025-06-09T06:54:42.179Z | INFO    | Server is up and running on 3000
+2025-06-09T06:54:46.431Z | INFO    | Server is up and running on 3000
+2025-06-09T06:54:48.734Z | INFO    | Server is up and running on 3000
+2025-06-09T06:54:51.248Z | INFO    | Server is up and running on 3000
+2025-06-09T06:54:56.671Z | INFO    | Server is up and running on 3000
+2025-06-09T06:55:07.953Z | INFO    | Server is up and running on 3000
+2025-06-09T06:55:09.079Z | INFO    | Server is up and running on 3000
+2025-06-09T06:55:11.226Z | INFO    | Server is up and running on 3000
+2025-06-09T06:55:14.458Z | ERROR   | ❌ Your are unauthorized
+2025-06-09T06:55:14.463Z | INFO    | METHOD: GET /api/v1/users/me 500 9.904 ms
+2025-06-09T06:56:38.213Z | INFO    | Server is up and running on 3000
+2025-06-09T06:58:54.406Z | INFO    | Server is up and running on 3000
+2025-06-09T06:58:58.365Z | INFO    | Server is up and running on 3000
+2025-06-09T06:58:59.363Z | INFO    | Server is up and running on 3000
+2025-06-09T06:59:00.645Z | INFO    | Server is up and running on 3000
+2025-06-09T06:59:07.309Z | ERROR   | ❌ Your are unauthorized
+2025-06-09T06:59:07.313Z | INFO    | METHOD: GET /api/v1/users/me 401 9.709 ms
+2025-06-09T06:59:50.282Z | ERROR   | ❌ Your are unauthorized
+2025-06-09T06:59:50.284Z | INFO    | METHOD: GET /api/v1/users/me 401 3.384 ms
+2025-06-09T07:00:43.882Z | INFO    | Server is up and running on 3000
+2025-06-09T07:01:40.066Z | INFO    | Server is up and running on 3000
+2025-06-09T07:02:39.010Z | INFO    | Server is up and running on 3000
+2025-06-09T07:02:47.841Z | ERROR   | ❌ invalid token
+2025-06-09T07:02:47.846Z | INFO    | METHOD: GET /api/v1/users/me 500 9.979 ms
+2025-06-09T07:02:57.073Z | ERROR   | ❌ invalid token
+2025-06-09T07:02:57.075Z | INFO    | METHOD: GET /api/v1/users/me 500 2.158 ms
+2025-06-09T07:05:05.411Z | INFO    | Server is up and running on 3000
+2025-06-09T07:05:10.813Z | INFO    | Server is up and running on 3000
+2025-06-09T07:05:14.111Z | INFO    | Server is up and running on 3000
+2025-06-09T07:05:17.646Z | ERROR   | ❌ invalid token
+2025-06-09T07:05:17.654Z | INFO    | METHOD: GET /api/v1/users/me 500 12.181 ms
+2025-06-09T07:08:57.943Z | INFO    | Server is up and running on 3000
+2025-06-09T07:09:00.367Z | INFO    | Server is up and running on 3000
+2025-06-09T07:09:06.160Z | INFO    | Server is up and running on 3000
+2025-06-09T07:09:16.434Z | ERROR   | ❌ Cannot read properties of undefined (reading 'user')
+2025-06-09T07:09:16.439Z | INFO    | METHOD: GET /api/v1/users/me 500 16.082 ms
+2025-06-09T07:10:04.311Z | INFO    | Server is up and running on 3000
+2025-06-09T07:10:12.486Z | INFO    | Server is up and running on 3000
+2025-06-09T07:10:21.405Z | ERROR   | ❌ Cannot set properties of undefined (setting 'user')
+2025-06-09T07:10:21.410Z | INFO    | METHOD: GET /api/v1/users/me 500 15.809 ms
+2025-06-09T07:11:48.793Z | INFO    | Server is up and running on 3000
+2025-06-09T07:11:54.090Z | INFO    | Server is up and running on 3000
+2025-06-09T07:11:58.586Z | INFO    | Server is up and running on 3000
+2025-06-09T07:12:03.123Z | ERROR   | ❌ Cannot read properties of undefined (reading 'user')
+2025-06-09T07:12:03.130Z | INFO    | METHOD: GET /api/v1/users/me 500 18.516 ms
+2025-06-09T07:13:07.059Z | INFO    | Server is up and running on 3000
+2025-06-09T07:13:08.844Z | INFO    | Server is up and running on 3000
+2025-06-09T07:13:09.711Z | INFO    | Server is up and running on 3000
+2025-06-09T07:13:55.637Z | INFO    | Server is up and running on 3000
+2025-06-09T07:13:56.750Z | INFO    | Server is up and running on 3000
+2025-06-09T07:13:58.444Z | INFO    | Server is up and running on 3000
+2025-06-09T07:14:01.954Z | INFO    | Server is up and running on 3000
+2025-06-09T07:14:04.506Z | INFO    | Server is up and running on 3000
+2025-06-09T07:14:06.955Z | INFO    | Server is up and running on 3000
+2025-06-09T07:14:08.953Z | INFO    | Server is up and running on 3000
+2025-06-09T07:14:13.804Z | ERROR   | ❌ Cannot set properties of undefined (setting 'user')
+2025-06-09T07:14:13.811Z | INFO    | METHOD: GET /api/v1/users/me 500 18.179 ms
+2025-06-09T07:14:44.781Z | INFO    | Server is up and running on 3000
+2025-06-09T07:14:49.853Z | INFO    | Server is up and running on 3000
+2025-06-09T07:14:52.699Z | INFO    | Server is up and running on 3000
+2025-06-09T07:15:00.827Z | INFO    | Server is up and running on 3000
+2025-06-09T07:15:07.551Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-09T07:15:07.558Z | INFO    | METHOD: GET /api/v1/users/me 200 2088.651 ms
+2025-06-09T07:15:39.502Z | INFO    | Server is up and running on 3000
+2025-06-09T07:15:41.163Z | INFO    | Server is up and running on 3000
+2025-06-09T07:15:43.169Z | INFO    | Server is up and running on 3000
+2025-06-09T07:15:44.399Z | INFO    | Server is up and running on 3000
+2025-06-09T07:15:51.688Z | INFO    | Server is up and running on 3000
+2025-06-09T07:15:56.008Z | INFO    | Server is up and running on 3000
+2025-06-09T07:16:00.174Z | INFO    | Server is up and running on 3000
+2025-06-09T07:16:18.309Z | INFO    | Server is up and running on 3000
+2025-06-09T07:16:43.535Z | INFO    | Server is up and running on 3000

@@ -45,8 +45,7 @@ const getSingleUserFromDB = CatchAsync(async (req, res) => {
 
 const myProfile = CatchAsync(
   async (req, res) => {
-    const user = req.body.user;
-
+    const user = req.body;
     const result = await UserService.myProfile(user);
 
     SendResponse(res, {
