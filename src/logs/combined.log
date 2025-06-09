@@ -398,3 +398,6 @@ Invalid `prisma.user.findUniqueOrThrow()` invocation in
 An operation failed because it depends on one or more records that were required but not found. No record was found for a query.
 2025-06-06T17:53:31.229Z | INFO    | METHOD: POST /api/v1/auth/login 401 1683.906 ms
 2025-06-06T17:53:58.153Z | INFO    | Server is up and running on 3000
+2025-06-06T17:55:12.888Z | INFO    | Server is up and running on 3000
+2025-06-06T17:55:17.317Z | INFO    | Server is up and running on 3000
+2025-06-06T17:55:23.184Z | INFO    | Server is up and running on 3000

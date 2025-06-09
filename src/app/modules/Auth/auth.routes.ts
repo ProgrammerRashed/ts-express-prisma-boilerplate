@@ -25,7 +25,7 @@ const router = express.Router();
  *                 example: user@example.com
  *               password:
  *                 type: string
- *                 example: securepassword
+ *                 example: P@$$word
  *     responses:
  *       200:
  *         description: User logged in successfully
