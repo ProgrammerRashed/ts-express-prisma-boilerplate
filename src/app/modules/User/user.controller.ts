@@ -1,7 +1,7 @@
 import { UserService } from "./user.service";
 import { StatusCodes } from "http-status-codes";
 import pick from "@utils/pick";
-import { userFilterableFields } from "./user.constant";
+import { RequestWithUser, userFilterableFields } from "./user.constant";
 import CatchAsync from "@utils/CatchAsync";
 import SendResponse from "@utils/SendResponse";
 
@@ -44,8 +44,8 @@ const getSingleUserFromDB = CatchAsync(async (req, res) => {
 });
 
 const myProfile = CatchAsync(
-  async (req, res) => {
-    const user = req.body;
+  async (req: RequestWithUser, res) => {
+    const user = req.user;
     const result = await UserService.myProfile(user);
 
     SendResponse(res, {

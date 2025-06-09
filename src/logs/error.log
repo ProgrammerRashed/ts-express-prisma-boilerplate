@@ -281,3 +281,140 @@ An operation failed because it depends on one or more records that were required
 2025-06-09T07:10:21.405Z | ERROR   | ❌ Cannot set properties of undefined (setting 'user')
 2025-06-09T07:12:03.123Z | ERROR   | ❌ Cannot read properties of undefined (reading 'user')
 2025-06-09T07:14:13.804Z | ERROR   | ❌ Cannot set properties of undefined (setting 'user')
+2025-06-09T07:18:50.060Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "targetUrl"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "boolean",
+    "received": "undefined",
+    "path": [
+      "trackingEnabled"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-09T07:22:14.248Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "targetUrl"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "boolean",
+    "received": "undefined",
+    "path": [
+      "trackingEnabled"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-09T07:23:48.983Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "targetUrl"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "boolean",
+    "received": "undefined",
+    "path": [
+      "trackingEnabled"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-09T07:29:12.006Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "boolean",
+    "received": "string",
+    "path": [
+      "trackingEnabled"
+    ],
+    "message": "Expected boolean, received string"
+  }
+]
+2025-06-09T07:30:25.164Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "boolean",
+    "received": "string",
+    "path": [
+      "trackingEnabled"
+    ],
+    "message": "Expected boolean, received string"
+  }
+]
+2025-06-09T07:33:44.704Z | ERROR   | ❌ You are unauthorized

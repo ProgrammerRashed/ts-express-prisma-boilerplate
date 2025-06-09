@@ -1,5 +1,7 @@
 export const userSearchAbleFields: string[] = ["email"];
 import { UserRole } from "@prisma/client";
+import { Request } from "express";
+import { JwtPayload } from "jsonwebtoken";
 
 export const userFilterableFields: string[] = [
   "email",
@@ -7,7 +9,9 @@ export const userFilterableFields: string[] = [
   "status",
   "searchTerm",
 ];
-
+export interface RequestWithUser extends Request {
+  user?: JwtPayload;
+}
 
 
 export const safeUserSelect = {

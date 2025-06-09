@@ -92,3 +92,241 @@
 2025-06-09T07:16:00.174Z | INFO    | Server is up and running on 3000
 2025-06-09T07:16:18.309Z | INFO    | Server is up and running on 3000
 2025-06-09T07:16:43.535Z | INFO    | Server is up and running on 3000
+2025-06-09T07:17:23.836Z | INFO    | Server is up and running on 3000
+2025-06-09T07:17:43.721Z | INFO    | Server is up and running on 3000
+2025-06-09T07:17:46.412Z | INFO    | Server is up and running on 3000
+2025-06-09T07:17:49.764Z | INFO    | Server is up and running on 3000
+2025-06-09T07:17:51.675Z | INFO    | Server is up and running on 3000
+2025-06-09T07:18:45.076Z | INFO    | Server is up and running on 3000
+2025-06-09T07:18:50.060Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "targetUrl"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "boolean",
+    "received": "undefined",
+    "path": [
+      "trackingEnabled"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-09T07:18:50.068Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 500 9.241 ms
+2025-06-09T07:19:59.051Z | INFO    | Server is up and running on 3000
+2025-06-09T07:21:46.966Z | INFO    | Server is up and running on 3000
+2025-06-09T07:21:53.256Z | INFO    | Server is up and running on 3000
+2025-06-09T07:21:55.810Z | INFO    | Server is up and running on 3000
+2025-06-09T07:22:00.700Z | INFO    | Server is up and running on 3000
+2025-06-09T07:22:03.985Z | INFO    | Server is up and running on 3000
+2025-06-09T07:22:05.590Z | INFO    | Server is up and running on 3000
+2025-06-09T07:22:08.812Z | INFO    | Server is up and running on 3000
+2025-06-09T07:22:09.515Z | INFO    | Server is up and running on 3000
+2025-06-09T07:22:14.248Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "targetUrl"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "boolean",
+    "received": "undefined",
+    "path": [
+      "trackingEnabled"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-09T07:22:14.255Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 500 13.039 ms
+2025-06-09T07:23:38.591Z | INFO    | Server is up and running on 3000
+2025-06-09T07:23:48.983Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "targetUrl"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "boolean",
+    "received": "undefined",
+    "path": [
+      "trackingEnabled"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-09T07:23:48.989Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 500 10.416 ms
+2025-06-09T07:27:15.573Z | INFO    | Server is up and running on 3000
+2025-06-09T07:27:16.223Z | INFO    | Server is up and running on 3000
+2025-06-09T07:28:12.370Z | INFO    | Server is up and running on 3000
+2025-06-09T07:28:16.192Z | INFO    | Server is up and running on 3000
+2025-06-09T07:28:41.707Z | INFO    | Server is up and running on 3000
+2025-06-09T07:28:48.952Z | INFO    | Server is up and running on 3000
+2025-06-09T07:28:53.508Z | INFO    | Server is up and running on 3000
+2025-06-09T07:28:55.144Z | INFO    | Server is up and running on 3000
+2025-06-09T07:28:56.752Z | INFO    | Server is up and running on 3000
+2025-06-09T07:28:58.836Z | INFO    | Server is up and running on 3000
+2025-06-09T07:29:12.006Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "boolean",
+    "received": "string",
+    "path": [
+      "trackingEnabled"
+    ],
+    "message": "Expected boolean, received string"
+  }
+]
+2025-06-09T07:29:12.013Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 500 9.936 ms
+2025-06-09T07:30:25.164Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "boolean",
+    "received": "string",
+    "path": [
+      "trackingEnabled"
+    ],
+    "message": "Expected boolean, received string"
+  }
+]
+2025-06-09T07:30:25.166Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 500 3.778 ms
+2025-06-09T07:31:48.558Z | INFO    | Server is up and running on 3000
+2025-06-09T07:31:50.669Z | INFO    | Server is up and running on 3000
+2025-06-09T07:32:00.018Z | INFO    | Server is up and running on 3000
+2025-06-09T07:32:14.991Z | INFO    | Server is up and running on 3000
+2025-06-09T07:33:07.245Z | INFO    | Server is up and running on 3000
+2025-06-09T07:33:09.742Z | INFO    | Server is up and running on 3000
+2025-06-09T07:33:44.704Z | ERROR   | ❌ You are unauthorized
+2025-06-09T07:33:44.713Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 401 15.492 ms
+2025-06-09T07:33:59.278Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | User Created Successfully!
+2025-06-09T07:33:59.280Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 200 6.895 ms
+2025-06-09T07:34:19.298Z | INFO    | Server is up and running on 3000
+2025-06-09T07:34:21.458Z | INFO    | Server is up and running on 3000
+2025-06-09T07:34:25.943Z | INFO    | Server is up and running on 3000
+2025-06-09T07:36:29.472Z | INFO    | Server is up and running on 3000
+2025-06-09T07:36:33.082Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | User Created Successfully!
+2025-06-09T07:36:33.088Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 200 15.276 ms
+2025-06-09T07:36:59.306Z | INFO    | Server is up and running on 3000
+2025-06-09T07:37:44.126Z | INFO    | Server is up and running on 3000
+2025-06-09T07:37:46.257Z | INFO    | Server is up and running on 3000
+2025-06-09T07:37:48.240Z | INFO    | Server is up and running on 3000
+2025-06-09T07:39:35.725Z | INFO    | Server is up and running on 3000
+2025-06-09T07:40:44.746Z | INFO    | Server is up and running on 3000
+2025-06-09T07:40:51.488Z | INFO    | Server is up and running on 3000
+2025-06-09T07:40:52.473Z | INFO    | Server is up and running on 3000
+2025-06-09T07:41:01.975Z | INFO    | Server is up and running on 3000
+2025-06-09T07:41:03.118Z | INFO    | Server is up and running on 3000
+2025-06-09T07:41:05.916Z | INFO    | Server is up and running on 3000
+2025-06-09T07:41:23.744Z | INFO    | Server is up and running on 3000
+2025-06-09T07:41:30.928Z | INFO    | Server is up and running on 3000
+2025-06-09T07:41:35.893Z | INFO    | Server is up and running on 3000
+2025-06-09T07:41:43.927Z | INFO    | Server is up and running on 3000
+2025-06-09T07:41:48.191Z | INFO    | Server is up and running on 3000
+2025-06-09T07:41:52.946Z | INFO    | Server is up and running on 3000
+2025-06-09T07:41:58.273Z | INFO    | Server is up and running on 3000
+2025-06-09T07:42:00.818Z | INFO    | Server is up and running on 3000
+2025-06-09T07:42:03.828Z | INFO    | Server is up and running on 3000
+2025-06-09T07:42:04.743Z | INFO    | Server is up and running on 3000
+2025-06-09T07:42:06.570Z | INFO    | Server is up and running on 3000
+2025-06-09T07:42:07.100Z | INFO    | Server is up and running on 3000
+2025-06-09T07:42:26.591Z | INFO    | Server is up and running on 3000
+2025-06-09T07:42:29.295Z | INFO    | Server is up and running on 3000
+2025-06-09T07:42:30.773Z | INFO    | Server is up and running on 3000
+2025-06-09T07:42:37.040Z | INFO    | Server is up and running on 3000
+2025-06-09T07:42:37.952Z | INFO    | Server is up and running on 3000
+2025-06-09T07:43:31.008Z | INFO    | Server is up and running on 3000
+2025-06-09T07:43:34.713Z | INFO    | Server is up and running on 3000
+2025-06-09T07:43:38.591Z | INFO    | Server is up and running on 3000
+2025-06-09T07:43:49.781Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-09T07:43:49.786Z | INFO    | METHOD: GET /api/v1/users/me 200 1421.216 ms
+2025-06-09T07:43:52.000Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-09T07:43:52.002Z | INFO    | METHOD: GET /api/v1/users/me 200 110.819 ms
+2025-06-09T07:43:56.223Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | User Created Successfully!
+2025-06-09T07:43:56.225Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 200 8.482 ms
+2025-06-09T07:45:45.833Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | User Created Successfully!
+2025-06-09T07:45:45.834Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 200 2.705 ms
+2025-06-09T07:46:31.010Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | User Created Successfully!
+2025-06-09T07:46:31.011Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 200 2.480 ms
+2025-06-09T07:47:18.486Z | INFO    | Server is up and running on 3000
+2025-06-09T10:15:32.206Z | INFO    | Server is up and running on 3000
+2025-06-09T10:15:37.215Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | User Created Successfully!
+2025-06-09T10:15:37.220Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 200 9.011 ms
+2025-06-09T10:15:55.552Z | INFO    | Server is up and running on 3000
+2025-06-09T10:16:01.164Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | User Created Successfully!
+2025-06-09T10:16:01.170Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 200 11.794 ms
+2025-06-09T10:18:42.346Z | INFO    | Server is up and running on 3000
+2025-06-09T10:18:46.910Z | INFO    | Server is up and running on 3000
+2025-06-09T10:18:51.208Z | INFO    | Server is up and running on 3000
+2025-06-09T10:18:52.117Z | INFO    | Server is up and running on 3000
+2025-06-09T10:20:32.770Z | INFO    | Server is up and running on 3000
+2025-06-09T10:20:41.316Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | User Created Successfully!
+2025-06-09T10:20:41.324Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 200 11.561 ms

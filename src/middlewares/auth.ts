@@ -1,12 +1,14 @@
-import { NextFunction, Request, Response } from "express";
+import { NextFunction, Response } from "express";
 import { Secret } from "jsonwebtoken";
 import { jwtHelpers } from "../helpers/jwtHelpers";
 import config from "../config";
 import { StatusCodes } from "http-status-codes";
 import AppError from "./AppError";
+import { RequestWithUser } from "src/app/modules/User/user.constant";
+
 
 const auth = (...roles: string[]) => {
-  return async (req: Request, res: Response, next: NextFunction) => {
+  return async (req: RequestWithUser, res: Response, next: NextFunction) => {
     try {
       const authHeader = req.headers.authorization;
 
@@ -23,7 +25,7 @@ const auth = (...roles: string[]) => {
       );
 
       // Setting user to body 
-      req.body = verifiedUser
+      req.user = verifiedUser
       if (roles.length && !roles.includes(verifiedUser.role)) {
         throw new AppError(StatusCodes.FORBIDDEN, "Access denied. Forbidden.");
       }
