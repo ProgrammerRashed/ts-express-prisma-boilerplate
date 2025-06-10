@@ -3,6 +3,7 @@ import SendResponse from "@utils/SendResponse";
 import { StatusCodes } from "http-status-codes";
 import { QRCodeService } from "./qr-code.service";
 import getGeoLocation from "@helpers/getGeioLocation";
+import { RequestWithUser } from "../User/user.constant";
 
 const createQrCode = CatchAsync(async (req, res) => {
   const result = await QRCodeService.createQRCode(req);
@@ -52,8 +53,25 @@ const trackScan = CatchAsync(async (req, res) => {
   });
 });
 
+const getMyQRCodes = CatchAsync(async (req:RequestWithUser, res) => {
+  const creatorId = req.user?.id;
+  const qrCodes = await QRCodeService.getAllQRCodes(creatorId);
+
+  SendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: "QR Codes fetched successfully",
+    data: qrCodes,
+  });
+});
+
+
+
+
+
 export const QRCodeController = {
   createQrCode,
   updateQrCode,
   trackScan,
+  getMyQRCodes
 };

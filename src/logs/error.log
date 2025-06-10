@@ -494,3 +494,16 @@ Unknown argument `name`. Did you mean `data`? Available options are marked with 
     ]
   }
 ]
+2025-06-10T07:02:34.753Z | ERROR   | ❌ You are unauthorized
+2025-06-10T07:02:46.548Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.create()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:9:49
+
+  6 
+  7 // CREATE QR CODE
+  8 const createQRCode = async (req: Request) => {
+→ 9   const createdQRCodeData = await prisma.qRCode.create({
+      + data: QRCodeCreateInput | QRCodeUncheckedCreateInput
+      })
+
+Argument `data` is missing.

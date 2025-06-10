@@ -1,4 +1,5 @@
 import AppError from "@middleware/AppError";
+import { Prisma } from "@prisma/client";
 import prisma from "@utils/Prisma";
 import { Request } from "express";
 import { StatusCodes } from "http-status-codes";
@@ -71,8 +72,26 @@ const trackScan = async (
   return { scan, isUnique };
 };
 
+// ✅ GET ALL QR CODES
+const getAllQRCodes = async (creatorId?: string) => {
+  const filter: Prisma.QRCodeFindManyArgs = creatorId
+    ? {
+        where: { creatorId },
+        orderBy: { createdAt: Prisma.SortOrder.desc },
+      }
+    : {
+        orderBy: { createdAt: Prisma.SortOrder.desc },
+      };
+
+  const qrCodes = await prisma.qRCode.findMany(filter);
+  return qrCodes;
+};
+
+
+
 export const QRCodeService = {
   createQRCode,
   updateQRCode,
   trackScan,
+  getAllQRCodes,
 };

@@ -583,3 +583,40 @@ Unknown argument `name`. Did you mean `data`? Available options are marked with 
 2025-06-09T11:44:35.382Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 2273.771 ms
 2025-06-09T11:44:44.254Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
 2025-06-09T11:44:44.257Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 1035.943 ms
+2025-06-09T11:46:24.606Z | INFO    | Server is up and running on 3000
+2025-06-09T11:46:33.887Z | INFO    | Server is up and running on 3000
+2025-06-09T11:46:53.039Z | INFO    | Server is up and running on 3000
+2025-06-10T06:59:14.983Z | INFO    | Server is up and running on 3000
+2025-06-10T07:00:03.518Z | INFO    | Server is up and running on 3000
+2025-06-10T07:00:04.041Z | INFO    | Server is up and running on 3000
+2025-06-10T07:00:06.126Z | INFO    | Server is up and running on 3000
+2025-06-10T07:00:11.403Z | INFO    | Server is up and running on 3000
+2025-06-10T07:00:36.608Z | INFO    | Server is up and running on 3000
+2025-06-10T07:00:43.467Z | INFO    | Server is up and running on 3000
+2025-06-10T07:00:45.707Z | INFO    | Server is up and running on 3000
+2025-06-10T07:00:50.902Z | INFO    | Server is up and running on 3000
+2025-06-10T07:00:52.916Z | INFO    | Server is up and running on 3000
+2025-06-10T07:00:57.639Z | INFO    | Server is up and running on 3000
+2025-06-10T07:01:06.187Z | INFO    | Server is up and running on 3000
+2025-06-10T07:02:34.753Z | ERROR   | ❌ You are unauthorized
+2025-06-10T07:02:34.758Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 401 11.419 ms
+2025-06-10T07:02:46.548Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.create()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:9:49
+
+  6 
+  7 // CREATE QR CODE
+  8 const createQRCode = async (req: Request) => {
+→ 9   const createdQRCodeData = await prisma.qRCode.create({
+      + data: QRCodeCreateInput | QRCodeUncheckedCreateInput
+      })
+
+Argument `data` is missing.
+2025-06-10T07:02:46.550Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 400 1368.407 ms
+2025-06-10T07:03:13.154Z | INFO    | Server is up and running on 3000
+2025-06-10T07:03:19.854Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-10T07:03:19.858Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 1488.032 ms
+2025-06-10T07:03:53.069Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code Updated Successfully!
+2025-06-10T07:03:53.071Z | INFO    | METHOD: PATCH /api/v1/qr-code/update-qr/fada6873-aa3c-4ecc-bae0-272bcd78a536 200 465.648 ms
+2025-06-10T07:04:16.260Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-10T07:04:16.261Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 230.600 ms

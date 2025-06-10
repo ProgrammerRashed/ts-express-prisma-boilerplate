@@ -21,4 +21,9 @@ router.patch(
   auth(UserRole.SUPER_ADMIN, UserRole.ADMIN, UserRole.USER), QRCodeController.updateQrCode
 );
 
+router.get(
+  "/get-all-qr",
+  auth(UserRole.SUPER_ADMIN, UserRole.ADMIN, UserRole.USER), QRCodeController.getMyQRCodes
+);
+
 export const QRCodeRoutes = router;
