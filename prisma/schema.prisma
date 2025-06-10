@@ -54,15 +54,34 @@ model QRCode {
 }
 
 model Scan {
-  id          String   @id @default(cuid())
-  qrId        String
-  qrCode      QRCode   @relation(fields: [qrId], references: [id])
-  fingerprint String
-  userAgent   String
-  ip          String
-  location    Json?
-  timestamp   DateTime @default(now())
-  isUnique    Boolean
+  id     String @id @default(uuid())
+  qrId   String @map("qr_id")
+  qrCode QRCode @relation(fields: [qrId], references: [id])
 
+  // Device Information
+  deviceType String? @map("device_type")
+  os         String?
+  browser    String?
+  userAgent  String?  @map("user_agent")
+
+  // Location Data
+  ip        String?
+  country   String?
+  region    String?
+  city      String?
+  latitude  Float?
+  longitude Float?
+  
+  // Identification
+  fingerprint String
+  isUnique    Boolean @default(true) @map("is_unique")
+
+  // Timestamps
+  timestamp DateTime @default(now())
+
+  @@index([qrId])
+  @@index([timestamp])
+  @@index([deviceType])
+  @@index([country])
   @@map("scans")
 }

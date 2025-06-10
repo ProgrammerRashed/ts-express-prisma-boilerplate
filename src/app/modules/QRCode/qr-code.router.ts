@@ -25,5 +25,10 @@ router.get(
   "/get-all-qr",
   auth(UserRole.SUPER_ADMIN, UserRole.ADMIN, UserRole.USER), QRCodeController.getMyQRCodes
 );
+router.get(
+  "/get-single-qr/:id",
+   QRCodeController.getSingleQRData
+);
+
 
 export const QRCodeRoutes = router;

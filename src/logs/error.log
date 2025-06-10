@@ -507,3 +507,59 @@ Invalid `prisma.qRCode.create()` invocation in
       })
 
 Argument `data` is missing.
+2025-06-10T08:52:55.073Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "body"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-10T08:54:29.369Z | ERROR   | ❌ Password incorrect!
+2025-06-10T08:54:56.345Z | ERROR   | ❌ Password incorrect!
+2025-06-10T08:55:41.310Z | ERROR   | ❌ Password incorrect!
+2025-06-10T08:56:48.611Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:01:02.364Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:01:50.774Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:06:12.101Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:09:22.370Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:10:07.448Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:13:16.453Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:13:28.387Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:14:10.395Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:15:13.544Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:15:16.758Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:23:52.631Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:26:14.945Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:36:43.483Z | ERROR   | ❌ Password incorrect!
+2025-06-10T12:04:40.245Z | ERROR   | ❌ 
+Invalid `prisma.scan.findFirst()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:46:42
+
+  43   throw new AppError(StatusCodes.BAD_REQUEST, "Missing QR ID or fingerprint");
+  44 }
+  45 
+→ 46 const existingScan = await prisma.scan.findFirst(
+The column `scans.qr_id` does not exist in the current database.
+2025-06-10T12:05:16.739Z | ERROR   | ❌ 
+Invalid `prisma.scan.findFirst()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:46:42
+
+  43   throw new AppError(StatusCodes.BAD_REQUEST, "Missing QR ID or fingerprint");
+  44 }
+  45 
+→ 46 const existingScan = await prisma.scan.findFirst(
+The column `scans.qr_id` does not exist in the current database.
+2025-06-10T12:07:06.283Z | ERROR   | ❌ 
+Invalid `prisma.scan.findFirst()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:46:42
+
+  43   throw new AppError(StatusCodes.BAD_REQUEST, "Missing QR ID or fingerprint");
+  44 }
+  45 
+→ 46 const existingScan = await prisma.scan.findFirst(
+The column `scans.qr_id` does not exist in the current database.
+2025-06-10T12:20:57.223Z | ERROR   | ❌ You are unauthorized

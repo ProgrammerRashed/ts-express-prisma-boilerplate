@@ -4,6 +4,7 @@ import { StatusCodes } from "http-status-codes";
 import { QRCodeService } from "./qr-code.service";
 import getGeoLocation from "@helpers/getGeioLocation";
 import { RequestWithUser } from "../User/user.constant";
+import { parseUserAgent } from "@helpers/parseUserAgent";
 
 const createQrCode = CatchAsync(async (req, res) => {
   const result = await QRCodeService.createQRCode(req);
@@ -35,14 +36,18 @@ const trackScan = CatchAsync(async (req, res) => {
     req.socket.remoteAddress ||
     'unknown';
 
-  const location = await getGeoLocation(ip); 
+  const location = await getGeoLocation(ip);
+  const { deviceType, os, browser } = parseUserAgent(userAgent);
 
   const { scan, isUnique } = await QRCodeService.trackScan(
     qrId,
     fingerprint,
     userAgent,
     ip,
-    location
+    location,
+    deviceType,
+    os,
+    browser
   );
 
   SendResponse(res, {
@@ -68,10 +73,25 @@ const getMyQRCodes = CatchAsync(async (req:RequestWithUser, res) => {
 
 
 
+const getSingleQRData = CatchAsync(async (req:RequestWithUser, res) => {
+  const id = req.params?.id;
+  const qrCodeData = await QRCodeService.getSingleQRData(id);
+
+  SendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: "QR Code data fetched successfully",
+    data: qrCodeData,
+  });
+});
+
+
+
 
 export const QRCodeController = {
   createQrCode,
   updateQrCode,
   trackScan,
-  getMyQRCodes
+  getMyQRCodes,
+  getSingleQRData
 };

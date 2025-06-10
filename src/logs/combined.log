@@ -620,3 +620,418 @@ Argument `data` is missing.
 2025-06-10T07:03:53.071Z | INFO    | METHOD: PATCH /api/v1/qr-code/update-qr/fada6873-aa3c-4ecc-bae0-272bcd78a536 200 465.648 ms
 2025-06-10T07:04:16.260Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
 2025-06-10T07:04:16.261Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 230.600 ms
+2025-06-10T08:29:31.442Z | INFO    | Server is up and running on 4000
+2025-06-10T08:46:08.526Z | INFO    | METHOD: GET /api-docs 301 5.184 ms
+2025-06-10T08:46:08.534Z | INFO    | METHOD: GET /api-docs/ 200 4.326 ms
+2025-06-10T08:46:08.602Z | INFO    | METHOD: GET /api-docs/swagger-ui-init.js 200 0.965 ms
+2025-06-10T08:46:08.605Z | INFO    | METHOD: GET /api-docs/swagger-ui.css 200 13.946 ms
+2025-06-10T08:46:08.632Z | INFO    | METHOD: GET /api-docs/swagger-ui-standalone-preset.js 200 16.059 ms
+2025-06-10T08:46:08.660Z | INFO    | METHOD: GET /api-docs/swagger-ui-bundle.js 200 18.752 ms
+2025-06-10T08:46:09.798Z | INFO    | METHOD: GET /api-docs/favicon-32x32.png 200 2.200 ms
+2025-06-10T08:52:55.073Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "body"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-10T08:52:55.075Z | INFO    | METHOD: POST /api/v1/auth/login 400 10.263 ms
+2025-06-10T08:54:16.066Z | INFO    | Server is up and running on 4000
+2025-06-10T08:54:19.306Z | INFO    | Server is up and running on 4000
+2025-06-10T08:54:20.363Z | INFO    | Server is up and running on 4000
+2025-06-10T08:54:29.369Z | ERROR   | ❌ Password incorrect!
+2025-06-10T08:54:29.373Z | INFO    | METHOD: POST /api/v1/auth/login 500 1571.493 ms
+2025-06-10T08:54:56.345Z | ERROR   | ❌ Password incorrect!
+2025-06-10T08:54:56.346Z | INFO    | METHOD: POST /api/v1/auth/login 500 506.995 ms
+2025-06-10T08:55:41.310Z | ERROR   | ❌ Password incorrect!
+2025-06-10T08:55:41.312Z | INFO    | METHOD: POST /api/v1/auth/login 500 507.622 ms
+2025-06-10T08:56:48.611Z | ERROR   | ❌ Password incorrect!
+2025-06-10T08:56:48.613Z | INFO    | METHOD: POST /api/v1/auth/login 500 551.867 ms
+2025-06-10T08:59:28.660Z | INFO    | Server is up and running on 4000
+2025-06-10T08:59:30.122Z | INFO    | Server is up and running on 4000
+2025-06-10T08:59:39.628Z | INFO    | Server is up and running on 4000
+2025-06-10T08:59:42.833Z | INFO    | Server is up and running on 4000
+2025-06-10T08:59:44.583Z | INFO    | Server is up and running on 4000
+2025-06-10T08:59:54.563Z | INFO    | Server is up and running on 4000
+2025-06-10T09:00:07.967Z | INFO    | Server is up and running on 4000
+2025-06-10T09:00:10.570Z | INFO    | Server is up and running on 4000
+2025-06-10T09:01:02.364Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:01:02.369Z | INFO    | METHOD: POST /api/v1/auth/login 403 1223.719 ms
+2025-06-10T09:01:50.774Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:01:50.776Z | INFO    | METHOD: POST /api/v1/auth/login 403 547.369 ms
+2025-06-10T09:06:12.101Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:06:12.102Z | INFO    | METHOD: POST /api/v1/auth/login 403 969.017 ms
+2025-06-10T09:06:39.241Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Logged in Successful
+2025-06-10T09:06:39.242Z | INFO    | METHOD: POST /api/v1/auth/login 200 497.596 ms
+2025-06-10T09:07:19.098Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Logged in Successful
+2025-06-10T09:07:19.099Z | INFO    | METHOD: POST /api/v1/auth/login 200 516.325 ms
+2025-06-10T09:09:22.370Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:09:22.371Z | INFO    | METHOD: POST /api/v1/auth/login 403 529.497 ms
+2025-06-10T09:10:07.448Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:10:07.449Z | INFO    | METHOD: POST /api/v1/auth/login 403 535.180 ms
+2025-06-10T09:10:23.316Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Logged in Successful
+2025-06-10T09:10:23.317Z | INFO    | METHOD: POST /api/v1/auth/login 200 511.393 ms
+2025-06-10T09:13:16.453Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:13:16.455Z | INFO    | METHOD: POST /api/v1/auth/login 403 925.956 ms
+2025-06-10T09:13:28.387Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:13:28.388Z | INFO    | METHOD: POST /api/v1/auth/login 403 437.706 ms
+2025-06-10T09:14:10.395Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:14:10.396Z | INFO    | METHOD: POST /api/v1/auth/login 403 511.443 ms
+2025-06-10T09:15:13.544Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:15:13.545Z | INFO    | METHOD: POST /api/v1/auth/login 403 518.706 ms
+2025-06-10T09:15:16.758Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:15:16.759Z | INFO    | METHOD: POST /api/v1/auth/login 403 434.957 ms
+2025-06-10T09:23:52.631Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:23:52.632Z | INFO    | METHOD: POST /api/v1/auth/login 403 1315.929 ms
+2025-06-10T09:24:03.035Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Logged in Successful
+2025-06-10T09:24:03.036Z | INFO    | METHOD: POST /api/v1/auth/login 200 584.315 ms
+2025-06-10T09:26:14.945Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:26:14.945Z | INFO    | METHOD: POST /api/v1/auth/login 403 514.712 ms
+2025-06-10T09:26:21.918Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Logged in Successful
+2025-06-10T09:26:21.919Z | INFO    | METHOD: POST /api/v1/auth/login 200 440.702 ms
+2025-06-10T09:36:43.483Z | ERROR   | ❌ Password incorrect!
+2025-06-10T09:36:43.484Z | INFO    | METHOD: POST /api/v1/auth/login 403 1333.049 ms
+2025-06-10T09:36:48.769Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Logged in Successful
+2025-06-10T09:36:48.769Z | INFO    | METHOD: POST /api/v1/auth/login 200 435.712 ms
+2025-06-10T10:33:01.472Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:33:01.474Z | INFO    | METHOD: GET /api/v1/users/me 200 891.652 ms
+2025-06-10T10:33:36.521Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:33:36.522Z | INFO    | METHOD: GET /api/v1/users/me 304 111.583 ms
+2025-06-10T10:33:40.391Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:33:40.393Z | INFO    | METHOD: GET /api/v1/users/me 304 59.056 ms
+2025-06-10T10:33:46.237Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:33:46.238Z | INFO    | METHOD: GET /api/v1/users/me 304 57.376 ms
+2025-06-10T10:33:47.603Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:33:47.605Z | INFO    | METHOD: GET /api/v1/users/me 304 57.963 ms
+2025-06-10T10:33:58.205Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:33:58.206Z | INFO    | METHOD: GET /api/v1/users/me 304 115.091 ms
+2025-06-10T10:34:04.613Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:34:04.614Z | INFO    | METHOD: GET /api/v1/users/me 304 56.430 ms
+2025-06-10T10:34:06.614Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:34:06.615Z | INFO    | METHOD: GET /api/v1/users/me 304 56.930 ms
+2025-06-10T10:34:10.805Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:34:10.807Z | INFO    | METHOD: GET /api/v1/users/me 304 57.213 ms
+2025-06-10T10:34:15.007Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:34:15.008Z | INFO    | METHOD: GET /api/v1/users/me 304 109.993 ms
+2025-06-10T10:34:29.998Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:34:29.998Z | INFO    | METHOD: GET /api/v1/users/me 304 56.987 ms
+2025-06-10T10:34:35.576Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:34:35.578Z | INFO    | METHOD: GET /api/v1/users/me 304 113.645 ms
+2025-06-10T10:35:00.768Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:35:00.769Z | INFO    | METHOD: GET /api/v1/users/me 304 111.899 ms
+2025-06-10T10:35:11.356Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:35:11.359Z | INFO    | METHOD: GET /api/v1/users/me 304 59.546 ms
+2025-06-10T10:35:14.982Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:35:14.986Z | INFO    | METHOD: GET /api/v1/users/me 304 62.865 ms
+2025-06-10T10:36:47.208Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:36:47.211Z | INFO    | METHOD: GET /api/v1/users/me 304 122.542 ms
+2025-06-10T10:36:53.308Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:36:53.309Z | INFO    | METHOD: GET /api/v1/users/me 304 56.832 ms
+2025-06-10T10:37:00.687Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:37:00.688Z | INFO    | METHOD: GET /api/v1/users/me 304 58.347 ms
+2025-06-10T10:37:06.656Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:37:06.657Z | INFO    | METHOD: GET /api/v1/users/me 304 113.348 ms
+2025-06-10T10:37:41.184Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:37:41.186Z | INFO    | METHOD: GET /api/v1/users/me 304 113.693 ms
+2025-06-10T10:37:43.065Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:37:43.066Z | INFO    | METHOD: GET /api/v1/users/me 304 64.422 ms
+2025-06-10T10:47:13.359Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:47:13.361Z | INFO    | METHOD: GET /api/v1/users/me 304 992.346 ms
+2025-06-10T10:47:13.642Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:47:13.644Z | INFO    | METHOD: GET /api/v1/users/me 304 58.901 ms
+2025-06-10T10:47:32.381Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:47:32.382Z | INFO    | METHOD: GET /api/v1/users/me 304 112.385 ms
+2025-06-10T10:47:32.443Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:47:32.444Z | INFO    | METHOD: GET /api/v1/users/me 304 58.918 ms
+2025-06-10T10:47:46.288Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:47:46.290Z | INFO    | METHOD: GET /api/v1/users/me 304 57.893 ms
+2025-06-10T10:48:36.554Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:48:36.556Z | INFO    | METHOD: GET /api/v1/users/me 304 117.657 ms
+2025-06-10T10:49:16.506Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:49:16.507Z | INFO    | METHOD: GET /api/v1/users/me 304 110.584 ms
+2025-06-10T10:49:49.344Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:49:49.345Z | INFO    | METHOD: GET /api/v1/users/me 304 116.549 ms
+2025-06-10T10:49:54.209Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:49:54.213Z | INFO    | METHOD: GET /api/v1/users/me 304 57.742 ms
+2025-06-10T10:50:02.636Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:50:02.637Z | INFO    | METHOD: GET /api/v1/users/me 304 57.953 ms
+2025-06-10T10:50:15.194Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:50:15.195Z | INFO    | METHOD: GET /api/v1/users/me 304 114.199 ms
+2025-06-10T10:50:21.913Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:50:21.915Z | INFO    | METHOD: GET /api/v1/users/me 304 57.918 ms
+2025-06-10T10:50:33.778Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:50:33.779Z | INFO    | METHOD: GET /api/v1/users/me 304 110.810 ms
+2025-06-10T10:50:41.909Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:50:41.910Z | INFO    | METHOD: GET /api/v1/users/me 304 56.758 ms
+2025-06-10T10:54:54.188Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | User Created Successfully!
+2025-06-10T10:54:54.190Z | INFO    | METHOD: POST /api/v1/users/create-user 200 1108.414 ms
+2025-06-10T10:56:47.825Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | User Created Successfully!
+2025-06-10T10:56:47.826Z | INFO    | METHOD: POST /api/v1/users/create-user 200 569.434 ms
+2025-06-10T10:56:57.361Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Logged in Successful
+2025-06-10T10:56:57.361Z | INFO    | METHOD: POST /api/v1/auth/login 200 439.251 ms
+2025-06-10T10:56:58.823Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:56:58.824Z | INFO    | METHOD: GET /api/v1/users/me 200 110.301 ms
+2025-06-10T10:56:58.883Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:56:58.885Z | INFO    | METHOD: GET /api/v1/users/me 304 57.608 ms
+2025-06-10T10:57:38.893Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T10:57:38.893Z | INFO    | METHOD: GET /api/v1/users/me 304 110.410 ms
+2025-06-10T11:06:05.829Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:06:05.830Z | INFO    | METHOD: GET /api/v1/users/me 304 1121.690 ms
+2025-06-10T11:06:53.548Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:06:53.549Z | INFO    | METHOD: GET /api/v1/users/me 304 111.134 ms
+2025-06-10T11:07:00.854Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:07:00.855Z | INFO    | METHOD: GET /api/v1/users/me 304 58.892 ms
+2025-06-10T11:08:12.134Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:08:12.135Z | INFO    | METHOD: GET /api/v1/users/me 304 112.855 ms
+2025-06-10T11:08:52.961Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:08:52.961Z | INFO    | METHOD: GET /api/v1/users/me 304 117.895 ms
+2025-06-10T11:08:54.411Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:08:54.412Z | INFO    | METHOD: GET /api/v1/users/me 304 61.250 ms
+2025-06-10T11:08:58.257Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:08:58.258Z | INFO    | METHOD: GET /api/v1/users/me 304 63.107 ms
+2025-06-10T11:09:11.837Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:09:11.839Z | INFO    | METHOD: GET /api/v1/users/me 304 115.154 ms
+2025-06-10T11:09:15.587Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:09:15.588Z | INFO    | METHOD: GET /api/v1/users/me 304 64.034 ms
+2025-06-10T11:09:17.172Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:09:17.173Z | INFO    | METHOD: GET /api/v1/users/me 304 58.311 ms
+2025-06-10T11:09:24.634Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:09:24.639Z | INFO    | METHOD: GET /api/v1/users/me 304 62.611 ms
+2025-06-10T11:09:27.330Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:09:27.331Z | INFO    | METHOD: GET /api/v1/users/me 304 111.478 ms
+2025-06-10T11:09:30.888Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:09:30.889Z | INFO    | METHOD: GET /api/v1/users/me 304 57.265 ms
+2025-06-10T11:09:35.989Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:09:35.990Z | INFO    | METHOD: GET /api/v1/users/me 304 57.306 ms
+2025-06-10T11:09:38.880Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:09:38.881Z | INFO    | METHOD: GET /api/v1/users/me 304 58.826 ms
+2025-06-10T11:12:06.749Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:12:06.750Z | INFO    | METHOD: GET /api/v1/users/me 304 602.570 ms
+2025-06-10T11:12:27.299Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:12:27.304Z | INFO    | METHOD: GET /api/v1/users/me 304 116.936 ms
+2025-06-10T11:12:35.035Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:12:35.036Z | INFO    | METHOD: GET /api/v1/users/me 304 60.829 ms
+2025-06-10T11:12:37.934Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:12:37.935Z | INFO    | METHOD: GET /api/v1/users/me 304 58.460 ms
+2025-06-10T11:13:37.738Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /api/v1/qr-code//get-all-qr - Method: GET
+2025-06-10T11:13:37.739Z | INFO    | METHOD: GET /api/v1/qr-code//get-all-qr 404 0.714 ms
+2025-06-10T11:13:48.496Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:13:48.497Z | INFO    | METHOD: GET /api/v1/users/me 304 113.962 ms
+2025-06-10T11:13:51.285Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:13:51.286Z | INFO    | METHOD: GET /api/v1/users/me 304 57.557 ms
+2025-06-10T11:14:09.832Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:14:09.833Z | INFO    | METHOD: GET /api/v1/users/me 304 112.726 ms
+2025-06-10T11:16:41.465Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:16:41.466Z | INFO    | METHOD: GET /api/v1/users/me 304 111.721 ms
+2025-06-10T11:16:41.659Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /api/v1/qr-code//get-all-qr - Method: GET
+2025-06-10T11:16:41.660Z | INFO    | METHOD: GET /api/v1/qr-code//get-all-qr 404 0.605 ms
+2025-06-10T11:18:46.774Z | WARN    | ⚠️ 404 - API NOT FOUND - Path: /api/v1/qr-code//get-all-qr - Method: GET
+2025-06-10T11:18:46.775Z | INFO    | METHOD: GET /api/v1/qr-code//get-all-qr 404 0.543 ms
+2025-06-10T11:18:47.030Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:18:47.031Z | INFO    | METHOD: GET /api/v1/users/me 304 509.299 ms
+2025-06-10T11:19:02.373Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:19:02.375Z | INFO    | METHOD: GET /api/v1/users/me 304 114.429 ms
+2025-06-10T11:19:02.729Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-10T11:19:02.730Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 140.344 ms
+2025-06-10T11:19:51.044Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:19:51.044Z | INFO    | METHOD: GET /api/v1/users/me 304 110.668 ms
+2025-06-10T11:19:51.253Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-10T11:19:51.254Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 57.047 ms
+2025-06-10T11:21:05.129Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:21:05.130Z | INFO    | METHOD: GET /api/v1/users/me 304 111.317 ms
+2025-06-10T11:21:05.764Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-10T11:21:05.766Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 57.792 ms
+2025-06-10T11:21:10.743Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:21:10.744Z | INFO    | METHOD: GET /api/v1/users/me 304 57.819 ms
+2025-06-10T11:21:11.075Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-10T11:21:11.075Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 56.779 ms
+2025-06-10T11:21:36.672Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:21:36.673Z | INFO    | METHOD: GET /api/v1/users/me 304 110.211 ms
+2025-06-10T11:21:36.983Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-10T11:21:36.984Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 55.461 ms
+2025-06-10T11:21:48.891Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:21:48.893Z | INFO    | METHOD: GET /api/v1/users/me 304 58.840 ms
+2025-06-10T11:21:49.274Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-10T11:21:49.274Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 57.552 ms
+2025-06-10T11:21:55.566Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:21:55.567Z | INFO    | METHOD: GET /api/v1/users/me 304 112.665 ms
+2025-06-10T11:21:55.898Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-10T11:21:55.899Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 63.663 ms
+2025-06-10T11:22:05.867Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:22:05.868Z | INFO    | METHOD: GET /api/v1/users/me 304 58.824 ms
+2025-06-10T11:22:06.146Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-10T11:22:06.147Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 56.483 ms
+2025-06-10T11:22:39.982Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:22:39.983Z | INFO    | METHOD: GET /api/v1/users/me 304 111.935 ms
+2025-06-10T11:22:40.819Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-10T11:22:40.821Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 59.886 ms
+2025-06-10T11:22:51.504Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:22:51.505Z | INFO    | METHOD: GET /api/v1/users/me 304 57.345 ms
+2025-06-10T11:22:51.798Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-10T11:22:51.799Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 56.142 ms
+2025-06-10T11:23:56.299Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:23:56.300Z | INFO    | METHOD: GET /api/v1/users/me 304 567.771 ms
+2025-06-10T11:23:56.435Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-10T11:23:56.436Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 537.921 ms
+2025-06-10T11:25:16.982Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:25:16.982Z | INFO    | METHOD: GET /api/v1/users/me 304 165.661 ms
+2025-06-10T11:25:23.490Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:25:23.491Z | INFO    | METHOD: GET /api/v1/users/me 304 58.536 ms
+2025-06-10T11:25:23.840Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-10T11:25:23.841Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 57.920 ms
+2025-06-10T11:26:32.281Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-10T11:26:32.284Z | INFO    | METHOD: GET /api/v1/users/me 304 122.425 ms
+2025-06-10T11:52:12.021Z | INFO    | Server is up and running on 4000
+2025-06-10T11:52:20.018Z | INFO    | Server is up and running on 4000
+2025-06-10T11:52:28.417Z | INFO    | Server is up and running on 4000
+2025-06-10T11:53:11.855Z | INFO    | Server is up and running on 4000
+2025-06-10T11:53:13.856Z | INFO    | Server is up and running on 4000
+2025-06-10T11:53:15.626Z | INFO    | Server is up and running on 4000
+2025-06-10T11:53:25.092Z | INFO    | Server is up and running on 4000
+2025-06-10T11:53:51.732Z | INFO    | Server is up and running on 4000
+2025-06-10T11:53:54.421Z | INFO    | Server is up and running on 4000
+2025-06-10T11:53:57.225Z | INFO    | Server is up and running on 4000
+2025-06-10T11:53:59.588Z | INFO    | Server is up and running on 4000
+2025-06-10T11:54:02.133Z | INFO    | Server is up and running on 4000
+2025-06-10T11:54:07.580Z | INFO    | Server is up and running on 4000
+2025-06-10T11:54:10.271Z | INFO    | Server is up and running on 4000
+2025-06-10T11:54:15.247Z | INFO    | Server is up and running on 4000
+2025-06-10T11:54:17.679Z | INFO    | Server is up and running on 4000
+2025-06-10T11:54:20.119Z | INFO    | Server is up and running on 4000
+2025-06-10T11:54:22.309Z | INFO    | Server is up and running on 4000
+2025-06-10T11:56:27.398Z | INFO    | Server is up and running on 4000
+2025-06-10T11:56:30.217Z | INFO    | Server is up and running on 4000
+2025-06-10T12:01:25.644Z | INFO    | Server is up and running on 4000
+2025-06-10T12:01:26.505Z | INFO    | Server is up and running on 4000
+2025-06-10T12:01:29.979Z | INFO    | Server is up and running on 4000
+2025-06-10T12:01:33.507Z | INFO    | Server is up and running on 4000
+2025-06-10T12:02:05.310Z | INFO    | Server is up and running on 4000
+2025-06-10T12:02:07.008Z | INFO    | Server is up and running on 4000
+2025-06-10T12:02:08.109Z | INFO    | Server is up and running on 4000
+2025-06-10T12:02:14.896Z | INFO    | Server is up and running on 4000
+2025-06-10T12:02:37.499Z | INFO    | Server is up and running on 4000
+2025-06-10T12:02:39.176Z | INFO    | Server is up and running on 4000
+2025-06-10T12:02:54.794Z | INFO    | Server is up and running on 4000
+2025-06-10T12:03:24.834Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | User Created Successfully!
+2025-06-10T12:03:24.840Z | INFO    | METHOD: POST /api/v1/users/create-user 200 1621.899 ms
+2025-06-10T12:03:57.630Z | INFO    | ↩️ Response Sent | 201 | SUCCESS | QR Code Created Successfully!
+2025-06-10T12:03:57.631Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 201 196.791 ms
+2025-06-10T12:04:40.245Z | ERROR   | ❌ 
+Invalid `prisma.scan.findFirst()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:46:42
+
+  43   throw new AppError(StatusCodes.BAD_REQUEST, "Missing QR ID or fingerprint");
+  44 }
+  45 
+→ 46 const existingScan = await prisma.scan.findFirst(
+The column `scans.qr_id` does not exist in the current database.
+2025-06-10T12:04:40.246Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 400 606.236 ms
+2025-06-10T12:05:16.739Z | ERROR   | ❌ 
+Invalid `prisma.scan.findFirst()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:46:42
+
+  43   throw new AppError(StatusCodes.BAD_REQUEST, "Missing QR ID or fingerprint");
+  44 }
+  45 
+→ 46 const existingScan = await prisma.scan.findFirst(
+The column `scans.qr_id` does not exist in the current database.
+2025-06-10T12:05:16.740Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 400 559.764 ms
+2025-06-10T12:06:42.044Z | INFO    | Server is up and running on 4000
+2025-06-10T12:06:47.892Z | INFO    | Server is up and running on 4000
+2025-06-10T12:06:55.551Z | INFO    | Server is up and running on 4000
+2025-06-10T12:06:58.077Z | INFO    | Server is up and running on 4000
+2025-06-10T12:07:06.283Z | ERROR   | ❌ 
+Invalid `prisma.scan.findFirst()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:46:42
+
+  43   throw new AppError(StatusCodes.BAD_REQUEST, "Missing QR ID or fingerprint");
+  44 }
+  45 
+→ 46 const existingScan = await prisma.scan.findFirst(
+The column `scans.qr_id` does not exist in the current database.
+2025-06-10T12:07:06.288Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 400 926.965 ms
+2025-06-10T12:07:22.284Z | INFO    | Server is up and running on 4000
+2025-06-10T12:07:23.063Z | INFO    | Server is up and running on 4000
+2025-06-10T12:08:27.168Z | INFO    | Server is up and running on 4000
+2025-06-10T12:08:28.556Z | INFO    | Server is up and running on 4000
+2025-06-10T12:08:34.842Z | INFO    | Server is up and running on 4000
+2025-06-10T12:08:41.153Z | INFO    | Server is up and running on 4000
+2025-06-10T12:08:59.223Z | INFO    | Server is up and running on 4000
+2025-06-10T12:10:01.445Z | INFO    | Server is up and running on 4000
+2025-06-10T12:10:03.406Z | INFO    | Server is up and running on 4000
+2025-06-10T12:10:06.877Z | INFO    | Server is up and running on 4000
+2025-06-10T12:10:08.777Z | INFO    | Server is up and running on 4000
+2025-06-10T12:10:13.425Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-10T12:10:13.429Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 1399.782 ms
+2025-06-10T12:10:49.210Z | INFO    | Server is up and running on 4000
+2025-06-10T12:11:02.357Z | INFO    | Server is up and running on 4000
+2025-06-10T12:11:05.446Z | INFO    | Server is up and running on 4000
+2025-06-10T12:11:11.882Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-10T12:11:11.891Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 1308.195 ms
+2025-06-10T12:11:27.938Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-10T12:11:27.940Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 722.439 ms
+2025-06-10T12:11:36.404Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-10T12:11:36.406Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 749.201 ms
+2025-06-10T12:11:41.340Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-10T12:11:41.341Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 605.814 ms
+2025-06-10T12:16:10.232Z | INFO    | Server is up and running on 4000
+2025-06-10T12:16:38.503Z | INFO    | Server is up and running on 4000
+2025-06-10T12:16:40.059Z | INFO    | Server is up and running on 4000
+2025-06-10T12:16:49.396Z | INFO    | Server is up and running on 4000
+2025-06-10T12:17:01.760Z | INFO    | Server is up and running on 4000
+2025-06-10T12:17:12.576Z | INFO    | Server is up and running on 4000
+2025-06-10T12:17:23.030Z | INFO    | Server is up and running on 4000
+2025-06-10T12:17:25.963Z | INFO    | Server is up and running on 4000
+2025-06-10T12:17:27.699Z | INFO    | Server is up and running on 4000
+2025-06-10T12:17:28.855Z | INFO    | Server is up and running on 4000
+2025-06-10T12:17:34.679Z | INFO    | Server is up and running on 4000
+2025-06-10T12:17:48.325Z | INFO    | Server is up and running on 4000
+2025-06-10T12:17:53.628Z | INFO    | Server is up and running on 4000
+2025-06-10T12:17:57.373Z | INFO    | Server is up and running on 4000
+2025-06-10T12:18:05.196Z | INFO    | Server is up and running on 4000
+2025-06-10T12:18:08.157Z | INFO    | Server is up and running on 4000
+2025-06-10T12:18:28.406Z | INFO    | Server is up and running on 4000
+2025-06-10T12:18:40.755Z | INFO    | Server is up and running on 4000
+2025-06-10T12:18:45.185Z | INFO    | Server is up and running on 4000
+2025-06-10T12:18:51.744Z | INFO    | Server is up and running on 4000
+2025-06-10T12:18:54.283Z | INFO    | Server is up and running on 4000
+2025-06-10T12:18:56.482Z | INFO    | Server is up and running on 4000
+2025-06-10T12:18:57.766Z | INFO    | Server is up and running on 4000
+2025-06-10T12:18:59.317Z | INFO    | Server is up and running on 4000
+2025-06-10T12:19:01.106Z | INFO    | Server is up and running on 4000
+2025-06-10T12:19:04.382Z | INFO    | Server is up and running on 4000
+2025-06-10T12:19:09.430Z | INFO    | Server is up and running on 4000
+2025-06-10T12:19:13.926Z | INFO    | Server is up and running on 4000
+2025-06-10T12:19:16.487Z | INFO    | Server is up and running on 4000
+2025-06-10T12:19:35.052Z | INFO    | Server is up and running on 4000
+2025-06-10T12:19:37.411Z | INFO    | Server is up and running on 4000
+2025-06-10T12:19:42.023Z | INFO    | Server is up and running on 4000
+2025-06-10T12:19:43.721Z | INFO    | Server is up and running on 4000
+2025-06-10T12:19:47.122Z | INFO    | Server is up and running on 4000
+2025-06-10T12:19:52.764Z | INFO    | Server is up and running on 4000
+2025-06-10T12:20:57.223Z | ERROR   | ❌ You are unauthorized
+2025-06-10T12:20:57.231Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/bb6886f8-774e-42af-9173-db1502eaa0fb 401 10.929 ms
+2025-06-10T12:21:06.888Z | INFO    | Server is up and running on 4000
+2025-06-10T12:21:13.020Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-10T12:21:13.027Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/bb6886f8-774e-42af-9173-db1502eaa0fb 200 1333.267 ms
+2025-06-10T12:22:12.932Z | INFO    | Server is up and running on 4000
+2025-06-10T12:22:14.367Z | INFO    | Server is up and running on 4000
+2025-06-10T12:22:36.384Z | INFO    | Server is up and running on 4000
+2025-06-10T12:22:51.574Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-10T12:22:51.582Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/bb6886f8-774e-42af-9173-db1502eaa0fb 200 775.134 ms
+2025-06-10T12:23:25.956Z | INFO    | Server is up and running on 4000
+2025-06-10T12:23:26.743Z | INFO    | Server is up and running on 4000
+2025-06-10T12:23:45.855Z | INFO    | Server is up and running on 4000
+2025-06-10T12:23:51.404Z | INFO    | Server is up and running on 4000
+2025-06-10T12:23:54.493Z | INFO    | Server is up and running on 4000
+2025-06-10T12:23:58.637Z | INFO    | Server is up and running on 4000
+2025-06-10T12:24:06.806Z | INFO    | Server is up and running on 4000
+2025-06-10T12:24:10.170Z | INFO    | Server is up and running on 4000
+2025-06-10T12:24:17.929Z | INFO    | Server is up and running on 4000
+2025-06-10T12:24:26.841Z | INFO    | Server is up and running on 4000
+2025-06-10T12:24:32.500Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-10T12:24:32.505Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/bb6886f8-774e-42af-9173-db1502eaa0fb 200 899.315 ms

@@ -28,14 +28,20 @@ const updateQRCode = async (id: string, data: any) => {
   return updatedQRCodeData;
 };
 
-// TRACK SCAN
+// TRACK SCAN SERVICE
 const trackScan = async (
   qrId: string,
   fingerprint: string,
   userAgent: string,
   ip: string,
-  location?: any
+  location: any,
+  deviceType: string,
+  os: string,
+  browser: string
 ) => {
+
+  console.log("qrid",qrId, fingerprint)
+
   if (!qrId || !fingerprint) {
     throw new AppError(StatusCodes.BAD_REQUEST, "Missing QR ID or fingerprint");
   }
@@ -54,7 +60,14 @@ const trackScan = async (
         fingerprint,
         userAgent,
         ip,
-        location,
+        country: location.country || null,
+        region: location.region || null,
+        city: location.city || null,
+        latitude: location.latitude || null,
+        longitude: location.longitude || null,
+        deviceType,
+        os,
+        browser,
         isUnique,
       },
     }),
@@ -87,6 +100,47 @@ const getAllQRCodes = async (creatorId?: string) => {
   return qrCodes;
 };
 
+const getSingleQRData = async (qrCodeId: string) => {
+const qrCode = await prisma.qRCode.findUnique({
+  where: {id: qrCodeId}
+})
+
+  // Get scans by device
+const scansByDevice = await prisma.scan.groupBy({
+  by: ['deviceType'],
+  where: { qrId: qrCodeId },
+  _count: { _all: true },
+});
+
+// Get scans by location
+const scansByLocation = await prisma.scan.groupBy({
+  by: ['region'],
+  where: { qrId: qrCodeId },
+  _count: { _all: true }
+});
+
+// Get recent scans
+const recentScans = await prisma.scan.findMany({
+  where: { qrId: qrCodeId },
+  orderBy: { timestamp: 'desc' },
+  take: 5,
+  select: {
+    id: true,
+    city: true,
+    region: true,
+    country: true,
+    deviceType: true,
+    timestamp: true
+  }
+});
+
+return {
+  qrCode,
+  scansByLocation,
+  scansByDevice,
+  recentScans
+}
+}
 
 
 export const QRCodeService = {
@@ -94,4 +148,5 @@ export const QRCodeService = {
   updateQRCode,
   trackScan,
   getAllQRCodes,
+  getSingleQRData
 };

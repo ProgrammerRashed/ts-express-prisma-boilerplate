@@ -19,7 +19,7 @@ const loginUser = async (payload: { email: string; password: string }) => {
   );
 
   if (!isCorrectPassword) {
-    throw new Error("Password incorrect!");
+    throw new AppError(StatusCodes.FORBIDDEN,"Password incorrect!");
   }
 
   const accessToken = jwtHelpers.generateToken(
@@ -90,7 +90,7 @@ const changePassword = async (user: any, payload: any) => {
   );
 
   if (!isCorrectPassword) {
-    throw new Error("Password incorrect!");
+    throw new AppError(StatusCodes.FORBIDDEN,"Password incorrect!");
   }
 
   const hashedPassword: string = await bcrypt.hash(payload.newPassword, 12);
