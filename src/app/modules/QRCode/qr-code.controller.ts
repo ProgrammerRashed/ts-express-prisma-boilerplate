@@ -27,6 +27,16 @@ const updateQrCode = CatchAsync(async (req, res) => {
     data: result,
   });
 });
+const deleteQrCode = CatchAsync(async (req, res) => {
+  const { id } = req.params;
+  const result = await QRCodeService.deleteQRCode(id);
+  SendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: "QR Code deleted Successfully!",
+    data: result,
+  });
+});
 
 const trackScan = CatchAsync(async (req, res) => {
   const { qrId, fingerprint } = req.body;
@@ -69,6 +79,28 @@ const getMyQRCodes = CatchAsync(async (req:RequestWithUser, res) => {
     data: qrCodes,
   });
 });
+const getDashboardStats = CatchAsync(async (req:RequestWithUser, res) => {
+  const creatorId = req.user?.id;
+  const dashboardData = await QRCodeService.getDashboardStats(creatorId);
+
+  SendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: "QR Codes fetched successfully",
+    data: dashboardData,
+  });
+});
+const getDashboardAnalytics = CatchAsync(async (req:RequestWithUser, res) => {
+  const creatorId = req.user?.id;
+  const dashboardData = await QRCodeService.getDashboardAnalytics(creatorId);
+
+  SendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: "QR Codes fetched successfully",
+    data: dashboardData,
+  });
+});
 
 
 
@@ -93,5 +125,8 @@ export const QRCodeController = {
   updateQrCode,
   trackScan,
   getMyQRCodes,
-  getSingleQRData
+  getSingleQRData,
+  deleteQrCode,
+  getDashboardStats,
+  getDashboardAnalytics
 };

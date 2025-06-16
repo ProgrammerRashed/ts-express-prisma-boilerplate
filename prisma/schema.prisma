@@ -56,7 +56,7 @@ model QRCode {
 model Scan {
   id     String @id @default(uuid())
   qrId   String @map("qr_id")
-  qrCode QRCode @relation(fields: [qrId], references: [id])
+ qrCode QRCode @relation(fields: [qrId], references: [id], onDelete: Cascade)
 
   // Device Information
   deviceType String? @map("device_type")

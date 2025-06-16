@@ -563,3 +563,297 @@ Invalid `prisma.scan.findFirst()` invocation in
 → 46 const existingScan = await prisma.scan.findFirst(
 The column `scans.qr_id` does not exist in the current database.
 2025-06-10T12:20:57.223Z | ERROR   | ❌ You are unauthorized
+2025-06-10T12:27:23.454Z | ERROR   | ❌ Active user not found
+2025-06-10T12:31:24.102Z | ERROR   | ❌ Active user not found
+2025-06-10T12:32:39.498Z | ERROR   | ❌ Active user not found
+2025-06-10T12:32:43.497Z | ERROR   | ❌ Active user not found
+2025-06-10T12:33:28.359Z | ERROR   | ❌ Active user not found
+2025-06-10T12:34:19.962Z | ERROR   | ❌ Active user not found
+2025-06-10T12:34:40.159Z | ERROR   | ❌ Active user not found
+2025-06-10T12:35:07.905Z | ERROR   | ❌ Active user not found
+2025-06-10T12:35:15.393Z | ERROR   | ❌ Active user not found
+2025-06-10T12:35:35.996Z | ERROR   | ❌ Active user not found
+2025-06-10T12:36:38.874Z | ERROR   | ❌ Active user not found
+2025-06-10T13:00:42.309Z | ERROR   | ❌ Active user not found
+2025-06-10T13:01:16.129Z | ERROR   | ❌ Active user not found
+2025-06-10T13:02:17.836Z | ERROR   | ❌ Active user not found
+2025-06-10T13:02:55.792Z | ERROR   | ❌ Active user not found
+2025-06-10T13:03:28.651Z | ERROR   | ❌ Active user not found
+2025-06-10T13:04:02.133Z | ERROR   | ❌ Active user not found
+2025-06-10T13:05:00.963Z | ERROR   | ❌ Active user not found
+2025-06-10T13:10:58.012Z | ERROR   | ❌ Active user not found
+2025-06-10T13:11:30.224Z | ERROR   | ❌ Active user not found
+2025-06-10T13:11:33.623Z | ERROR   | ❌ Active user not found
+2025-06-10T13:11:35.601Z | ERROR   | ❌ Active user not found
+2025-06-10T13:11:41.218Z | ERROR   | ❌ Active user not found
+2025-06-10T13:12:01.698Z | ERROR   | ❌ Active user not found
+2025-06-10T13:12:04.993Z | ERROR   | ❌ Active user not found
+2025-06-10T13:12:08.946Z | ERROR   | ❌ Active user not found
+2025-06-10T13:12:32.896Z | ERROR   | ❌ Active user not found
+2025-06-10T13:12:46.313Z | ERROR   | ❌ Active user not found
+2025-06-10T13:12:50.648Z | ERROR   | ❌ Active user not found
+2025-06-10T13:12:54.891Z | ERROR   | ❌ Active user not found
+2025-06-10T13:15:43.786Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-10T13:15:46.989Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-10T13:15:53.156Z | ERROR   | ❌ Active user not found
+2025-06-10T13:22:29.954Z | ERROR   | ❌ Active user not found
+2025-06-10T13:25:09.335Z | ERROR   | ❌ Active user not found
+2025-06-10T13:25:23.608Z | ERROR   | ❌ Active user not found
+2025-06-10T13:27:09.081Z | ERROR   | ❌ Active user not found
+2025-06-10T13:27:46.911Z | ERROR   | ❌ Active user not found
+2025-06-10T13:29:43.402Z | ERROR   | ❌ Active user not found
+2025-06-10T13:30:59.325Z | ERROR   | ❌ Active user not found
+2025-06-10T13:31:54.837Z | ERROR   | ❌ Active user not found
+2025-06-10T13:32:59.244Z | ERROR   | ❌ Active user not found
+2025-06-10T13:35:40.306Z | ERROR   | ❌ Active user not found
+2025-06-10T13:42:44.943Z | ERROR   | ❌ Active user not found
+2025-06-10T13:42:53.562Z | ERROR   | ❌ Active user not found
+2025-06-10T13:43:00.691Z | ERROR   | ❌ Active user not found
+2025-06-10T13:43:12.319Z | ERROR   | ❌ Active user not found
+2025-06-10T13:44:20.554Z | ERROR   | ❌ Active user not found
+2025-06-10T13:46:50.260Z | ERROR   | ❌ Active user not found
+2025-06-10T13:46:53.341Z | ERROR   | ❌ Active user not found
+2025-06-10T13:47:22.891Z | ERROR   | ❌ Active user not found
+2025-06-10T13:48:49.280Z | ERROR   | ❌ Active user not found
+2025-06-10T13:54:08.091Z | ERROR   | ❌ Active user not found
+2025-06-10T13:54:31.141Z | ERROR   | ❌ Active user not found
+2025-06-10T13:57:19.870Z | ERROR   | ❌ Active user not found
+2025-06-10T13:57:22.714Z | ERROR   | ❌ Active user not found
+2025-06-10T13:58:28.719Z | ERROR   | ❌ Active user not found
+2025-06-10T13:59:50.485Z | ERROR   | ❌ Active user not found
+2025-06-10T14:03:58.112Z | ERROR   | ❌ Active user not found
+2025-06-10T14:04:30.793Z | ERROR   | ❌ Active user not found
+2025-06-10T14:05:07.072Z | ERROR   | ❌ Active user not found
+2025-06-10T14:05:16.455Z | ERROR   | ❌ Active user not found
+2025-06-10T14:06:04.019Z | ERROR   | ❌ Active user not found
+2025-06-10T14:06:08.163Z | ERROR   | ❌ Active user not found
+2025-06-10T14:06:10.711Z | ERROR   | ❌ Active user not found
+2025-06-10T15:11:56.969Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-11T12:50:34.978Z | ERROR   | ❌ Password incorrect!
+2025-06-11T15:32:43.211Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.delete()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:32:29
+
+  29 }
+  30 
+  31 // Delete the QR Code
+→ 32 await prisma.qRCode.delete(
+Foreign key constraint violated on the constraint: `scans_qr_id_fkey`
+2025-06-11T15:53:30.994Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-11T15:55:18.172Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-11T15:55:35.899Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-11T15:56:48.533Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-11T15:58:58.927Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-11T16:11:34.670Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-11T16:13:38.786Z | ERROR   | ❌ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "creatorId"
+    ],
+    "message": "Required"
+  }
+]
+2025-06-11T16:49:30.703Z | ERROR   | ❌ Password incorrect!
+2025-06-12T14:42:29.892Z | ERROR   | ❌ Password incorrect!
+2025-06-12T15:08:49.775Z | ERROR   | ❌ You are unauthorized
+2025-06-13T03:26:25.946Z | ERROR   | ❌ Password incorrect!
+2025-06-16T15:40:56.307Z | ERROR   | ❌ Password incorrect!
+2025-06-16T15:51:34.809Z | ERROR   | ❌ Password incorrect!
+2025-06-16T17:27:57.114Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:28:00.267Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:28:01.944Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:28:04.507Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:28:09.040Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:28:15.882Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:28:17.511Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:28:20.179Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:28:24.701Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:29:00.193Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:29:04.200Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:29:09.616Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:29:13.067Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:29:18.986Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:29:20.719Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:29:23.480Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:29:28.069Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:29:43.140Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:29:50.953Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:29:58.836Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:30:08.075Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:30:09.802Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:30:12.414Z | ERROR   | ❌ Test Error from server
+2025-06-16T17:30:17.071Z | ERROR   | ❌ Test Error from server

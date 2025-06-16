@@ -22,6 +22,27 @@ const QRCodeSchema = z.object({
 }).strip();;
 
 
+const QRCodeUpdateSchema = z.object({
+  name: z.string().min(1, "Name is required").optional(),
+  description: z.string().optional(),
+  settings: z.record(z.any()).optional(), // or use z.unknown().optional() if more flexible
+  totalEdits: z.number().int().nonnegative().optional(), // defaults to 0
+  targetUrl: z.string().url({ message: "Must be a valid URL" }).optional(),
+  totalScans: z.number().int().nonnegative().optional(), // defaults to 0
+  uniqueScans: z.number().int().nonnegative().optional(), // defaults to 0
+  lastScans: z.coerce.date().optional(), // coerce allows string/Date input
+  trackingEnabled: z.preprocess((val) => {
+    if (val === "true" || val === true) return true;
+    if (val === "false" || val === false) return false;
+    return val;
+  }, z.boolean()).optional(),
+  
+  createdAt: z.coerce.date().optional(), 
+  updatedAt: z.coerce.date().optional(), 
+  creatorId: z.string().uuid({ message: "Invalid user ID format" }).optional(),
+}).strip();;
+
 export const QRCodeValidation = {
-    QRCodeSchema
+    QRCodeSchema,
+    QRCodeUpdateSchema
 }

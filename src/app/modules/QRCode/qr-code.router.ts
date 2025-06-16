@@ -17,8 +17,13 @@ router.post(
 );
 
 router.patch(
-  "/update-qr/:id", validateRequest(QRCodeValidation.QRCodeSchema),
+  "/update-qr/:id", validateRequest(QRCodeValidation.QRCodeUpdateSchema),
   auth(UserRole.SUPER_ADMIN, UserRole.ADMIN, UserRole.USER), QRCodeController.updateQrCode
+);
+
+router.delete(
+  "/delete/:id",
+  auth(UserRole.SUPER_ADMIN, UserRole.ADMIN, UserRole.USER), QRCodeController.deleteQrCode
 );
 
 router.get(
@@ -28,6 +33,14 @@ router.get(
 router.get(
   "/get-single-qr/:id",
    QRCodeController.getSingleQRData
+);
+router.get(
+  "/dashboard/stats", auth(UserRole.SUPER_ADMIN, UserRole.ADMIN, UserRole.USER),
+   QRCodeController.getDashboardStats
+);
+router.get(
+  "/dashboard/analytics", auth(UserRole.SUPER_ADMIN, UserRole.ADMIN, UserRole.USER),
+   QRCodeController.getDashboardAnalytics
 );
 
 
