@@ -35,6 +35,10 @@ router.get(
    QRCodeController.getSingleQRData
 );
 router.get(
+  "/get-single-qr/settings/:id",
+   QRCodeController.getQRCodeScanSettings
+);
+router.get(
   "/dashboard/stats", auth(UserRole.SUPER_ADMIN, UserRole.ADMIN, UserRole.USER),
    QRCodeController.getDashboardStats
 );

@@ -857,3 +857,214 @@ Foreign key constraint violated on the constraint: `scans_qr_id_fkey`
 2025-06-16T17:30:09.802Z | ERROR   | ❌ Test Error from server
 2025-06-16T17:30:12.414Z | ERROR   | ❌ Test Error from server
 2025-06-16T17:30:17.071Z | ERROR   | ❌ Test Error from server
+2025-06-17T13:54:08.359Z | ERROR   | ❌ Password incorrect!
+2025-06-17T14:43:43.153Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findMany()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:125:39
+
+  122     orderBy: { createdAt: Prisma.SortOrder.desc },
+  123   };
+  124 
+→ 125 const qrCodes = await prisma.qRCode.findMany(
+Can't reach database server at `ep-aged-bush-a1voik8a-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-aged-bush-a1voik8a-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-06-17T14:45:01.105Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findMany()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:125:39
+
+  122     orderBy: { createdAt: Prisma.SortOrder.desc },
+  123   };
+  124 
+→ 125 const qrCodes = await prisma.qRCode.findMany(
+Can't reach database server at `ep-aged-bush-a1voik8a-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-aged-bush-a1voik8a-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-06-17T15:06:11.619Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findUnique()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:130:38
+
+  127 };
+  128 
+  129 const getSingleQRData = async (qrCodeId: string) => {
+→ 130   const qrCode = await prisma.qRCode.findUnique(
+Can't reach database server at `ep-aged-bush-a1voik8a-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-aged-bush-a1voik8a-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-06-20T04:54:40.701Z | ERROR   | ❌ Password incorrect!
+2025-06-20T05:06:24.004Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findMany()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:127:39
+
+  124     orderBy: { createdAt: Prisma.SortOrder.desc },
+  125   };
+  126 
+→ 127 const qrCodes = await prisma.qRCode.findMany({
+        where: {
+          creatorId: {
+            email: "rakib@gmail.com",
+            ~~~~~
+            role: "USER",
+            iat: 1750395571,
+            exp: 1752987571,
+      ?     equals?: String | StringFieldRefInput,
+      ?     in?: String[] | ListStringFieldRefInput,
+      ?     notIn?: String[] | ListStringFieldRefInput,
+      ?     lt?: String | StringFieldRefInput,
+      ?     lte?: String | StringFieldRefInput,
+      ?     gt?: String | StringFieldRefInput,
+      ?     gte?: String | StringFieldRefInput,
+      ?     contains?: String | StringFieldRefInput,
+      ?     startsWith?: String | StringFieldRefInput,
+      ?     endsWith?: String | StringFieldRefInput,
+      ?     mode?: QueryMode,
+      ?     not?: String | NestedStringFilter
+          }
+        },
+        orderBy: {
+          createdAt: "desc"
+        }
+      })
+
+Unknown argument `email`. Available options are marked with ?.
+2025-06-20T05:06:25.034Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findMany()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:127:39
+
+  124     orderBy: { createdAt: Prisma.SortOrder.desc },
+  125   };
+  126 
+→ 127 const qrCodes = await prisma.qRCode.findMany({
+        where: {
+          creatorId: {
+            email: "rakib@gmail.com",
+            ~~~~~
+            role: "USER",
+            iat: 1750395571,
+            exp: 1752987571,
+      ?     equals?: String | StringFieldRefInput,
+      ?     in?: String[] | ListStringFieldRefInput,
+      ?     notIn?: String[] | ListStringFieldRefInput,
+      ?     lt?: String | StringFieldRefInput,
+      ?     lte?: String | StringFieldRefInput,
+      ?     gt?: String | StringFieldRefInput,
+      ?     gte?: String | StringFieldRefInput,
+      ?     contains?: String | StringFieldRefInput,
+      ?     startsWith?: String | StringFieldRefInput,
+      ?     endsWith?: String | StringFieldRefInput,
+      ?     mode?: QueryMode,
+      ?     not?: String | NestedStringFilter
+          }
+        },
+        orderBy: {
+          createdAt: "desc"
+        }
+      })
+
+Unknown argument `email`. Available options are marked with ?.
+2025-06-20T05:06:29.792Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findMany()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:127:39
+
+  124     orderBy: { createdAt: Prisma.SortOrder.desc },
+  125   };
+  126 
+→ 127 const qrCodes = await prisma.qRCode.findMany({
+        where: {
+          creatorId: {
+            email: "rakib@gmail.com",
+            ~~~~~
+            role: "USER",
+            iat: 1750395571,
+            exp: 1752987571,
+      ?     equals?: String | StringFieldRefInput,
+      ?     in?: String[] | ListStringFieldRefInput,
+      ?     notIn?: String[] | ListStringFieldRefInput,
+      ?     lt?: String | StringFieldRefInput,
+      ?     lte?: String | StringFieldRefInput,
+      ?     gt?: String | StringFieldRefInput,
+      ?     gte?: String | StringFieldRefInput,
+      ?     contains?: String | StringFieldRefInput,
+      ?     startsWith?: String | StringFieldRefInput,
+      ?     endsWith?: String | StringFieldRefInput,
+      ?     mode?: QueryMode,
+      ?     not?: String | NestedStringFilter
+          }
+        },
+        orderBy: {
+          createdAt: "desc"
+        }
+      })
+
+Unknown argument `email`. Available options are marked with ?.
+2025-06-20T05:06:32.368Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findMany()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:127:39
+
+  124     orderBy: { createdAt: Prisma.SortOrder.desc },
+  125   };
+  126 
+→ 127 const qrCodes = await prisma.qRCode.findMany({
+        where: {
+          creatorId: {
+            email: "rakib@gmail.com",
+            ~~~~~
+            role: "USER",
+            iat: 1750395571,
+            exp: 1752987571,
+      ?     equals?: String | StringFieldRefInput,
+      ?     in?: String[] | ListStringFieldRefInput,
+      ?     notIn?: String[] | ListStringFieldRefInput,
+      ?     lt?: String | StringFieldRefInput,
+      ?     lte?: String | StringFieldRefInput,
+      ?     gt?: String | StringFieldRefInput,
+      ?     gte?: String | StringFieldRefInput,
+      ?     contains?: String | StringFieldRefInput,
+      ?     startsWith?: String | StringFieldRefInput,
+      ?     endsWith?: String | StringFieldRefInput,
+      ?     mode?: QueryMode,
+      ?     not?: String | NestedStringFilter
+          }
+        },
+        orderBy: {
+          createdAt: "desc"
+        }
+      })
+
+Unknown argument `email`. Available options are marked with ?.
+2025-06-20T05:06:36.948Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findMany()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:127:39
+
+  124     orderBy: { createdAt: Prisma.SortOrder.desc },
+  125   };
+  126 
+→ 127 const qrCodes = await prisma.qRCode.findMany({
+        where: {
+          creatorId: {
+            email: "rakib@gmail.com",
+            ~~~~~
+            role: "USER",
+            iat: 1750395571,
+            exp: 1752987571,
+      ?     equals?: String | StringFieldRefInput,
+      ?     in?: String[] | ListStringFieldRefInput,
+      ?     notIn?: String[] | ListStringFieldRefInput,
+      ?     lt?: String | StringFieldRefInput,
+      ?     lte?: String | StringFieldRefInput,
+      ?     gt?: String | StringFieldRefInput,
+      ?     gte?: String | StringFieldRefInput,
+      ?     contains?: String | StringFieldRefInput,
+      ?     startsWith?: String | StringFieldRefInput,
+      ?     endsWith?: String | StringFieldRefInput,
+      ?     mode?: QueryMode,
+      ?     not?: String | NestedStringFilter
+          }
+        },
+        orderBy: {
+          createdAt: "desc"
+        }
+      })
+
+Unknown argument `email`. Available options are marked with ?.
+2025-06-20T07:01:53.222Z | ERROR   | ❌ Password incorrect!

@@ -103,8 +103,6 @@ const getDashboardAnalytics = CatchAsync(async (req:RequestWithUser, res) => {
 });
 
 
-
-
 const getSingleQRData = CatchAsync(async (req:RequestWithUser, res) => {
   const id = req.params?.id;
   const qrCodeData = await QRCodeService.getSingleQRData(id);
@@ -113,6 +111,18 @@ const getSingleQRData = CatchAsync(async (req:RequestWithUser, res) => {
     statusCode: StatusCodes.OK,
     success: true,
     message: "QR Code data fetched successfully",
+    data: qrCodeData,
+  });
+});
+
+const getQRCodeScanSettings = CatchAsync(async (req:RequestWithUser, res) => {
+  const id = req.params?.id;
+  const qrCodeData = await QRCodeService.getQRCodeScanSettings(id);
+
+  SendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: "Scan Settings fetched successfully",
     data: qrCodeData,
   });
 });
@@ -128,5 +138,6 @@ export const QRCodeController = {
   getSingleQRData,
   deleteQrCode,
   getDashboardStats,
-  getDashboardAnalytics
+  getDashboardAnalytics,
+  getQRCodeScanSettings
 };

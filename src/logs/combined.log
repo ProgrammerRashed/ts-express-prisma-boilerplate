@@ -6650,3 +6650,2040 @@ Foreign key constraint violated on the constraint: `scans_qr_id_fkey`
 2025-06-16T17:31:36.541Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1619.395 ms
 2025-06-16T17:31:37.463Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
 2025-06-16T17:31:37.466Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 857.457 ms
+2025-06-16T17:33:17.077Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-16T17:33:17.080Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 188.984 ms
+2025-06-16T17:33:20.059Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-16T17:33:20.061Z | INFO    | METHOD: GET /api/v1/users/me 304 111.148 ms
+2025-06-16T17:33:24.461Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-16T17:33:24.463Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 959.746 ms
+2025-06-16T17:33:24.923Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-16T17:33:24.925Z | INFO    | METHOD: GET /api/v1/users/me 304 62.392 ms
+2025-06-17T13:52:44.620Z | INFO    | Server is up and running on 4000
+2025-06-17T13:54:08.359Z | ERROR   | ❌ Password incorrect!
+2025-06-17T13:54:08.364Z | INFO    | METHOD: POST /api/v1/auth/login 403 1816.559 ms
+2025-06-17T13:54:16.521Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Logged in Successful
+2025-06-17T13:54:16.523Z | INFO    | METHOD: POST /api/v1/auth/login 200 415.846 ms
+2025-06-17T13:54:23.354Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:54:23.356Z | INFO    | METHOD: GET /api/v1/users/me 304 483.806 ms
+2025-06-17T13:54:23.476Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:54:23.477Z | INFO    | METHOD: GET /api/v1/users/me 304 117.597 ms
+2025-06-17T13:54:23.935Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T13:54:23.936Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1491.582 ms
+2025-06-17T13:54:24.336Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T13:54:24.337Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1808.216 ms
+2025-06-17T13:54:24.375Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T13:54:24.376Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1735.093 ms
+2025-06-17T13:54:32.839Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T13:54:32.840Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1135.708 ms
+2025-06-17T13:54:46.185Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T13:54:46.186Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 826.784 ms
+2025-06-17T13:54:54.897Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T13:54:54.898Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 718.249 ms
+2025-06-17T13:55:07.321Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T13:55:07.323Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 170.369 ms
+2025-06-17T13:55:09.717Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:55:09.718Z | INFO    | METHOD: GET /api/v1/users/me 304 117.011 ms
+2025-06-17T13:55:18.534Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T13:55:18.535Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 973.088 ms
+2025-06-17T13:55:18.712Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:55:18.714Z | INFO    | METHOD: GET /api/v1/users/me 304 59.078 ms
+2025-06-17T13:55:31.214Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T13:55:31.218Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 114.309 ms
+2025-06-17T13:55:32.268Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:55:32.270Z | INFO    | METHOD: GET /api/v1/users/me 304 60.132 ms
+2025-06-17T13:55:39.023Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T13:55:39.024Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 721.906 ms
+2025-06-17T13:55:39.096Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:55:39.097Z | INFO    | METHOD: GET /api/v1/users/me 304 107.937 ms
+2025-06-17T13:55:41.741Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T13:55:41.743Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 163.289 ms
+2025-06-17T13:55:42.693Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:55:42.695Z | INFO    | METHOD: GET /api/v1/users/me 304 57.741 ms
+2025-06-17T13:56:26.442Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T13:56:26.444Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 160.279 ms
+2025-06-17T13:56:28.401Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:56:28.402Z | INFO    | METHOD: GET /api/v1/users/me 304 58.101 ms
+2025-06-17T13:56:55.895Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:56:55.896Z | INFO    | METHOD: GET /api/v1/users/me 200 107.032 ms
+2025-06-17T13:56:56.016Z | INFO    | ↩️ Response Sent | 201 | SUCCESS | QR Code Created Successfully!
+2025-06-17T13:56:56.016Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 201 117.002 ms
+2025-06-17T13:57:00.278Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T13:57:00.279Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 127.113 ms
+2025-06-17T13:57:01.242Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:57:01.243Z | INFO    | METHOD: GET /api/v1/users/me 304 68.359 ms
+2025-06-17T13:57:09.772Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T13:57:09.773Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/fa3245f8-d9a6-4f5f-966e-8b22559051d1 200 558.872 ms
+2025-06-17T13:57:09.909Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:57:09.910Z | INFO    | METHOD: GET /api/v1/users/me 304 56.560 ms
+2025-06-17T13:58:12.642Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T13:58:12.643Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/fa3245f8-d9a6-4f5f-966e-8b22559051d1 200 317.211 ms
+2025-06-17T13:58:12.926Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T13:58:12.927Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/fa3245f8-d9a6-4f5f-966e-8b22559051d1 200 600.315 ms
+2025-06-17T13:58:17.057Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-17T13:58:17.057Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 857.292 ms
+2025-06-17T13:58:24.768Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T13:58:24.769Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/fa3245f8-d9a6-4f5f-966e-8b22559051d1 200 279.008 ms
+2025-06-17T13:58:26.192Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:58:26.195Z | INFO    | METHOD: GET /api/v1/users/me 304 61.656 ms
+2025-06-17T13:58:50.428Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T13:58:50.429Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/fa3245f8-d9a6-4f5f-966e-8b22559051d1 200 326.928 ms
+2025-06-17T13:58:52.677Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-17T13:58:52.678Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 728.028 ms
+2025-06-17T13:58:55.996Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T13:58:55.997Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/fa3245f8-d9a6-4f5f-966e-8b22559051d1 200 274.626 ms
+2025-06-17T13:58:56.906Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:58:56.907Z | INFO    | METHOD: GET /api/v1/users/me 304 60.758 ms
+2025-06-17T13:59:07.652Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T13:59:07.653Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/fa3245f8-d9a6-4f5f-966e-8b22559051d1 200 332.150 ms
+2025-06-17T13:59:10.644Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-17T13:59:10.645Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 603.142 ms
+2025-06-17T13:59:14.738Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T13:59:14.739Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/fa3245f8-d9a6-4f5f-966e-8b22559051d1 200 275.365 ms
+2025-06-17T13:59:15.604Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:59:15.605Z | INFO    | METHOD: GET /api/v1/users/me 304 59.756 ms
+2025-06-17T13:59:34.414Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T13:59:34.415Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 704.100 ms
+2025-06-17T13:59:34.775Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:59:34.775Z | INFO    | METHOD: GET /api/v1/users/me 304 473.960 ms
+2025-06-17T13:59:39.899Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T13:59:39.900Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/31cd5135-73be-49aa-bc6e-c0d12fc01930 200 562.333 ms
+2025-06-17T13:59:40.132Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T13:59:40.133Z | INFO    | METHOD: GET /api/v1/users/me 304 63.759 ms
+2025-06-17T14:00:04.340Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:00:04.342Z | INFO    | METHOD: GET /api/v1/users/me 304 156.954 ms
+2025-06-17T14:00:04.918Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:00:04.919Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1440.214 ms
+2025-06-17T14:00:27.493Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:00:27.494Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 215.838 ms
+2025-06-17T14:00:28.437Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:00:28.438Z | INFO    | METHOD: GET /api/v1/users/me 304 60.924 ms
+2025-06-17T14:01:15.646Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:01:15.647Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 119.812 ms
+2025-06-17T14:01:16.741Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:01:16.742Z | INFO    | METHOD: GET /api/v1/users/me 304 63.070 ms
+2025-06-17T14:01:47.941Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:01:47.942Z | INFO    | METHOD: GET /api/v1/users/me 304 115.873 ms
+2025-06-17T14:01:48.046Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:01:48.048Z | INFO    | METHOD: GET /api/v1/users/me 304 78.180 ms
+2025-06-17T14:01:51.367Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T14:01:51.368Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/fa3245f8-d9a6-4f5f-966e-8b22559051d1 200 280.386 ms
+2025-06-17T14:01:52.418Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:01:52.419Z | INFO    | METHOD: GET /api/v1/users/me 304 57.683 ms
+2025-06-17T14:02:04.003Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code Updated Successfully!
+2025-06-17T14:02:04.004Z | INFO    | METHOD: PATCH /api/v1/qr-code/update-qr/fa3245f8-d9a6-4f5f-966e-8b22559051d1 200 226.217 ms
+2025-06-17T14:02:09.090Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T14:02:09.091Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/fa3245f8-d9a6-4f5f-966e-8b22559051d1 200 278.739 ms
+2025-06-17T14:02:09.598Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:02:09.599Z | INFO    | METHOD: GET /api/v1/users/me 304 58.589 ms
+2025-06-17T14:02:19.668Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T14:02:19.669Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/fa3245f8-d9a6-4f5f-966e-8b22559051d1 200 335.556 ms
+2025-06-17T14:02:22.772Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-17T14:02:22.773Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 863.407 ms
+2025-06-17T14:02:49.452Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:02:49.454Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 120.177 ms
+2025-06-17T14:02:50.857Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:02:50.858Z | INFO    | METHOD: GET /api/v1/users/me 304 60.056 ms
+2025-06-17T14:03:46.510Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:03:46.511Z | INFO    | METHOD: GET /api/v1/users/me 304 115.557 ms
+2025-06-17T14:03:53.367Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:03:53.368Z | INFO    | METHOD: GET /api/v1/users/me 304 59.134 ms
+2025-06-17T14:03:58.441Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:03:58.442Z | INFO    | METHOD: GET /api/v1/users/me 304 63.111 ms
+2025-06-17T14:04:06.082Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:04:06.083Z | INFO    | METHOD: GET /api/v1/users/me 304 120.495 ms
+2025-06-17T14:04:10.468Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:04:10.474Z | INFO    | METHOD: GET /api/v1/users/me 304 66.110 ms
+2025-06-17T14:04:19.384Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:04:19.386Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 65.018 ms
+2025-06-17T14:04:20.410Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:04:20.412Z | INFO    | METHOD: GET /api/v1/users/me 304 62.463 ms
+2025-06-17T14:04:40.218Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:04:40.220Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 579.848 ms
+2025-06-17T14:04:44.148Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:04:44.150Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 61.105 ms
+2025-06-17T14:04:45.156Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:04:45.157Z | INFO    | METHOD: GET /api/v1/users/me 304 113.314 ms
+2025-06-17T14:04:48.774Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:04:48.777Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 63.005 ms
+2025-06-17T14:04:50.080Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:04:50.082Z | INFO    | METHOD: GET /api/v1/users/me 304 60.160 ms
+2025-06-17T14:04:53.599Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:04:53.600Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 60.794 ms
+2025-06-17T14:04:54.666Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:04:54.669Z | INFO    | METHOD: GET /api/v1/users/me 304 60.584 ms
+2025-06-17T14:05:22.893Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:05:22.895Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 113.829 ms
+2025-06-17T14:05:24.101Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:05:24.102Z | INFO    | METHOD: GET /api/v1/users/me 304 59.765 ms
+2025-06-17T14:05:28.486Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:05:28.488Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 68.938 ms
+2025-06-17T14:05:30.855Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:05:30.857Z | INFO    | METHOD: GET /api/v1/users/me 304 60.381 ms
+2025-06-17T14:05:34.601Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:05:34.603Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 61.319 ms
+2025-06-17T14:05:36.270Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:05:36.271Z | INFO    | METHOD: GET /api/v1/users/me 304 57.777 ms
+2025-06-17T14:05:47.209Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:05:47.210Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 124.220 ms
+2025-06-17T14:05:48.864Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:05:48.865Z | INFO    | METHOD: GET /api/v1/users/me 304 58.139 ms
+2025-06-17T14:06:15.416Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:06:15.417Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 114.367 ms
+2025-06-17T14:06:16.815Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:06:16.816Z | INFO    | METHOD: GET /api/v1/users/me 304 59.152 ms
+2025-06-17T14:06:22.829Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:06:22.830Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 59.201 ms
+2025-06-17T14:06:24.062Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:06:24.064Z | INFO    | METHOD: GET /api/v1/users/me 304 60.685 ms
+2025-06-17T14:06:32.453Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:06:32.454Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 114.530 ms
+2025-06-17T14:06:33.642Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:06:33.648Z | INFO    | METHOD: GET /api/v1/users/me 304 63.685 ms
+2025-06-17T14:06:38.696Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:06:38.697Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 58.748 ms
+2025-06-17T14:06:40.150Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:06:40.152Z | INFO    | METHOD: GET /api/v1/users/me 304 59.617 ms
+2025-06-17T14:06:44.925Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:06:44.926Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 61.769 ms
+2025-06-17T14:06:46.328Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:06:46.329Z | INFO    | METHOD: GET /api/v1/users/me 304 61.469 ms
+2025-06-17T14:06:59.373Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:06:59.374Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 113.489 ms
+2025-06-17T14:07:01.034Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:07:01.036Z | INFO    | METHOD: GET /api/v1/users/me 304 61.943 ms
+2025-06-17T14:07:10.890Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:07:10.892Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 62.813 ms
+2025-06-17T14:07:12.119Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:07:12.121Z | INFO    | METHOD: GET /api/v1/users/me 304 58.763 ms
+2025-06-17T14:07:17.074Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:07:17.075Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 118.685 ms
+2025-06-17T14:07:18.854Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:07:18.862Z | INFO    | METHOD: GET /api/v1/users/me 304 71.572 ms
+2025-06-17T14:07:21.094Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:07:21.096Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 61.130 ms
+2025-06-17T14:07:23.490Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:07:23.491Z | INFO    | METHOD: GET /api/v1/users/me 304 66.026 ms
+2025-06-17T14:07:27.282Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:07:27.285Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 63.561 ms
+2025-06-17T14:07:28.550Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:07:28.551Z | INFO    | METHOD: GET /api/v1/users/me 304 60.735 ms
+2025-06-17T14:07:45.368Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:07:45.371Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 117.810 ms
+2025-06-17T14:07:47.264Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:07:47.266Z | INFO    | METHOD: GET /api/v1/users/me 304 58.953 ms
+2025-06-17T14:07:49.613Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:07:49.614Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 60.191 ms
+2025-06-17T14:07:50.848Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:07:50.851Z | INFO    | METHOD: GET /api/v1/users/me 304 59.839 ms
+2025-06-17T14:07:54.799Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:07:54.801Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 61.388 ms
+2025-06-17T14:07:56.128Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:07:56.130Z | INFO    | METHOD: GET /api/v1/users/me 304 60.228 ms
+2025-06-17T14:08:05.916Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:08:05.919Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 115.759 ms
+2025-06-17T14:08:07.036Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:08:07.037Z | INFO    | METHOD: GET /api/v1/users/me 304 63.223 ms
+2025-06-17T14:08:10.997Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:08:11.000Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 63.919 ms
+2025-06-17T14:08:12.177Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:08:12.179Z | INFO    | METHOD: GET /api/v1/users/me 304 59.935 ms
+2025-06-17T14:08:21.149Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:08:21.154Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 123.382 ms
+2025-06-17T14:08:22.715Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:08:22.717Z | INFO    | METHOD: GET /api/v1/users/me 304 62.452 ms
+2025-06-17T14:08:24.115Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:08:24.116Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 59.779 ms
+2025-06-17T14:08:25.705Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:08:25.706Z | INFO    | METHOD: GET /api/v1/users/me 304 59.303 ms
+2025-06-17T14:08:46.144Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:08:46.146Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 118.562 ms
+2025-06-17T14:08:47.626Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:08:47.626Z | INFO    | METHOD: GET /api/v1/users/me 304 62.447 ms
+2025-06-17T14:09:13.870Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:09:13.871Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 116.268 ms
+2025-06-17T14:09:15.280Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:09:15.281Z | INFO    | METHOD: GET /api/v1/users/me 304 62.482 ms
+2025-06-17T14:09:35.124Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:09:35.126Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 114.155 ms
+2025-06-17T14:09:37.489Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:09:37.491Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 63.719 ms
+2025-06-17T14:09:38.967Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:09:38.968Z | INFO    | METHOD: GET /api/v1/users/me 304 61.276 ms
+2025-06-17T14:10:26.727Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:10:26.729Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 558.936 ms
+2025-06-17T14:10:30.174Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:10:30.175Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 62.934 ms
+2025-06-17T14:10:42.204Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:10:42.205Z | INFO    | METHOD: GET /api/v1/users/me 304 165.657 ms
+2025-06-17T14:10:42.268Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:10:42.270Z | INFO    | METHOD: GET /api/v1/users/me 304 60.676 ms
+2025-06-17T14:10:42.648Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:10:42.649Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 63.988 ms
+2025-06-17T14:10:43.964Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:10:43.965Z | INFO    | METHOD: GET /api/v1/users/me 304 63.692 ms
+2025-06-17T14:10:49.131Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:10:49.133Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 62.987 ms
+2025-06-17T14:10:51.259Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:10:51.264Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 65.629 ms
+2025-06-17T14:10:56.600Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:10:56.601Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 63.759 ms
+2025-06-17T14:10:59.398Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:10:59.400Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 115.511 ms
+2025-06-17T14:11:28.716Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:11:28.718Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 121.121 ms
+2025-06-17T14:11:30.111Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:11:30.112Z | INFO    | METHOD: GET /api/v1/users/me 304 61.661 ms
+2025-06-17T14:11:37.639Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:11:37.640Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 62.162 ms
+2025-06-17T14:11:39.988Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:11:39.990Z | INFO    | METHOD: GET /api/v1/users/me 304 61.923 ms
+2025-06-17T14:11:58.590Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:11:58.591Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 112.762 ms
+2025-06-17T14:11:59.881Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:11:59.885Z | INFO    | METHOD: GET /api/v1/users/me 304 60.015 ms
+2025-06-17T14:13:01.286Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:13:01.287Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 120.127 ms
+2025-06-17T14:13:01.396Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:13:01.400Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 63.125 ms
+2025-06-17T14:13:08.684Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:13:08.685Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 63.340 ms
+2025-06-17T14:13:13.744Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:13:13.745Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 64.571 ms
+2025-06-17T14:13:20.874Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:13:20.876Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 116.880 ms
+2025-06-17T14:13:23.613Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:13:23.615Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 61.540 ms
+2025-06-17T14:13:25.630Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:13:25.631Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 60.241 ms
+2025-06-17T14:13:41.118Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:13:41.119Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 115.128 ms
+2025-06-17T14:13:42.322Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:13:42.324Z | INFO    | METHOD: GET /api/v1/users/me 304 63.433 ms
+2025-06-17T14:14:09.300Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:14:09.301Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 113.629 ms
+2025-06-17T14:15:16.672Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:15:16.673Z | INFO    | METHOD: GET /api/v1/users/me 304 115.926 ms
+2025-06-17T14:15:17.548Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:15:17.550Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 68.802 ms
+2025-06-17T14:15:19.031Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:15:19.033Z | INFO    | METHOD: GET /api/v1/users/me 304 63.647 ms
+2025-06-17T14:16:44.219Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:16:44.223Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 611.521 ms
+2025-06-17T14:16:44.602Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:16:44.603Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 475.363 ms
+2025-06-17T14:16:46.277Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:16:46.278Z | INFO    | METHOD: GET /api/v1/users/me 304 108.946 ms
+2025-06-17T14:16:47.257Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:16:47.260Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 69.966 ms
+2025-06-17T14:16:49.087Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:16:49.088Z | INFO    | METHOD: GET /api/v1/users/me 304 56.976 ms
+2025-06-17T14:16:50.066Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:16:50.067Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 64.042 ms
+2025-06-17T14:16:51.592Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:16:51.593Z | INFO    | METHOD: GET /api/v1/users/me 304 61.183 ms
+2025-06-17T14:16:56.819Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:16:56.821Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 64.816 ms
+2025-06-17T14:16:59.828Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:16:59.829Z | INFO    | METHOD: GET /api/v1/users/me 304 109.668 ms
+2025-06-17T14:17:08.918Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:17:08.920Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 59.204 ms
+2025-06-17T14:17:13.450Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:17:13.451Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 58.508 ms
+2025-06-17T14:21:18.979Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:21:18.987Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 153.205 ms
+2025-06-17T14:21:22.403Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:21:22.404Z | INFO    | METHOD: GET /api/v1/users/me 304 57.947 ms
+2025-06-17T14:21:23.315Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:21:23.318Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 61.321 ms
+2025-06-17T14:21:25.954Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:21:25.957Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 62.256 ms
+2025-06-17T14:21:27.654Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:21:27.655Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 59.274 ms
+2025-06-17T14:21:31.158Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:21:31.159Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 57.260 ms
+2025-06-17T14:21:34.929Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:21:34.931Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 110.862 ms
+2025-06-17T14:21:52.757Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:21:52.759Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 613.693 ms
+2025-06-17T14:22:13.419Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:22:13.420Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 108.865 ms
+2025-06-17T14:23:21.890Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:23:21.892Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 111.269 ms
+2025-06-17T14:23:24.288Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:23:24.289Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 59.136 ms
+2025-06-17T14:23:40.077Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:23:40.080Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 111.726 ms
+2025-06-17T14:23:49.161Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:23:49.162Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 57.829 ms
+2025-06-17T14:24:17.074Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:24:17.075Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 109.231 ms
+2025-06-17T14:24:20.147Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:24:20.148Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 58.309 ms
+2025-06-17T14:24:23.018Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:24:23.020Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 57.299 ms
+2025-06-17T14:24:24.812Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:24:24.813Z | INFO    | METHOD: GET /api/v1/users/me 304 107.660 ms
+2025-06-17T14:24:27.424Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:24:27.425Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 58.290 ms
+2025-06-17T14:24:28.355Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:24:28.357Z | INFO    | METHOD: GET /api/v1/users/me 304 57.008 ms
+2025-06-17T14:24:30.956Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:24:30.958Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 57.499 ms
+2025-06-17T14:24:31.806Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:24:31.807Z | INFO    | METHOD: GET /api/v1/users/me 304 59.773 ms
+2025-06-17T14:24:48.505Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:24:48.507Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 109.478 ms
+2025-06-17T14:25:07.797Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:25:07.798Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 110.953 ms
+2025-06-17T14:25:12.158Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:25:12.161Z | INFO    | METHOD: GET /api/v1/users/me 304 121.599 ms
+2025-06-17T14:25:17.912Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:25:17.914Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 58.045 ms
+2025-06-17T14:25:18.226Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:25:18.228Z | INFO    | METHOD: GET /api/v1/users/me 304 60.461 ms
+2025-06-17T14:25:18.290Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:25:18.291Z | INFO    | METHOD: GET /api/v1/users/me 304 59.298 ms
+2025-06-17T14:25:19.525Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:25:19.526Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 59.804 ms
+2025-06-17T14:25:20.758Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:25:20.759Z | INFO    | METHOD: GET /api/v1/users/me 304 60.388 ms
+2025-06-17T14:25:31.143Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:25:31.145Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 111.386 ms
+2025-06-17T14:25:31.926Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:25:31.928Z | INFO    | METHOD: GET /api/v1/users/me 304 58.555 ms
+2025-06-17T14:25:32.597Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:25:32.598Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 57.450 ms
+2025-06-17T14:25:33.420Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:25:33.421Z | INFO    | METHOD: GET /api/v1/users/me 304 57.029 ms
+2025-06-17T14:25:33.817Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:25:33.818Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 59.342 ms
+2025-06-17T14:25:34.610Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:25:34.611Z | INFO    | METHOD: GET /api/v1/users/me 304 56.362 ms
+2025-06-17T14:25:43.877Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:25:43.878Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 58.748 ms
+2025-06-17T14:26:19.613Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:26:19.614Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 111.798 ms
+2025-06-17T14:26:36.322Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:26:36.324Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 113.914 ms
+2025-06-17T14:26:36.762Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:26:36.763Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 475.785 ms
+2025-06-17T14:26:37.501Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:26:37.502Z | INFO    | METHOD: GET /api/v1/users/me 304 111.547 ms
+2025-06-17T14:26:51.036Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:26:51.038Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 62.410 ms
+2025-06-17T14:26:52.824Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:26:52.826Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 112.533 ms
+2025-06-17T14:26:53.687Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:26:53.688Z | INFO    | METHOD: GET /api/v1/users/me 304 56.800 ms
+2025-06-17T14:26:55.847Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:26:55.848Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 58.986 ms
+2025-06-17T14:26:56.734Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:26:56.736Z | INFO    | METHOD: GET /api/v1/users/me 304 61.096 ms
+2025-06-17T14:27:17.538Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:27:17.539Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 113.172 ms
+2025-06-17T14:27:19.554Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:27:19.555Z | INFO    | METHOD: GET /api/v1/users/me 304 57.145 ms
+2025-06-17T14:27:20.411Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:27:20.413Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 67.071 ms
+2025-06-17T14:27:23.343Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:27:23.344Z | INFO    | METHOD: GET /api/v1/users/me 304 65.171 ms
+2025-06-17T14:27:28.754Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:27:28.758Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 63.656 ms
+2025-06-17T14:27:29.063Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:27:29.066Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 60.600 ms
+2025-06-17T14:27:30.579Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:27:30.580Z | INFO    | METHOD: GET /api/v1/users/me 304 56.555 ms
+2025-06-17T14:27:31.955Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:27:31.958Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 62.189 ms
+2025-06-17T14:27:32.946Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:27:32.947Z | INFO    | METHOD: GET /api/v1/users/me 304 112.489 ms
+2025-06-17T14:27:42.138Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:27:42.140Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 60.369 ms
+2025-06-17T14:28:16.964Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:28:16.965Z | INFO    | METHOD: GET /api/v1/users/me 200 108.231 ms
+2025-06-17T14:28:17.081Z | INFO    | ↩️ Response Sent | 201 | SUCCESS | QR Code Created Successfully!
+2025-06-17T14:28:17.082Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 201 112.149 ms
+2025-06-17T14:28:45.290Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:28:45.291Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 191.051 ms
+2025-06-17T14:28:45.404Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:28:45.405Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 58.723 ms
+2025-06-17T14:28:55.864Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:28:55.866Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 109.918 ms
+2025-06-17T14:28:57.270Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:28:57.271Z | INFO    | METHOD: GET /api/v1/users/me 304 57.758 ms
+2025-06-17T14:28:58.639Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:28:58.644Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 126.878 ms
+2025-06-17T14:29:00.669Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:29:00.671Z | INFO    | METHOD: GET /api/v1/users/me 304 111.278 ms
+2025-06-17T14:29:01.669Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:29:01.670Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 111.796 ms
+2025-06-17T14:29:03.872Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:29:03.873Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 111.749 ms
+2025-06-17T14:29:06.408Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:29:06.409Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 111.114 ms
+2025-06-17T14:29:06.655Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:29:06.656Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 60.932 ms
+2025-06-17T14:29:30.693Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:29:30.694Z | INFO    | METHOD: GET /api/v1/users/me 200 112.056 ms
+2025-06-17T14:29:30.755Z | INFO    | ↩️ Response Sent | 201 | SUCCESS | QR Code Created Successfully!
+2025-06-17T14:29:30.756Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 201 57.411 ms
+2025-06-17T14:29:49.562Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:29:49.563Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 171.376 ms
+2025-06-17T14:30:01.654Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:30:01.655Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 110.114 ms
+2025-06-17T14:30:05.411Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:30:05.412Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 159.682 ms
+2025-06-17T14:30:27.191Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:30:27.192Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 161.370 ms
+2025-06-17T14:30:39.489Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:30:39.491Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 110.433 ms
+2025-06-17T14:30:42.897Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:30:42.898Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 169.498 ms
+2025-06-17T14:30:53.656Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:30:53.657Z | INFO    | METHOD: GET /api/v1/users/me 304 62.095 ms
+2025-06-17T14:30:53.722Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:30:53.723Z | INFO    | METHOD: GET /api/v1/users/me 304 61.213 ms
+2025-06-17T14:32:47.924Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:32:47.925Z | INFO    | METHOD: GET /api/v1/users/me 304 862.488 ms
+2025-06-17T14:32:47.986Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:32:47.987Z | INFO    | METHOD: GET /api/v1/users/me 304 57.771 ms
+2025-06-17T14:33:36.581Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:33:36.582Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1425.124 ms
+2025-06-17T14:33:36.901Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:33:36.902Z | INFO    | METHOD: GET /api/v1/users/me 304 455.680 ms
+2025-06-17T14:33:38.171Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:33:38.172Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 168.348 ms
+2025-06-17T14:33:39.384Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:33:39.385Z | INFO    | METHOD: GET /api/v1/users/me 304 58.628 ms
+2025-06-17T14:33:47.479Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:33:47.480Z | INFO    | METHOD: GET /api/v1/users/me 304 58.896 ms
+2025-06-17T14:33:47.680Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:33:47.681Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 1513.183 ms
+2025-06-17T14:34:13.112Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:34:13.113Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 185.801 ms
+2025-06-17T14:34:14.185Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:34:14.186Z | INFO    | METHOD: GET /api/v1/users/me 304 63.455 ms
+2025-06-17T14:34:18.716Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:34:18.717Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 113.068 ms
+2025-06-17T14:34:19.698Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:34:19.699Z | INFO    | METHOD: GET /api/v1/users/me 304 61.264 ms
+2025-06-17T14:34:27.659Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:34:27.661Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 110.283 ms
+2025-06-17T14:34:28.636Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:34:28.637Z | INFO    | METHOD: GET /api/v1/users/me 304 110.429 ms
+2025-06-17T14:34:34.203Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:34:34.205Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 110.814 ms
+2025-06-17T14:34:35.702Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:34:35.703Z | INFO    | METHOD: GET /api/v1/users/me 304 59.771 ms
+2025-06-17T14:35:04.346Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:35:04.348Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 165.099 ms
+2025-06-17T14:35:04.461Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:35:04.463Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 225.791 ms
+2025-06-17T14:35:11.979Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:35:11.980Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 109.749 ms
+2025-06-17T14:35:12.054Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:35:12.056Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 112.476 ms
+2025-06-17T14:37:11.515Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:37:11.521Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 169.961 ms
+2025-06-17T14:37:14.604Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:37:14.605Z | INFO    | METHOD: GET /api/v1/users/me 304 56.845 ms
+2025-06-17T14:37:38.052Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:37:38.053Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 167.233 ms
+2025-06-17T14:37:38.117Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:37:38.119Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 164.367 ms
+2025-06-17T14:37:59.631Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:37:59.632Z | INFO    | METHOD: GET /api/v1/users/me 200 903.846 ms
+2025-06-17T14:37:59.749Z | INFO    | ↩️ Response Sent | 201 | SUCCESS | QR Code Created Successfully!
+2025-06-17T14:37:59.750Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 201 114.068 ms
+2025-06-17T14:38:00.146Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:38:00.147Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 166.250 ms
+2025-06-17T14:42:08.140Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:42:08.141Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 174.628 ms
+2025-06-17T14:42:08.347Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:42:08.348Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 65.434 ms
+2025-06-17T14:42:08.557Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:42:08.558Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 590.162 ms
+2025-06-17T14:42:08.757Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:42:08.759Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 66.748 ms
+2025-06-17T14:42:17.620Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:42:17.621Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 109.886 ms
+2025-06-17T14:42:17.709Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:42:17.710Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 113.003 ms
+2025-06-17T14:42:26.976Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:42:26.977Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 170.677 ms
+2025-06-17T14:42:27.072Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:42:27.073Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 169.844 ms
+2025-06-17T14:42:30.630Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:42:30.632Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 123.501 ms
+2025-06-17T14:42:30.721Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:42:30.722Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 117.530 ms
+2025-06-17T14:42:40.242Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:42:40.243Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 112.859 ms
+2025-06-17T14:42:42.100Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:42:42.100Z | INFO    | METHOD: GET /api/v1/users/me 304 112.291 ms
+2025-06-17T14:42:58.157Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:42:58.158Z | INFO    | METHOD: GET /api/v1/users/me 200 109.852 ms
+2025-06-17T14:42:58.219Z | INFO    | ↩️ Response Sent | 201 | SUCCESS | QR Code Created Successfully!
+2025-06-17T14:42:58.220Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 201 59.522 ms
+2025-06-17T14:42:58.468Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:42:58.469Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 109.909 ms
+2025-06-17T14:43:38.582Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:43:38.583Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 409.254 ms
+2025-06-17T14:43:43.153Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findMany()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:125:39
+
+  122     orderBy: { createdAt: Prisma.SortOrder.desc },
+  123   };
+  124 
+→ 125 const qrCodes = await prisma.qRCode.findMany(
+Can't reach database server at `ep-aged-bush-a1voik8a-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-aged-bush-a1voik8a-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-06-17T14:43:43.154Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 500 5023.638 ms
+2025-06-17T14:43:50.801Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:43:50.802Z | INFO    | METHOD: GET /api/v1/users/me 200 109.077 ms
+2025-06-17T14:43:50.918Z | INFO    | ↩️ Response Sent | 201 | SUCCESS | QR Code Created Successfully!
+2025-06-17T14:43:50.919Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 201 110.849 ms
+2025-06-17T14:43:51.274Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:43:51.275Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 204.564 ms
+2025-06-17T14:44:56.254Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:44:56.255Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 309.116 ms
+2025-06-17T14:45:01.105Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findMany()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:125:39
+
+  122     orderBy: { createdAt: Prisma.SortOrder.desc },
+  123   };
+  124 
+→ 125 const qrCodes = await prisma.qRCode.findMany(
+Can't reach database server at `ep-aged-bush-a1voik8a-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-aged-bush-a1voik8a-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-06-17T14:45:01.106Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 500 5011.878 ms
+2025-06-17T14:46:09.567Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:46:09.568Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 227.551 ms
+2025-06-17T14:46:09.942Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:46:09.950Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 545.979 ms
+2025-06-17T14:46:11.719Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:46:11.727Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 122.868 ms
+2025-06-17T14:46:11.777Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:46:11.779Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 64.262 ms
+2025-06-17T14:46:31.304Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:46:31.305Z | INFO    | METHOD: GET /api/v1/users/me 200 163.817 ms
+2025-06-17T14:46:31.417Z | INFO    | ↩️ Response Sent | 201 | SUCCESS | QR Code Created Successfully!
+2025-06-17T14:46:31.418Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 201 110.445 ms
+2025-06-17T14:46:31.707Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:46:31.708Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 119.096 ms
+2025-06-17T14:48:14.287Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:48:14.289Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 389.895 ms
+2025-06-17T14:48:17.552Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:48:17.559Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 124.976 ms
+2025-06-17T14:48:17.627Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:48:17.631Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 69.130 ms
+2025-06-17T14:48:21.994Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:48:21.996Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 117.503 ms
+2025-06-17T14:48:24.866Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:48:24.868Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 120.628 ms
+2025-06-17T14:48:35.014Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:48:35.015Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 174.262 ms
+2025-06-17T14:48:36.626Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:48:36.627Z | INFO    | METHOD: GET /api/v1/users/me 304 57.309 ms
+2025-06-17T14:48:49.042Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:48:49.043Z | INFO    | METHOD: GET /api/v1/users/me 200 336.977 ms
+2025-06-17T14:48:49.104Z | INFO    | ↩️ Response Sent | 201 | SUCCESS | QR Code Created Successfully!
+2025-06-17T14:48:49.104Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 201 59.221 ms
+2025-06-17T14:48:49.711Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:48:49.712Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 442.557 ms
+2025-06-17T14:48:55.503Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:48:55.504Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 278.636 ms
+2025-06-17T14:48:56.404Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:48:56.405Z | INFO    | METHOD: GET /api/v1/users/me 304 60.727 ms
+2025-06-17T14:49:44.000Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:49:44.002Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 259.182 ms
+2025-06-17T14:49:48.004Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:49:48.017Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 195.024 ms
+2025-06-17T14:49:50.509Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:49:50.513Z | INFO    | METHOD: GET /api/v1/users/me 304 60.449 ms
+2025-06-17T14:50:04.370Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:50:04.371Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 216.401 ms
+2025-06-17T14:50:05.154Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:50:05.155Z | INFO    | METHOD: GET /api/v1/users/me 304 57.635 ms
+2025-06-17T14:50:14.894Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:50:14.896Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 116.933 ms
+2025-06-17T14:50:16.697Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:50:16.698Z | INFO    | METHOD: GET /api/v1/users/me 304 58.031 ms
+2025-06-17T14:50:18.328Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:50:18.335Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 119.956 ms
+2025-06-17T14:50:42.087Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:50:42.088Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 168.398 ms
+2025-06-17T14:50:43.373Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:50:43.374Z | INFO    | METHOD: GET /api/v1/users/me 304 58.231 ms
+2025-06-17T14:51:25.008Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:51:25.010Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 946.940 ms
+2025-06-17T14:51:30.459Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:51:30.460Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 116.049 ms
+2025-06-17T14:51:31.689Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:51:31.690Z | INFO    | METHOD: GET /api/v1/users/me 304 114.684 ms
+2025-06-17T14:51:47.533Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:51:47.535Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 287.706 ms
+2025-06-17T14:51:55.411Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:51:55.415Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 117.966 ms
+2025-06-17T14:51:58.085Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:51:58.087Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 165.141 ms
+2025-06-17T14:51:58.935Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:51:58.936Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 116.696 ms
+2025-06-17T14:51:59.952Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:51:59.954Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 116.950 ms
+2025-06-17T14:52:16.776Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:52:16.782Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 184.463 ms
+2025-06-17T14:52:19.255Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:52:19.256Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 115.890 ms
+2025-06-17T14:52:20.316Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:52:20.317Z | INFO    | METHOD: GET /api/v1/users/me 304 61.308 ms
+2025-06-17T14:52:20.381Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:52:20.382Z | INFO    | METHOD: GET /api/v1/users/me 304 61.378 ms
+2025-06-17T14:52:33.805Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:52:33.806Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 173.567 ms
+2025-06-17T14:52:33.994Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:52:34.002Z | INFO    | METHOD: GET /api/v1/users/me 304 71.172 ms
+2025-06-17T14:52:34.066Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:52:34.068Z | INFO    | METHOD: GET /api/v1/users/me 304 60.994 ms
+2025-06-17T14:53:57.120Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:53:57.126Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 179.122 ms
+2025-06-17T14:53:57.613Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:53:57.614Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 664.165 ms
+2025-06-17T14:53:57.650Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:53:57.655Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 594.900 ms
+2025-06-17T14:53:58.731Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:53:58.731Z | INFO    | METHOD: GET /api/v1/users/me 304 114.717 ms
+2025-06-17T14:54:23.328Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:54:23.329Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 181.518 ms
+2025-06-17T14:54:23.393Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:54:23.396Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 167.918 ms
+2025-06-17T14:54:27.077Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:54:27.078Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 144.690 ms
+2025-06-17T14:54:27.121Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:54:27.122Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 121.362 ms
+2025-06-17T14:54:27.844Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:54:27.845Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 118.095 ms
+2025-06-17T14:54:29.382Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:54:29.384Z | INFO    | METHOD: GET /api/v1/users/me 304 63.561 ms
+2025-06-17T14:54:39.660Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:54:39.661Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 171.876 ms
+2025-06-17T14:54:40.642Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:54:40.643Z | INFO    | METHOD: GET /api/v1/users/me 304 58.986 ms
+2025-06-17T14:55:01.100Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:55:01.101Z | INFO    | METHOD: GET /api/v1/users/me 304 145.748 ms
+2025-06-17T14:55:01.524Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:55:01.525Z | INFO    | METHOD: GET /api/v1/users/me 304 59.431 ms
+2025-06-17T14:55:01.813Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:55:01.814Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 115.559 ms
+2025-06-17T14:55:02.462Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:55:02.464Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 127.437 ms
+2025-06-17T14:55:05.529Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:55:05.530Z | INFO    | METHOD: GET /api/v1/users/me 304 68.357 ms
+2025-06-17T14:55:06.308Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:55:06.309Z | INFO    | METHOD: GET /api/v1/users/me 304 61.521 ms
+2025-06-17T14:55:29.725Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:55:29.729Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 174.103 ms
+2025-06-17T14:55:29.851Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:55:29.853Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 162.403 ms
+2025-06-17T14:55:45.896Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:55:45.903Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 163.204 ms
+2025-06-17T14:55:46.009Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:55:46.015Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 192.124 ms
+2025-06-17T14:55:46.445Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:55:46.449Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 124.553 ms
+2025-06-17T14:55:49.658Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:55:49.660Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 118.649 ms
+2025-06-17T14:55:49.756Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:55:49.759Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 66.763 ms
+2025-06-17T14:55:50.957Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:55:50.958Z | INFO    | METHOD: GET /api/v1/users/me 304 62.102 ms
+2025-06-17T14:55:55.905Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:55:55.907Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 131.751 ms
+2025-06-17T14:55:55.965Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:55:55.970Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 71.609 ms
+2025-06-17T14:55:56.480Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:55:56.482Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 72.335 ms
+2025-06-17T14:55:57.910Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:55:57.910Z | INFO    | METHOD: GET /api/v1/users/me 304 58.508 ms
+2025-06-17T14:56:09.584Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:56:09.585Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 172.905 ms
+2025-06-17T14:56:09.639Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:56:09.641Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 161.661 ms
+2025-06-17T14:56:11.410Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:56:11.412Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 112.196 ms
+2025-06-17T14:56:13.086Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:56:13.087Z | INFO    | METHOD: GET /api/v1/users/me 304 181.334 ms
+2025-06-17T14:56:42.972Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:56:42.974Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 175.345 ms
+2025-06-17T14:56:42.981Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:56:42.984Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 181.439 ms
+2025-06-17T14:56:44.585Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:56:44.585Z | INFO    | METHOD: GET /api/v1/users/me 304 59.538 ms
+2025-06-17T14:57:06.975Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:57:06.976Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 175.619 ms
+2025-06-17T14:57:08.022Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:57:08.023Z | INFO    | METHOD: GET /api/v1/users/me 304 63.073 ms
+2025-06-17T14:57:27.765Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:57:27.766Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 1129.602 ms
+2025-06-17T14:57:27.947Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:57:27.949Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 1220.497 ms
+2025-06-17T14:57:32.474Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:57:32.475Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 422.024 ms
+2025-06-17T14:57:33.040Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:57:33.045Z | INFO    | METHOD: GET /api/v1/users/me 304 324.555 ms
+2025-06-17T14:57:45.234Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:57:45.236Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 371.041 ms
+2025-06-17T14:57:45.308Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:57:45.309Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 325.145 ms
+2025-06-17T14:58:16.425Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:58:16.431Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 230.841 ms
+2025-06-17T14:58:21.369Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:58:21.373Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 174.950 ms
+2025-06-17T14:58:24.233Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:58:24.240Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 185.779 ms
+2025-06-17T14:58:24.407Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:58:24.408Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 128.018 ms
+2025-06-17T14:58:32.941Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:58:32.945Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 183.732 ms
+2025-06-17T14:58:36.406Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:58:36.420Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 248.588 ms
+2025-06-17T14:58:39.274Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:58:39.275Z | INFO    | METHOD: GET /api/v1/users/me 304 61.798 ms
+2025-06-17T14:58:50.649Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:58:50.650Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 233.404 ms
+2025-06-17T14:58:50.779Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:58:50.783Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 271.364 ms
+2025-06-17T14:59:00.482Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:59:00.484Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 958.366 ms
+2025-06-17T14:59:03.062Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:59:03.064Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 118.730 ms
+2025-06-17T14:59:05.745Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:59:05.746Z | INFO    | METHOD: GET /api/v1/users/me 304 116.254 ms
+2025-06-17T14:59:15.251Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T14:59:15.253Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/13ccf6ea-5cf6-4354-a9de-1b2d826c996e 200 570.454 ms
+2025-06-17T14:59:15.369Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:59:15.370Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 567.222 ms
+2025-06-17T14:59:18.406Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:59:18.408Z | INFO    | METHOD: GET /api/v1/users/me 304 116.618 ms
+2025-06-17T14:59:26.847Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T14:59:26.857Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 126.068 ms
+2025-06-17T14:59:29.046Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T14:59:29.047Z | INFO    | METHOD: GET /api/v1/users/me 304 60.031 ms
+2025-06-17T14:59:38.542Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code deleted Successfully!
+2025-06-17T14:59:38.544Z | INFO    | METHOD: DELETE /api/v1/qr-code/delete/13ccf6ea-5cf6-4354-a9de-1b2d826c996e 200 285.735 ms
+2025-06-17T15:00:03.579Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:00:03.582Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 173.649 ms
+2025-06-17T15:00:10.868Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:00:10.870Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 125.570 ms
+2025-06-17T15:00:15.508Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:00:15.509Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 240.583 ms
+2025-06-17T15:00:27.840Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:00:27.841Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 172.173 ms
+2025-06-17T15:00:27.931Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:00:27.933Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 169.985 ms
+2025-06-17T15:00:32.575Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:00:32.578Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 120.007 ms
+2025-06-17T15:00:37.191Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:00:37.193Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 243.703 ms
+2025-06-17T15:00:44.078Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:00:44.080Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 1713.660 ms
+2025-06-17T15:00:44.233Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:00:44.234Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 1750.042 ms
+2025-06-17T15:00:44.924Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code deleted Successfully!
+2025-06-17T15:00:44.924Z | INFO    | METHOD: DELETE /api/v1/qr-code/delete/7c14d032-211f-46e9-b0e2-a7439e26e3f4 200 773.371 ms
+2025-06-17T15:00:45.847Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:00:45.848Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 877.647 ms
+2025-06-17T15:00:53.345Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code deleted Successfully!
+2025-06-17T15:00:53.346Z | INFO    | METHOD: DELETE /api/v1/qr-code/delete/fa79e5a9-b00c-4509-a7da-5dab331e9247 200 114.417 ms
+2025-06-17T15:00:53.656Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:00:53.657Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 261.450 ms
+2025-06-17T15:00:56.982Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code deleted Successfully!
+2025-06-17T15:00:56.983Z | INFO    | METHOD: DELETE /api/v1/qr-code/delete/c946a5c9-9886-4b1a-a3c3-d9a9784bd9b6 200 115.523 ms
+2025-06-17T15:00:57.236Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:00:57.237Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 201.900 ms
+2025-06-17T15:01:00.152Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code deleted Successfully!
+2025-06-17T15:01:00.154Z | INFO    | METHOD: DELETE /api/v1/qr-code/delete/9ae7b1ff-f620-4220-aa8e-fddfb7a172d9 200 166.766 ms
+2025-06-17T15:01:00.353Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:01:00.354Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 110.868 ms
+2025-06-17T15:01:04.869Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code deleted Successfully!
+2025-06-17T15:01:04.870Z | INFO    | METHOD: DELETE /api/v1/qr-code/delete/a08761de-35e4-4417-b092-f4a1f8a08f5e 200 113.446 ms
+2025-06-17T15:01:05.026Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:01:05.027Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 111.893 ms
+2025-06-17T15:01:08.354Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code deleted Successfully!
+2025-06-17T15:01:08.355Z | INFO    | METHOD: DELETE /api/v1/qr-code/delete/e376384a-d271-454a-8eb8-c100b28a42b8 200 116.577 ms
+2025-06-17T15:01:08.629Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:01:08.631Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 222.313 ms
+2025-06-17T15:01:11.580Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code deleted Successfully!
+2025-06-17T15:01:11.582Z | INFO    | METHOD: DELETE /api/v1/qr-code/delete/fa3245f8-d9a6-4f5f-966e-8b22559051d1 200 127.230 ms
+2025-06-17T15:01:11.815Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:01:11.816Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 126.446 ms
+2025-06-17T15:01:31.705Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code deleted Successfully!
+2025-06-17T15:01:31.707Z | INFO    | METHOD: DELETE /api/v1/qr-code/delete/d3de5d27-41e7-484d-aee2-a749fac7983e 200 165.548 ms
+2025-06-17T15:01:31.902Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:01:31.903Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 110.755 ms
+2025-06-17T15:01:35.282Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code deleted Successfully!
+2025-06-17T15:01:35.283Z | INFO    | METHOD: DELETE /api/v1/qr-code/delete/0e0489d5-2aa2-44d1-b91e-d92af0e17a23 200 111.553 ms
+2025-06-17T15:01:35.515Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:01:35.516Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 185.463 ms
+2025-06-17T15:01:38.045Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code deleted Successfully!
+2025-06-17T15:01:38.046Z | INFO    | METHOD: DELETE /api/v1/qr-code/delete/8fad6e2f-1641-4494-b7dd-a8cd5c1ecb89 200 113.809 ms
+2025-06-17T15:01:38.207Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:01:38.209Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 108.481 ms
+2025-06-17T15:01:44.530Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:01:44.532Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 112.810 ms
+2025-06-17T15:01:47.790Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:01:47.791Z | INFO    | METHOD: GET /api/v1/users/me 304 114.231 ms
+2025-06-17T15:03:04.690Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:03:04.695Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 345.893 ms
+2025-06-17T15:03:07.798Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:03:07.799Z | INFO    | METHOD: GET /api/v1/users/me 304 58.811 ms
+2025-06-17T15:03:14.555Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:03:14.556Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 116.400 ms
+2025-06-17T15:03:16.643Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:03:16.644Z | INFO    | METHOD: GET /api/v1/users/me 304 57.891 ms
+2025-06-17T15:03:17.720Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:03:17.722Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/6759866d-953a-49be-b182-2c4897087c5c 200 395.954 ms
+2025-06-17T15:03:20.164Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:03:20.165Z | INFO    | METHOD: GET /api/v1/users/me 304 66.011 ms
+2025-06-17T15:03:47.826Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:03:47.828Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/6759866d-953a-49be-b182-2c4897087c5c 200 507.444 ms
+2025-06-17T15:06:11.619Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findUnique()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:130:38
+
+  127 };
+  128 
+  129 const getSingleQRData = async (qrCodeId: string) => {
+→ 130   const qrCode = await prisma.qRCode.findUnique(
+Can't reach database server at `ep-aged-bush-a1voik8a-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-aged-bush-a1voik8a-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-06-17T15:06:11.619Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/6759866d-953a-49be-b182-2c4897087c5c 500 5004.809 ms
+2025-06-17T15:09:25.703Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:09:25.705Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 3995.491 ms
+2025-06-17T15:09:30.764Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:09:30.765Z | INFO    | METHOD: GET /api/v1/users/me 304 124.021 ms
+2025-06-17T15:10:39.490Z | INFO    | Server is up and running on 4000
+2025-06-17T15:12:41.519Z | INFO    | Server is up and running on 4000
+2025-06-17T15:12:42.703Z | INFO    | Server is up and running on 4000
+2025-06-17T15:12:45.131Z | INFO    | Server is up and running on 4000
+2025-06-17T15:13:14.604Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:13:14.614Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 2988.484 ms
+2025-06-17T15:13:32.922Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:13:32.924Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1704.605 ms
+2025-06-17T15:13:34.014Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:13:34.016Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 749.272 ms
+2025-06-17T15:13:40.224Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:13:40.226Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1034.397 ms
+2025-06-17T15:13:56.860Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:13:56.861Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1347.054 ms
+2025-06-17T15:13:59.001Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:13:59.003Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 3060.197 ms
+2025-06-17T15:14:05.263Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:14:05.265Z | INFO    | METHOD: GET /api/v1/users/me 304 525.482 ms
+2025-06-17T15:14:29.797Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:14:29.799Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1373.350 ms
+2025-06-17T15:14:37.274Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:14:37.276Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 714.234 ms
+2025-06-17T15:14:42.048Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:14:42.050Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 700.558 ms
+2025-06-17T15:14:49.117Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:14:49.118Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1035.755 ms
+2025-06-17T15:15:10.549Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:15:10.550Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1033.804 ms
+2025-06-17T15:15:14.003Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:15:14.004Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 706.018 ms
+2025-06-17T15:15:17.336Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:15:17.337Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 966.361 ms
+2025-06-17T15:15:34.010Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:15:34.011Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1346.620 ms
+2025-06-17T15:16:11.933Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:16:11.935Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 2430.186 ms
+2025-06-17T15:16:23.925Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:16:23.931Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1100.845 ms
+2025-06-17T15:16:24.276Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:16:24.278Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 997.014 ms
+2025-06-17T15:16:28.450Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:16:28.452Z | INFO    | METHOD: GET /api/v1/users/me 304 117.192 ms
+2025-06-17T15:17:19.923Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:17:19.924Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 916.024 ms
+2025-06-17T15:17:23.822Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:17:23.823Z | INFO    | METHOD: GET /api/v1/users/me 304 62.243 ms
+2025-06-17T15:17:30.687Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:17:30.688Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 268.259 ms
+2025-06-17T15:17:33.194Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:17:33.196Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 670.513 ms
+2025-06-17T15:17:35.390Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:17:35.391Z | INFO    | METHOD: GET /api/v1/users/me 304 116.788 ms
+2025-06-17T15:17:54.115Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:17:54.117Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 340.096 ms
+2025-06-17T15:17:57.732Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:17:57.733Z | INFO    | METHOD: GET /api/v1/users/me 304 62.160 ms
+2025-06-17T15:18:07.832Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:18:07.838Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 215.734 ms
+2025-06-17T15:18:19.724Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:18:19.726Z | INFO    | METHOD: GET /api/v1/users/me 304 1158.485 ms
+2025-06-17T15:19:13.265Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:19:13.266Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 1085.237 ms
+2025-06-17T15:19:18.000Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:19:18.002Z | INFO    | METHOD: GET /api/v1/users/me 304 59.910 ms
+2025-06-17T15:19:29.708Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:19:29.717Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 232.947 ms
+2025-06-17T15:19:34.267Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:19:34.269Z | INFO    | METHOD: GET /api/v1/users/me 304 61.571 ms
+2025-06-17T15:19:54.807Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:19:54.822Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 249.129 ms
+2025-06-17T15:20:00.725Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:20:00.726Z | INFO    | METHOD: GET /api/v1/users/me 304 59.996 ms
+2025-06-17T15:20:41.048Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:20:41.050Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 1379.951 ms
+2025-06-17T15:20:44.615Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:20:44.617Z | INFO    | METHOD: GET /api/v1/users/me 304 61.406 ms
+2025-06-17T15:20:57.312Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:20:57.313Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 966.169 ms
+2025-06-17T15:20:59.719Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:20:59.720Z | INFO    | METHOD: GET /api/v1/users/me 304 59.989 ms
+2025-06-17T15:21:08.798Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:21:08.799Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 187.021 ms
+2025-06-17T15:21:12.604Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:21:12.605Z | INFO    | METHOD: GET /api/v1/users/me 304 445.901 ms
+2025-06-17T15:21:50.465Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:21:50.467Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 1211.180 ms
+2025-06-17T15:21:53.080Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:21:53.081Z | INFO    | METHOD: GET /api/v1/users/me 304 59.955 ms
+2025-06-17T15:22:16.086Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:22:16.087Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 220.688 ms
+2025-06-17T15:22:27.327Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:22:27.329Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 689.398 ms
+2025-06-17T15:22:29.651Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:22:29.653Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 261.975 ms
+2025-06-17T15:22:56.227Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:22:56.229Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 315.090 ms
+2025-06-17T15:24:17.638Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:24:17.639Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 935.832 ms
+2025-06-17T15:24:18.023Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:24:18.024Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 241.740 ms
+2025-06-17T15:25:53.991Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:25:53.992Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 906.106 ms
+2025-06-17T15:25:54.391Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:25:54.393Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 176.327 ms
+2025-06-17T15:26:00.389Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:26:00.390Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 171.704 ms
+2025-06-17T15:26:07.439Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:26:07.440Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 433.149 ms
+2025-06-17T15:26:46.247Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:26:46.249Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 235.640 ms
+2025-06-17T15:26:52.895Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:26:52.896Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 171.415 ms
+2025-06-17T15:26:58.791Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:26:58.797Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 552.334 ms
+2025-06-17T15:27:24.989Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:27:24.992Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 242.185 ms
+2025-06-17T15:27:29.554Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:27:29.556Z | INFO    | METHOD: GET /api/v1/users/me 304 275.275 ms
+2025-06-17T15:27:53.269Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:27:53.281Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 253.020 ms
+2025-06-17T15:27:57.178Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:27:57.179Z | INFO    | METHOD: GET /api/v1/users/me 304 58.836 ms
+2025-06-17T15:28:02.962Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:28:02.964Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 637.241 ms
+2025-06-17T15:28:19.895Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:28:19.898Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 359.630 ms
+2025-06-17T15:28:24.238Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:28:24.242Z | INFO    | METHOD: GET /api/v1/users/me 304 113.981 ms
+2025-06-17T15:28:26.051Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:28:26.053Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 244.951 ms
+2025-06-17T15:28:59.051Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:28:59.052Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 232.267 ms
+2025-06-17T15:28:59.061Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:28:59.062Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 243.169 ms
+2025-06-17T15:29:02.629Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:29:02.631Z | INFO    | METHOD: GET /api/v1/users/me 304 682.643 ms
+2025-06-17T15:29:23.749Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:29:23.751Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 961.662 ms
+2025-06-17T15:29:26.761Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:29:26.765Z | INFO    | METHOD: GET /api/v1/users/me 304 130.993 ms
+2025-06-17T15:29:45.404Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:29:45.406Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 239.143 ms
+2025-06-17T15:29:48.346Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:29:48.349Z | INFO    | METHOD: GET /api/v1/users/me 304 61.470 ms
+2025-06-17T15:30:04.536Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:30:04.540Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 231.209 ms
+2025-06-17T15:32:16.642Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:32:16.643Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 234.997 ms
+2025-06-17T15:32:21.724Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:32:21.724Z | INFO    | METHOD: GET /api/v1/users/me 304 60.005 ms
+2025-06-17T15:33:46.340Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:33:46.342Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 230.554 ms
+2025-06-17T15:33:50.684Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:33:50.686Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 196.449 ms
+2025-06-17T15:33:51.436Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:33:51.438Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 435.411 ms
+2025-06-17T15:33:55.222Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:33:55.226Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 170.877 ms
+2025-06-17T15:34:06.235Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:34:06.236Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 224.649 ms
+2025-06-17T15:34:55.420Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:34:55.422Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 866.714 ms
+2025-06-17T15:34:59.482Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:34:59.484Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 474.315 ms
+2025-06-17T15:35:05.080Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:35:05.081Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 165.206 ms
+2025-06-17T15:36:15.328Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:36:15.333Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 244.903 ms
+2025-06-17T15:36:16.448Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:36:16.450Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 185.790 ms
+2025-06-17T15:36:23.286Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:36:23.288Z | INFO    | METHOD: GET /api/v1/users/me 304 120.119 ms
+2025-06-17T15:36:37.397Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:36:37.399Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 243.939 ms
+2025-06-17T15:36:42.142Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:36:42.143Z | INFO    | METHOD: GET /api/v1/users/me 304 66.892 ms
+2025-06-17T15:36:55.231Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:36:55.233Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 241.196 ms
+2025-06-17T15:36:57.760Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:36:57.761Z | INFO    | METHOD: GET /api/v1/users/me 304 61.043 ms
+2025-06-17T15:39:57.649Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code Updated Successfully!
+2025-06-17T15:39:57.650Z | INFO    | METHOD: PATCH /api/v1/qr-code/update-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 854.599 ms
+2025-06-17T15:40:26.872Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:40:26.873Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 178.987 ms
+2025-06-17T15:40:29.623Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:40:29.624Z | INFO    | METHOD: GET /api/v1/users/me 304 1269.900 ms
+2025-06-17T15:40:54.882Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:40:54.882Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 843.463 ms
+2025-06-17T15:40:55.297Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:40:55.298Z | INFO    | METHOD: GET /api/v1/users/me 304 561.281 ms
+2025-06-17T15:41:18.351Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:41:18.354Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 389.531 ms
+2025-06-17T15:41:21.332Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:41:21.333Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 164.323 ms
+2025-06-17T15:41:27.697Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:41:27.699Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 166.193 ms
+2025-06-17T15:42:59.401Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:42:59.402Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 278.182 ms
+2025-06-17T15:43:01.820Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:43:01.822Z | INFO    | METHOD: GET /api/v1/users/me 304 61.987 ms
+2025-06-17T15:43:21.580Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:43:21.581Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 238.931 ms
+2025-06-17T15:43:23.830Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:43:23.831Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 168.881 ms
+2025-06-17T15:43:27.873Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:43:27.874Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 169.871 ms
+2025-06-17T15:43:33.765Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:43:33.766Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 374.739 ms
+2025-06-17T15:43:37.577Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:43:37.578Z | INFO    | METHOD: GET /api/v1/users/me 304 115.793 ms
+2025-06-17T15:43:37.652Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:43:37.654Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 950.298 ms
+2025-06-17T15:43:45.921Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code Updated Successfully!
+2025-06-17T15:43:45.923Z | INFO    | METHOD: PATCH /api/v1/qr-code/update-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 63.426 ms
+2025-06-17T15:43:46.719Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:43:46.720Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 672.485 ms
+2025-06-17T15:44:00.180Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code Updated Successfully!
+2025-06-17T15:44:00.181Z | INFO    | METHOD: PATCH /api/v1/qr-code/update-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 916.873 ms
+2025-06-17T15:44:00.501Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:44:00.502Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 177.216 ms
+2025-06-17T15:44:05.700Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:44:05.701Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 174.870 ms
+2025-06-17T15:44:06.715Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:44:06.716Z | INFO    | METHOD: GET /api/v1/users/me 304 59.458 ms
+2025-06-17T15:45:25.186Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:45:25.187Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 379.256 ms
+2025-06-17T15:45:26.417Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:45:26.418Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 2098.275 ms
+2025-06-17T15:45:39.004Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:45:39.005Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 173.516 ms
+2025-06-17T15:45:57.160Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:45:57.161Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 547.805 ms
+2025-06-17T15:45:57.452Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:45:57.453Z | INFO    | METHOD: GET /api/v1/users/me 304 120.212 ms
+2025-06-17T15:46:00.926Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:46:00.927Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/12d29199-efc3-4d5b-bb26-99ee13a1b573 200 449.319 ms
+2025-06-17T15:46:01.348Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:46:01.349Z | INFO    | METHOD: GET /api/v1/users/me 304 57.864 ms
+2025-06-17T15:46:08.304Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code deleted Successfully!
+2025-06-17T15:46:08.305Z | INFO    | METHOD: DELETE /api/v1/qr-code/delete/12d29199-efc3-4d5b-bb26-99ee13a1b573 200 240.509 ms
+2025-06-17T15:46:19.096Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:46:19.097Z | INFO    | METHOD: GET /api/v1/users/me 304 57.211 ms
+2025-06-17T15:46:19.423Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:46:19.423Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/12d29199-efc3-4d5b-bb26-99ee13a1b573 200 1119.758 ms
+2025-06-17T15:46:55.266Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:46:55.267Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/12d29199-efc3-4d5b-bb26-99ee13a1b573 200 585.186 ms
+2025-06-17T15:47:07.722Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:47:07.723Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/12d29199-efc3-4d5b-bb26-99ee13a1b573 200 174.081 ms
+2025-06-17T15:47:10.982Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:47:10.984Z | INFO    | METHOD: GET /api/v1/users/me 304 189.148 ms
+2025-06-17T15:47:11.048Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:47:11.056Z | INFO    | METHOD: GET /api/v1/users/me 304 68.306 ms
+2025-06-17T15:47:37.462Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:47:37.463Z | INFO    | METHOD: GET /api/v1/users/me 304 119.833 ms
+2025-06-17T15:47:37.872Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:47:37.872Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 1270.138 ms
+2025-06-17T15:47:58.077Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:47:58.078Z | INFO    | METHOD: GET /api/v1/users/me 200 112.868 ms
+2025-06-17T15:47:58.225Z | INFO    | ↩️ Response Sent | 201 | SUCCESS | QR Code Created Successfully!
+2025-06-17T15:47:58.226Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 201 144.778 ms
+2025-06-17T15:47:58.425Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:47:58.426Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 121.141 ms
+2025-06-17T15:48:02.226Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:48:02.228Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/65c9d393-d477-4786-8829-2ed6806c3570 200 734.740 ms
+2025-06-17T15:48:02.336Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:48:02.338Z | INFO    | METHOD: GET /api/v1/users/me 304 120.774 ms
+2025-06-17T15:48:21.776Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code deleted Successfully!
+2025-06-17T15:48:21.777Z | INFO    | METHOD: DELETE /api/v1/qr-code/delete/65c9d393-d477-4786-8829-2ed6806c3570 200 170.988 ms
+2025-06-17T15:48:21.939Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:48:21.940Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 111.003 ms
+2025-06-17T15:48:28.448Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:48:28.449Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 168.256 ms
+2025-06-17T15:48:29.414Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:48:29.414Z | INFO    | METHOD: GET /api/v1/users/me 304 56.930 ms
+2025-06-17T15:48:40.900Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:48:40.901Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 166.426 ms
+2025-06-17T15:48:41.715Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:48:41.716Z | INFO    | METHOD: GET /api/v1/users/me 304 58.444 ms
+2025-06-17T15:49:00.868Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:49:00.868Z | INFO    | METHOD: GET /api/v1/users/me 200 115.733 ms
+2025-06-17T15:49:01.006Z | INFO    | ↩️ Response Sent | 201 | SUCCESS | QR Code Created Successfully!
+2025-06-17T15:49:01.007Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 201 135.768 ms
+2025-06-17T15:49:01.223Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:49:01.224Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 118.844 ms
+2025-06-17T15:49:03.117Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:49:03.119Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 169.479 ms
+2025-06-17T15:49:04.144Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:49:04.145Z | INFO    | METHOD: GET /api/v1/users/me 304 61.865 ms
+2025-06-17T15:51:46.400Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:51:46.401Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 854.219 ms
+2025-06-17T15:53:44.075Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:53:44.076Z | INFO    | METHOD: GET /api/v1/users/me 304 720.209 ms
+2025-06-17T15:53:44.986Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:53:44.987Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 2464.418 ms
+2025-06-17T15:53:47.809Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:53:47.809Z | INFO    | METHOD: GET /api/v1/users/me 304 918.606 ms
+2025-06-17T15:53:47.810Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:53:47.811Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 1603.230 ms
+2025-06-17T15:53:49.376Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:53:49.378Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 169.988 ms
+2025-06-17T15:53:50.368Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:53:50.369Z | INFO    | METHOD: GET /api/v1/users/me 304 207.110 ms
+2025-06-17T15:53:51.673Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:53:51.674Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 488.666 ms
+2025-06-17T15:53:52.081Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:53:52.082Z | INFO    | METHOD: GET /api/v1/users/me 304 59.390 ms
+2025-06-17T15:55:12.147Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:55:12.148Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 348.155 ms
+2025-06-17T15:55:12.668Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:55:12.669Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 296.541 ms
+2025-06-17T15:55:14.969Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T15:55:14.970Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 165.779 ms
+2025-06-17T15:55:16.448Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:55:16.448Z | INFO    | METHOD: GET /api/v1/users/me 304 58.113 ms
+2025-06-17T15:55:16.961Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:55:16.962Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 165.664 ms
+2025-06-17T15:55:18.013Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:55:18.014Z | INFO    | METHOD: GET /api/v1/users/me 304 59.015 ms
+2025-06-17T15:56:08.343Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:56:08.345Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 224.222 ms
+2025-06-17T15:57:37.966Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:57:37.967Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 234.881 ms
+2025-06-17T15:57:39.459Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:57:39.460Z | INFO    | METHOD: GET /api/v1/users/me 304 59.875 ms
+2025-06-17T15:57:59.191Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:57:59.192Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 229.354 ms
+2025-06-17T15:58:40.286Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:58:40.291Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 229.433 ms
+2025-06-17T15:58:46.757Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:58:46.758Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 1017.091 ms
+2025-06-17T15:58:58.809Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:58:58.810Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 171.329 ms
+2025-06-17T15:59:05.552Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:59:05.553Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 221.067 ms
+2025-06-17T15:59:08.379Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T15:59:08.380Z | INFO    | METHOD: GET /api/v1/users/me 304 109.845 ms
+2025-06-17T15:59:33.942Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T15:59:33.943Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 221.774 ms
+2025-06-17T16:00:14.423Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:00:14.426Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 321.456 ms
+2025-06-17T16:00:20.589Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:00:20.591Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 167.381 ms
+2025-06-17T16:00:34.959Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:00:34.960Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 210.267 ms
+2025-06-17T16:00:55.712Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:00:55.713Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 218.996 ms
+2025-06-17T16:01:41.571Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:01:41.573Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 221.753 ms
+2025-06-17T16:01:42.213Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:01:42.215Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 732.979 ms
+2025-06-17T16:01:50.447Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:01:50.448Z | INFO    | METHOD: GET /api/v1/users/me 304 122.654 ms
+2025-06-17T16:02:57.187Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:02:57.189Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 219.370 ms
+2025-06-17T16:02:58.675Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:02:58.676Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 174.391 ms
+2025-06-17T16:03:01.563Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:03:01.563Z | INFO    | METHOD: GET /api/v1/users/me 304 57.411 ms
+2025-06-17T16:04:15.964Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:04:15.966Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 220.979 ms
+2025-06-17T16:04:16.969Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:04:16.970Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 166.644 ms
+2025-06-17T16:05:26.628Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:05:26.629Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 225.813 ms
+2025-06-17T16:05:27.585Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:05:27.586Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 1168.496 ms
+2025-06-17T16:05:30.191Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:05:30.192Z | INFO    | METHOD: GET /api/v1/users/me 304 115.398 ms
+2025-06-17T16:06:00.284Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:06:00.287Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 497.131 ms
+2025-06-17T16:06:05.050Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:06:05.051Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 184.791 ms
+2025-06-17T16:06:08.526Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:06:08.530Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 172.628 ms
+2025-06-17T16:06:16.429Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:06:16.431Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 213.655 ms
+2025-06-17T16:06:27.466Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:06:27.468Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 167.875 ms
+2025-06-17T16:06:27.652Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:06:27.653Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 225.149 ms
+2025-06-17T16:06:38.410Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:06:38.411Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 165.467 ms
+2025-06-17T16:06:49.968Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:06:49.981Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 229.756 ms
+2025-06-17T16:06:50.773Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:06:50.775Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 1217.410 ms
+2025-06-17T16:06:58.503Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:06:58.505Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 355.720 ms
+2025-06-17T16:07:09.163Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:07:09.170Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 246.877 ms
+2025-06-17T16:07:09.222Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:07:09.224Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 797.193 ms
+2025-06-17T16:07:15.913Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:07:15.914Z | INFO    | METHOD: GET /api/v1/users/me 304 116.960 ms
+2025-06-17T16:08:54.426Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:08:54.430Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/324f2e62-bd02-4380-a92e-08aedfddbe33 200 242.977 ms
+2025-06-17T16:08:57.569Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:08:57.569Z | INFO    | METHOD: GET /api/v1/users/me 304 61.632 ms
+2025-06-17T16:09:38.009Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code deleted Successfully!
+2025-06-17T16:09:38.010Z | INFO    | METHOD: DELETE /api/v1/qr-code/delete/324f2e62-bd02-4380-a92e-08aedfddbe33 200 276.171 ms
+2025-06-17T16:09:38.265Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:09:38.266Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 170.580 ms
+2025-06-17T16:10:21.006Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:10:21.029Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 1645.656 ms
+2025-06-17T16:10:21.352Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:10:21.354Z | INFO    | METHOD: GET /api/v1/users/me 304 66.658 ms
+2025-06-17T16:10:53.241Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:10:53.244Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 178.825 ms
+2025-06-17T16:10:55.318Z | INFO    | METHOD: GET /api/v1/users/me   ms
+2025-06-17T16:10:55.322Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:10:55.322Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ad6dc50b-d750-434a-be6e-ac3dedf60328 200 175.000 ms
+2025-06-17T16:10:55.895Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:10:57.727Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:10:57.728Z | INFO    | METHOD: GET /api/v1/users/me 200 58.078 ms
+2025-06-17T16:11:06.633Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:11:06.637Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 122.184 ms
+2025-06-17T16:11:08.575Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:11:08.576Z | INFO    | METHOD: GET /api/v1/users/me 304 62.559 ms
+2025-06-17T16:11:12.564Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:11:12.565Z | INFO    | METHOD: GET /api/v1/users/me 304 117.208 ms
+2025-06-17T16:11:13.137Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:11:13.139Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 1855.714 ms
+2025-06-17T16:11:47.363Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:11:47.365Z | INFO    | METHOD: GET /api/v1/users/me 200 112.326 ms
+2025-06-17T16:11:48.944Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:11:48.945Z | INFO    | METHOD: GET /api/v1/users/me 304 56.679 ms
+2025-06-17T16:12:15.404Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:12:15.405Z | INFO    | METHOD: GET /api/v1/users/me 200 108.681 ms
+2025-06-17T16:12:16.604Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:12:16.605Z | INFO    | METHOD: GET /api/v1/users/me 304 56.561 ms
+2025-06-17T16:12:28.870Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:12:28.871Z | INFO    | METHOD: GET /api/v1/users/me 304 479.341 ms
+2025-06-17T16:12:28.930Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:12:28.931Z | INFO    | METHOD: GET /api/v1/users/me 304 57.448 ms
+2025-06-17T16:12:28.988Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:12:28.989Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 747.440 ms
+2025-06-17T16:13:20.199Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | User Created Successfully!
+2025-06-17T16:13:20.200Z | INFO    | METHOD: POST /api/v1/users/create-user 200 687.663 ms
+2025-06-17T16:13:30.485Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Logged in Successful
+2025-06-17T16:13:30.486Z | INFO    | METHOD: POST /api/v1/auth/login 200 445.855 ms
+2025-06-17T16:13:31.712Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:13:31.713Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 992.925 ms
+2025-06-17T16:13:31.879Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:13:31.880Z | INFO    | METHOD: GET /api/v1/users/me 200 797.542 ms
+2025-06-17T16:13:31.967Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:13:31.969Z | INFO    | METHOD: GET /api/v1/users/me 304 86.113 ms
+2025-06-17T16:13:32.213Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:13:32.214Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1565.230 ms
+2025-06-17T16:13:40.752Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:13:40.753Z | INFO    | METHOD: GET /api/v1/users/me 200 59.600 ms
+2025-06-17T16:13:40.830Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:13:40.831Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1241.994 ms
+2025-06-17T16:13:45.517Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:13:45.518Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 699.511 ms
+2025-06-17T16:13:46.618Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:13:46.619Z | INFO    | METHOD: GET /api/v1/users/me 304 336.467 ms
+2025-06-17T16:13:53.832Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:13:53.833Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 324.755 ms
+2025-06-17T16:13:55.778Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:13:55.779Z | INFO    | METHOD: GET /api/v1/users/me 304 57.129 ms
+2025-06-17T16:13:57.334Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:13:57.335Z | INFO    | METHOD: GET /api/v1/users/me 304 118.082 ms
+2025-06-17T16:13:58.104Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:13:58.105Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 2096.727 ms
+2025-06-17T16:14:00.088Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:14:00.089Z | INFO    | METHOD: GET /api/v1/users/me 200 56.066 ms
+2025-06-17T16:14:01.588Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:14:01.592Z | INFO    | METHOD: GET /api/v1/users/me 304 64.191 ms
+2025-06-17T16:14:06.282Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:14:06.283Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 760.386 ms
+2025-06-17T16:14:08.701Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:14:08.701Z | INFO    | METHOD: GET /api/v1/users/me 304 331.185 ms
+2025-06-17T16:14:36.541Z | INFO    | Server is up and running on 4000
+2025-06-17T16:15:04.174Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Logged in Successful
+2025-06-17T16:15:04.180Z | INFO    | METHOD: POST /api/v1/auth/login 200 1404.873 ms
+2025-06-17T16:15:05.017Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:15:05.018Z | INFO    | METHOD: GET /api/v1/users/me 200 431.133 ms
+2025-06-17T16:15:05.076Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:15:05.078Z | INFO    | METHOD: GET /api/v1/users/me 304 57.504 ms
+2025-06-17T16:15:05.654Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:15:05.655Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1370.507 ms
+2025-06-17T16:15:05.900Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:15:05.901Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1467.525 ms
+2025-06-17T16:15:06.134Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:15:06.136Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1776.051 ms
+2025-06-17T16:15:23.161Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:15:23.162Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 179.056 ms
+2025-06-17T16:15:23.821Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:15:23.823Z | INFO    | METHOD: GET /api/v1/users/me 304 117.967 ms
+2025-06-17T16:15:39.746Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:15:39.748Z | INFO    | METHOD: GET /api/v1/users/me 200 113.792 ms
+2025-06-17T16:15:39.879Z | INFO    | ↩️ Response Sent | 201 | SUCCESS | QR Code Created Successfully!
+2025-06-17T16:15:39.880Z | INFO    | METHOD: POST /api/v1/qr-code/create-qr 201 128.904 ms
+2025-06-17T16:15:40.023Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:15:40.024Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 65.615 ms
+2025-06-17T16:15:50.673Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:15:50.675Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 62.146 ms
+2025-06-17T16:15:51.438Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:15:51.439Z | INFO    | METHOD: GET /api/v1/users/me 304 60.726 ms
+2025-06-17T16:15:53.579Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-17T16:15:53.584Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 627.441 ms
+2025-06-17T16:15:54.010Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:15:54.011Z | INFO    | METHOD: GET /api/v1/users/me 304 437.260 ms
+2025-06-17T16:15:55.542Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-17T16:15:55.543Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/ea62e3ab-bff3-4121-a42c-06108dc814d3 200 328.644 ms
+2025-06-17T16:15:55.940Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-17T16:15:55.942Z | INFO    | METHOD: GET /api/v1/users/me 304 59.956 ms
+2025-06-20T04:46:29.939Z | INFO    | Server is up and running on 4000
+2025-06-20T04:47:35.462Z | INFO    | Server is up and running on 4000
+2025-06-20T04:47:52.516Z | INFO    | Server is up and running on 4000
+2025-06-20T04:54:40.701Z | ERROR   | ❌ Password incorrect!
+2025-06-20T04:54:40.705Z | INFO    | METHOD: POST /api/v1/auth/login 403 2149.338 ms
+2025-06-20T04:59:22.537Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | User Created Successfully!
+2025-06-20T04:59:22.541Z | INFO    | METHOD: POST /api/v1/users/create-user 200 630.700 ms
+2025-06-20T04:59:31.962Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Logged in Successful
+2025-06-20T04:59:31.963Z | INFO    | METHOD: POST /api/v1/auth/login 200 454.322 ms
+2025-06-20T04:59:39.578Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T04:59:39.581Z | INFO    | METHOD: GET /api/v1/users/me 200 438.466 ms
+2025-06-20T04:59:39.642Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T04:59:39.649Z | INFO    | METHOD: GET /api/v1/users/me 304 64.943 ms
+2025-06-20T04:59:40.232Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T04:59:40.233Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1415.769 ms
+2025-06-20T04:59:52.340Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T04:59:52.342Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 474.469 ms
+2025-06-20T04:59:52.881Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T04:59:52.882Z | INFO    | METHOD: GET /api/v1/users/me 304 111.570 ms
+2025-06-20T05:00:17.869Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:00:17.874Z | INFO    | METHOD: GET /api/v1/users/me 200 121.699 ms
+2025-06-20T05:00:18.555Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:00:18.557Z | INFO    | METHOD: GET /api/v1/users/me 304 59.449 ms
+2025-06-20T05:00:26.378Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:00:26.380Z | INFO    | METHOD: GET /api/v1/users/me 304 112.444 ms
+2025-06-20T05:00:26.963Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:00:26.964Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 1554.305 ms
+2025-06-20T05:02:46.382Z | INFO    | Server is up and running on 4000
+2025-06-20T05:02:49.102Z | INFO    | Server is up and running on 4000
+2025-06-20T05:02:51.386Z | INFO    | Server is up and running on 4000
+2025-06-20T05:02:54.148Z | INFO    | Server is up and running on 4000
+2025-06-20T05:03:05.617Z | INFO    | Server is up and running on 4000
+2025-06-20T05:03:08.283Z | INFO    | Server is up and running on 4000
+2025-06-20T05:03:14.936Z | INFO    | Server is up and running on 4000
+2025-06-20T05:03:18.979Z | INFO    | Server is up and running on 4000
+2025-06-20T05:03:22.596Z | INFO    | Server is up and running on 4000
+2025-06-20T05:03:23.699Z | INFO    | Server is up and running on 4000
+2025-06-20T05:03:38.298Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:03:38.304Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 754.313 ms
+2025-06-20T05:03:38.854Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:03:38.856Z | INFO    | METHOD: GET /api/v1/users/me 304 108.280 ms
+2025-06-20T05:03:48.429Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:03:48.431Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 67.568 ms
+2025-06-20T05:03:49.474Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:03:49.475Z | INFO    | METHOD: GET /api/v1/users/me 304 61.392 ms
+2025-06-20T05:04:32.068Z | INFO    | Server is up and running on 4000
+2025-06-20T05:04:37.154Z | INFO    | Server is up and running on 4000
+2025-06-20T05:04:41.608Z | INFO    | Server is up and running on 4000
+2025-06-20T05:04:43.514Z | INFO    | Server is up and running on 4000
+2025-06-20T05:04:47.666Z | INFO    | Server is up and running on 4000
+2025-06-20T05:04:59.202Z | INFO    | Server is up and running on 4000
+2025-06-20T05:05:28.033Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:05:28.039Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 700.790 ms
+2025-06-20T05:05:29.536Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:05:29.537Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 72.537 ms
+2025-06-20T05:05:30.913Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:05:30.915Z | INFO    | METHOD: GET /api/v1/users/me 304 124.107 ms
+2025-06-20T05:05:59.769Z | INFO    | Server is up and running on 4000
+2025-06-20T05:06:01.345Z | INFO    | Server is up and running on 4000
+2025-06-20T05:06:06.667Z | INFO    | Server is up and running on 4000
+2025-06-20T05:06:11.712Z | INFO    | Server is up and running on 4000
+2025-06-20T05:06:17.755Z | INFO    | Server is up and running on 4000
+2025-06-20T05:06:24.004Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findMany()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:127:39
+
+  124     orderBy: { createdAt: Prisma.SortOrder.desc },
+  125   };
+  126 
+→ 127 const qrCodes = await prisma.qRCode.findMany({
+        where: {
+          creatorId: {
+            email: "rakib@gmail.com",
+            ~~~~~
+            role: "USER",
+            iat: 1750395571,
+            exp: 1752987571,
+      ?     equals?: String | StringFieldRefInput,
+      ?     in?: String[] | ListStringFieldRefInput,
+      ?     notIn?: String[] | ListStringFieldRefInput,
+      ?     lt?: String | StringFieldRefInput,
+      ?     lte?: String | StringFieldRefInput,
+      ?     gt?: String | StringFieldRefInput,
+      ?     gte?: String | StringFieldRefInput,
+      ?     contains?: String | StringFieldRefInput,
+      ?     startsWith?: String | StringFieldRefInput,
+      ?     endsWith?: String | StringFieldRefInput,
+      ?     mode?: QueryMode,
+      ?     not?: String | NestedStringFilter
+          }
+        },
+        orderBy: {
+          createdAt: "desc"
+        }
+      })
+
+Unknown argument `email`. Available options are marked with ?.
+2025-06-20T05:06:24.013Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 400 630.426 ms
+2025-06-20T05:06:24.451Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:06:24.453Z | INFO    | METHOD: GET /api/v1/users/me 304 118.842 ms
+2025-06-20T05:06:25.034Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findMany()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:127:39
+
+  124     orderBy: { createdAt: Prisma.SortOrder.desc },
+  125   };
+  126 
+→ 127 const qrCodes = await prisma.qRCode.findMany({
+        where: {
+          creatorId: {
+            email: "rakib@gmail.com",
+            ~~~~~
+            role: "USER",
+            iat: 1750395571,
+            exp: 1752987571,
+      ?     equals?: String | StringFieldRefInput,
+      ?     in?: String[] | ListStringFieldRefInput,
+      ?     notIn?: String[] | ListStringFieldRefInput,
+      ?     lt?: String | StringFieldRefInput,
+      ?     lte?: String | StringFieldRefInput,
+      ?     gt?: String | StringFieldRefInput,
+      ?     gte?: String | StringFieldRefInput,
+      ?     contains?: String | StringFieldRefInput,
+      ?     startsWith?: String | StringFieldRefInput,
+      ?     endsWith?: String | StringFieldRefInput,
+      ?     mode?: QueryMode,
+      ?     not?: String | NestedStringFilter
+          }
+        },
+        orderBy: {
+          createdAt: "desc"
+        }
+      })
+
+Unknown argument `email`. Available options are marked with ?.
+2025-06-20T05:06:25.035Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 400 14.279 ms
+2025-06-20T05:06:29.792Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findMany()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:127:39
+
+  124     orderBy: { createdAt: Prisma.SortOrder.desc },
+  125   };
+  126 
+→ 127 const qrCodes = await prisma.qRCode.findMany({
+        where: {
+          creatorId: {
+            email: "rakib@gmail.com",
+            ~~~~~
+            role: "USER",
+            iat: 1750395571,
+            exp: 1752987571,
+      ?     equals?: String | StringFieldRefInput,
+      ?     in?: String[] | ListStringFieldRefInput,
+      ?     notIn?: String[] | ListStringFieldRefInput,
+      ?     lt?: String | StringFieldRefInput,
+      ?     lte?: String | StringFieldRefInput,
+      ?     gt?: String | StringFieldRefInput,
+      ?     gte?: String | StringFieldRefInput,
+      ?     contains?: String | StringFieldRefInput,
+      ?     startsWith?: String | StringFieldRefInput,
+      ?     endsWith?: String | StringFieldRefInput,
+      ?     mode?: QueryMode,
+      ?     not?: String | NestedStringFilter
+          }
+        },
+        orderBy: {
+          createdAt: "desc"
+        }
+      })
+
+Unknown argument `email`. Available options are marked with ?.
+2025-06-20T05:06:29.794Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 400 10.379 ms
+2025-06-20T05:06:32.368Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findMany()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:127:39
+
+  124     orderBy: { createdAt: Prisma.SortOrder.desc },
+  125   };
+  126 
+→ 127 const qrCodes = await prisma.qRCode.findMany({
+        where: {
+          creatorId: {
+            email: "rakib@gmail.com",
+            ~~~~~
+            role: "USER",
+            iat: 1750395571,
+            exp: 1752987571,
+      ?     equals?: String | StringFieldRefInput,
+      ?     in?: String[] | ListStringFieldRefInput,
+      ?     notIn?: String[] | ListStringFieldRefInput,
+      ?     lt?: String | StringFieldRefInput,
+      ?     lte?: String | StringFieldRefInput,
+      ?     gt?: String | StringFieldRefInput,
+      ?     gte?: String | StringFieldRefInput,
+      ?     contains?: String | StringFieldRefInput,
+      ?     startsWith?: String | StringFieldRefInput,
+      ?     endsWith?: String | StringFieldRefInput,
+      ?     mode?: QueryMode,
+      ?     not?: String | NestedStringFilter
+          }
+        },
+        orderBy: {
+          createdAt: "desc"
+        }
+      })
+
+Unknown argument `email`. Available options are marked with ?.
+2025-06-20T05:06:32.369Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 400 8.555 ms
+2025-06-20T05:06:36.948Z | ERROR   | ❌ 
+Invalid `prisma.qRCode.findMany()` invocation in
+/home/rashed/Desktop/PERSONAL-PROJECTS/QRCodeBackend/src/app/modules/QRCode/qr-code.service.ts:127:39
+
+  124     orderBy: { createdAt: Prisma.SortOrder.desc },
+  125   };
+  126 
+→ 127 const qrCodes = await prisma.qRCode.findMany({
+        where: {
+          creatorId: {
+            email: "rakib@gmail.com",
+            ~~~~~
+            role: "USER",
+            iat: 1750395571,
+            exp: 1752987571,
+      ?     equals?: String | StringFieldRefInput,
+      ?     in?: String[] | ListStringFieldRefInput,
+      ?     notIn?: String[] | ListStringFieldRefInput,
+      ?     lt?: String | StringFieldRefInput,
+      ?     lte?: String | StringFieldRefInput,
+      ?     gt?: String | StringFieldRefInput,
+      ?     gte?: String | StringFieldRefInput,
+      ?     contains?: String | StringFieldRefInput,
+      ?     startsWith?: String | StringFieldRefInput,
+      ?     endsWith?: String | StringFieldRefInput,
+      ?     mode?: QueryMode,
+      ?     not?: String | NestedStringFilter
+          }
+        },
+        orderBy: {
+          createdAt: "desc"
+        }
+      })
+
+Unknown argument `email`. Available options are marked with ?.
+2025-06-20T05:06:36.950Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 400 6.280 ms
+2025-06-20T05:07:29.387Z | INFO    | Server is up and running on 4000
+2025-06-20T05:07:33.627Z | INFO    | Server is up and running on 4000
+2025-06-20T05:07:36.122Z | INFO    | Server is up and running on 4000
+2025-06-20T05:07:36.643Z | INFO    | Server is up and running on 4000
+2025-06-20T05:07:37.129Z | INFO    | Server is up and running on 4000
+2025-06-20T05:10:33.008Z | INFO    | Server is up and running on 4000
+2025-06-20T05:10:44.537Z | INFO    | Server is up and running on 4000
+2025-06-20T05:10:50.593Z | INFO    | Server is up and running on 4000
+2025-06-20T05:10:51.315Z | INFO    | Server is up and running on 4000
+2025-06-20T05:10:52.592Z | INFO    | Server is up and running on 4000
+2025-06-20T05:10:58.832Z | INFO    | Server is up and running on 4000
+2025-06-20T05:11:08.693Z | INFO    | Server is up and running on 4000
+2025-06-20T05:11:10.194Z | INFO    | Server is up and running on 4000
+2025-06-20T05:11:12.505Z | INFO    | Server is up and running on 4000
+2025-06-20T05:11:13.650Z | INFO    | Server is up and running on 4000
+2025-06-20T05:11:18.378Z | INFO    | Server is up and running on 4000
+2025-06-20T05:11:19.112Z | INFO    | Server is up and running on 4000
+2025-06-20T05:11:27.946Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Logged in Successful
+2025-06-20T05:11:27.953Z | INFO    | METHOD: POST /api/v1/auth/login 200 1030.953 ms
+2025-06-20T05:11:28.769Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:11:28.771Z | INFO    | METHOD: GET /api/v1/users/me 304 419.547 ms
+2025-06-20T05:11:28.833Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:11:28.835Z | INFO    | METHOD: GET /api/v1/users/me 304 58.538 ms
+2025-06-20T05:11:29.489Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:11:29.491Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1395.149 ms
+2025-06-20T05:11:45.067Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:11:45.070Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 164.931 ms
+2025-06-20T05:11:46.236Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:11:46.239Z | INFO    | METHOD: GET /api/v1/users/me 304 112.124 ms
+2025-06-20T05:12:08.712Z | INFO    | Server is up and running on 4000
+2025-06-20T05:12:10.611Z | INFO    | Server is up and running on 4000
+2025-06-20T05:12:20.685Z | INFO    | Server is up and running on 4000
+2025-06-20T05:12:28.766Z | INFO    | Server is up and running on 4000
+2025-06-20T05:12:31.162Z | INFO    | Server is up and running on 4000
+2025-06-20T05:12:48.430Z | INFO    | Server is up and running on 4000
+2025-06-20T05:12:50.591Z | INFO    | Server is up and running on 4000
+2025-06-20T05:13:37.327Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:13:37.337Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 737.613 ms
+2025-06-20T05:13:37.482Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:13:37.485Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 65.990 ms
+2025-06-20T05:13:38.319Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:13:38.321Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 65.249 ms
+2025-06-20T05:13:41.121Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:13:41.123Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 56.931 ms
+2025-06-20T05:13:42.819Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:13:42.822Z | INFO    | METHOD: GET /api/v1/users/me 304 122.316 ms
+2025-06-20T05:13:58.642Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:13:58.644Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 114.879 ms
+2025-06-20T05:14:12.653Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:14:12.654Z | INFO    | METHOD: GET /api/v1/users/me 304 411.487 ms
+2025-06-20T05:14:13.298Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:14:13.299Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 1747.525 ms
+2025-06-20T05:14:36.379Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:14:36.380Z | INFO    | METHOD: GET /api/v1/users/me 200 109.622 ms
+2025-06-20T05:14:37.001Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:14:37.002Z | INFO    | METHOD: GET /api/v1/users/me 304 52.844 ms
+2025-06-20T05:14:44.356Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:14:44.357Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 745.132 ms
+2025-06-20T05:14:44.357Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:14:44.358Z | INFO    | METHOD: GET /api/v1/users/me 304 117.595 ms
+2025-06-20T05:16:18.279Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:16:18.281Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 1197.085 ms
+2025-06-20T05:16:18.757Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:16:18.758Z | INFO    | METHOD: GET /api/v1/users/me 304 106.470 ms
+2025-06-20T05:16:19.299Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:16:19.300Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 1564.778 ms
+2025-06-20T05:16:51.864Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:16:51.865Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 836.988 ms
+2025-06-20T05:17:03.944Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:17:03.946Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 715.124 ms
+2025-06-20T05:17:11.185Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:17:11.190Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 805.763 ms
+2025-06-20T05:17:16.480Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:17:16.482Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 1045.738 ms
+2025-06-20T05:17:27.385Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:17:27.386Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 850.155 ms
+2025-06-20T05:17:43.937Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:17:43.938Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 800.695 ms
+2025-06-20T05:17:52.460Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:17:52.463Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 823.624 ms
+2025-06-20T05:17:55.696Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:17:55.698Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 978.462 ms
+2025-06-20T05:17:58.462Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:17:58.463Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 929.849 ms
+2025-06-20T05:18:46.698Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:18:46.699Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 1510.966 ms
+2025-06-20T05:18:47.795Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:18:47.797Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 831.945 ms
+2025-06-20T05:20:11.037Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:20:11.038Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 862.145 ms
+2025-06-20T05:20:11.428Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:20:11.429Z | INFO    | METHOD: GET /api/v1/users/me 304 54.797 ms
+2025-06-20T05:20:52.716Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:20:52.717Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 811.351 ms
+2025-06-20T05:21:49.751Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:21:49.752Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 1776.403 ms
+2025-06-20T05:22:07.613Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:22:07.614Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 821.898 ms
+2025-06-20T05:22:10.247Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:22:10.248Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 754.398 ms
+2025-06-20T05:22:10.991Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:22:10.993Z | INFO    | METHOD: GET /api/v1/users/me 304 106.158 ms
+2025-06-20T05:22:11.925Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:22:11.927Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 1911.027 ms
+2025-06-20T05:22:24.834Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:22:24.835Z | INFO    | METHOD: GET /api/v1/users/me 200 117.927 ms
+2025-06-20T05:22:25.496Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:22:25.496Z | INFO    | METHOD: GET /api/v1/users/me 304 118.801 ms
+2025-06-20T05:24:55.647Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:24:55.648Z | INFO    | METHOD: GET /api/v1/users/me 200 108.548 ms
+2025-06-20T05:25:36.115Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:25:36.117Z | INFO    | METHOD: GET /api/v1/users/me 200 116.603 ms
+2025-06-20T05:26:35.324Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:26:35.326Z | INFO    | METHOD: GET /api/v1/users/me 200 120.923 ms
+2025-06-20T05:26:36.156Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:26:36.156Z | INFO    | METHOD: GET /api/v1/users/me 304 53.389 ms
+2025-06-20T05:27:19.321Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:27:19.322Z | INFO    | METHOD: GET /api/v1/users/me 200 467.163 ms
+2025-06-20T05:27:59.544Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:27:59.550Z | INFO    | METHOD: GET /api/v1/users/me 200 113.742 ms
+2025-06-20T05:28:00.855Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:28:00.855Z | INFO    | METHOD: GET /api/v1/users/me 304 54.241 ms
+2025-06-20T05:28:13.488Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:28:13.489Z | INFO    | METHOD: GET /api/v1/users/me 200 54.182 ms
+2025-06-20T05:28:14.755Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:28:14.757Z | INFO    | METHOD: GET /api/v1/users/me 304 109.404 ms
+2025-06-20T05:28:59.566Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:28:59.568Z | INFO    | METHOD: GET /api/v1/users/me 200 120.583 ms
+2025-06-20T05:29:02.626Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:29:02.627Z | INFO    | METHOD: GET /api/v1/users/me 200 60.804 ms
+2025-06-20T05:29:05.953Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:29:05.954Z | INFO    | METHOD: GET /api/v1/users/me 200 61.639 ms
+2025-06-20T05:30:14.338Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:30:14.340Z | INFO    | METHOD: GET /api/v1/users/me 200 117.037 ms
+2025-06-20T05:30:15.370Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:30:15.371Z | INFO    | METHOD: GET /api/v1/users/me 304 61.987 ms
+2025-06-20T05:30:20.924Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:30:20.925Z | INFO    | METHOD: GET /api/v1/users/me 200 60.250 ms
+2025-06-20T05:30:21.976Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:30:21.977Z | INFO    | METHOD: GET /api/v1/users/me 304 62.969 ms
+2025-06-20T05:30:32.126Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:30:32.127Z | INFO    | METHOD: GET /api/v1/users/me 200 110.636 ms
+2025-06-20T05:30:33.423Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:30:33.424Z | INFO    | METHOD: GET /api/v1/users/me 304 62.646 ms
+2025-06-20T05:30:39.899Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:30:39.900Z | INFO    | METHOD: GET /api/v1/users/me 200 61.679 ms
+2025-06-20T05:31:18.808Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:31:18.809Z | INFO    | METHOD: GET /api/v1/users/me 200 106.677 ms
+2025-06-20T05:31:47.051Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:31:47.052Z | INFO    | METHOD: GET /api/v1/users/me 200 123.786 ms
+2025-06-20T05:31:52.048Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:31:52.050Z | INFO    | METHOD: GET /api/v1/users/me 200 78.507 ms
+2025-06-20T05:32:01.978Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:32:01.980Z | INFO    | METHOD: GET /api/v1/users/me 200 66.381 ms
+2025-06-20T05:32:03.007Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:32:03.008Z | INFO    | METHOD: GET /api/v1/users/me 304 108.874 ms
+2025-06-20T05:32:09.226Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:32:09.228Z | INFO    | METHOD: GET /api/v1/users/me 200 53.410 ms
+2025-06-20T05:32:14.575Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:32:14.577Z | INFO    | METHOD: GET /api/v1/users/me 200 55.278 ms
+2025-06-20T05:32:16.606Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:32:16.608Z | INFO    | METHOD: GET /api/v1/users/me 304 55.080 ms
+2025-06-20T05:32:21.321Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:32:21.323Z | INFO    | METHOD: GET /api/v1/users/me 200 443.698 ms
+2025-06-20T05:32:22.167Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:32:22.170Z | INFO    | METHOD: GET /api/v1/users/me 304 63.516 ms
+2025-06-20T05:32:35.348Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:32:35.349Z | INFO    | METHOD: GET /api/v1/users/me 200 53.115 ms
+2025-06-20T05:32:36.203Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:32:36.204Z | INFO    | METHOD: GET /api/v1/users/me 304 54.677 ms
+2025-06-20T05:33:29.468Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:33:29.469Z | INFO    | METHOD: GET /api/v1/users/me 200 107.556 ms
+2025-06-20T05:33:37.968Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:33:37.969Z | INFO    | METHOD: GET /api/v1/users/me 200 59.280 ms
+2025-06-20T05:33:39.759Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:33:39.761Z | INFO    | METHOD: GET /api/v1/users/me 200 53.132 ms
+2025-06-20T05:33:40.570Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:33:40.571Z | INFO    | METHOD: GET /api/v1/users/me 304 54.199 ms
+2025-06-20T05:34:14.689Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:34:14.689Z | INFO    | METHOD: GET /api/v1/users/me 200 105.873 ms
+2025-06-20T05:34:21.291Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:34:21.292Z | INFO    | METHOD: GET /api/v1/users/me 200 62.201 ms
+2025-06-20T05:34:55.834Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:34:55.836Z | INFO    | METHOD: GET /api/v1/users/me 304 453.338 ms
+2025-06-20T05:34:56.054Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:34:56.056Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 1628.387 ms
+2025-06-20T05:35:10.012Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:35:10.013Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 1433.667 ms
+2025-06-20T05:35:19.558Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:35:19.559Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 814.880 ms
+2025-06-20T05:35:20.392Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:35:20.395Z | INFO    | METHOD: GET /api/v1/users/me 200 64.802 ms
+2025-06-20T05:35:21.187Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:35:21.188Z | INFO    | METHOD: GET /api/v1/users/me 304 56.355 ms
+2025-06-20T05:35:39.507Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:35:39.508Z | INFO    | METHOD: GET /api/v1/users/me 200 107.748 ms
+2025-06-20T05:35:43.318Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:35:43.319Z | INFO    | METHOD: GET /api/v1/users/me 200 58.031 ms
+2025-06-20T05:35:50.929Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:35:50.931Z | INFO    | METHOD: GET /api/v1/users/me 200 63.204 ms
+2025-06-20T05:35:54.946Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:35:54.947Z | INFO    | METHOD: GET /api/v1/users/me 200 110.981 ms
+2025-06-20T05:36:20.954Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:36:20.955Z | INFO    | METHOD: GET /api/v1/users/me 200 115.160 ms
+2025-06-20T05:36:30.821Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:36:30.822Z | INFO    | METHOD: GET /api/v1/users/me 200 53.499 ms
+2025-06-20T05:36:36.125Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:36:36.126Z | INFO    | METHOD: GET /api/v1/users/me 200 110.853 ms
+2025-06-20T05:36:41.395Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:36:41.397Z | INFO    | METHOD: GET /api/v1/users/me 200 53.283 ms
+2025-06-20T05:36:44.455Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:36:44.457Z | INFO    | METHOD: GET /api/v1/users/me 200 59.139 ms
+2025-06-20T05:36:47.963Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:36:47.964Z | INFO    | METHOD: GET /api/v1/users/me 200 57.557 ms
+2025-06-20T05:37:01.246Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:37:01.247Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 168.368 ms
+2025-06-20T05:37:02.291Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:37:02.292Z | INFO    | METHOD: GET /api/v1/users/me 304 101.709 ms
+2025-06-20T05:37:04.978Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:37:04.979Z | INFO    | METHOD: GET /api/v1/users/me 304 107.357 ms
+2025-06-20T05:37:05.037Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:37:05.041Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 780.826 ms
+2025-06-20T05:39:04.265Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:39:04.268Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 753.706 ms
+2025-06-20T05:39:05.362Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:39:05.364Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1703.881 ms
+2025-06-20T05:39:06.673Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:39:06.674Z | INFO    | METHOD: GET /api/v1/users/me 304 120.876 ms
+2025-06-20T05:39:26.530Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:39:26.531Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 784.236 ms
+2025-06-20T05:39:29.548Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:39:29.549Z | INFO    | METHOD: GET /api/v1/users/me 304 52.978 ms
+2025-06-20T05:39:44.249Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:39:44.250Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 162.139 ms
+2025-06-20T05:39:45.699Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:39:45.700Z | INFO    | METHOD: GET /api/v1/users/me 304 59.046 ms
+2025-06-20T05:39:47.830Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:39:47.831Z | INFO    | METHOD: GET /api/v1/users/me 304 101.180 ms
+2025-06-20T05:39:48.003Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:39:48.003Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 931.331 ms
+2025-06-20T05:39:50.140Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:39:50.143Z | INFO    | METHOD: GET /api/v1/users/me 200 53.183 ms
+2025-06-20T05:39:50.916Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:39:50.917Z | INFO    | METHOD: GET /api/v1/users/me 304 59.553 ms
+2025-06-20T05:39:57.422Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:39:57.423Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 660.842 ms
+2025-06-20T05:39:57.798Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:39:57.798Z | INFO    | METHOD: GET /api/v1/users/me 304 440.838 ms
+2025-06-20T05:40:57.739Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:40:57.742Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 166.959 ms
+2025-06-20T05:40:58.923Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:40:58.924Z | INFO    | METHOD: GET /api/v1/users/me 304 59.406 ms
+2025-06-20T05:41:14.742Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:41:14.743Z | INFO    | METHOD: GET /api/v1/users/me 304 100.898 ms
+2025-06-20T05:41:15.230Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:41:15.231Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 52.963 ms
+2025-06-20T05:41:15.423Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:41:15.424Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/analytics 200 1452.479 ms
+2025-06-20T05:41:16.189Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T05:41:16.189Z | INFO    | METHOD: GET /api/v1/users/me 304 58.534 ms
+2025-06-20T05:44:48.765Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T05:44:48.766Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 418.078 ms
+2025-06-20T06:43:35.873Z | INFO    | Server is up and running on 4000
+2025-06-20T06:45:19.474Z | INFO    | Server is up and running on 4000
+2025-06-20T06:45:22.260Z | INFO    | Server is up and running on 4000
+2025-06-20T06:45:34.296Z | INFO    | Server is up and running on 4000
+2025-06-20T06:45:45.550Z | INFO    | Server is up and running on 4000
+2025-06-20T06:45:53.686Z | INFO    | Server is up and running on 4000
+2025-06-20T06:46:06.005Z | INFO    | Server is up and running on 4000
+2025-06-20T06:46:15.246Z | INFO    | Server is up and running on 4000
+2025-06-20T06:46:23.573Z | INFO    | Server is up and running on 4000
+2025-06-20T06:46:29.228Z | INFO    | Server is up and running on 4000
+2025-06-20T06:46:34.217Z | INFO    | Server is up and running on 4000
+2025-06-20T06:46:37.581Z | INFO    | Server is up and running on 4000
+2025-06-20T06:46:41.616Z | INFO    | Server is up and running on 4000
+2025-06-20T06:46:46.378Z | INFO    | Server is up and running on 4000
+2025-06-20T06:46:48.540Z | INFO    | Server is up and running on 4000
+2025-06-20T06:46:50.642Z | INFO    | Server is up and running on 4000
+2025-06-20T06:46:51.935Z | INFO    | Server is up and running on 4000
+2025-06-20T06:46:57.987Z | INFO    | Server is up and running on 4000
+2025-06-20T06:47:28.241Z | INFO    | Server is up and running on 4000
+2025-06-20T06:47:43.853Z | INFO    | Server is up and running on 4000
+2025-06-20T06:47:53.720Z | INFO    | Server is up and running on 4000
+2025-06-20T06:47:58.950Z | INFO    | Server is up and running on 4000
+2025-06-20T06:48:08.623Z | INFO    | Server is up and running on 4000
+2025-06-20T06:48:10.082Z | INFO    | Server is up and running on 4000
+2025-06-20T06:48:22.712Z | INFO    | Server is up and running on 4000
+2025-06-20T06:48:27.300Z | INFO    | Server is up and running on 4000
+2025-06-20T06:48:39.960Z | INFO    | Server is up and running on 4000
+2025-06-20T06:50:04.512Z | INFO    | Server is up and running on 4000
+2025-06-20T06:50:08.997Z | INFO    | Server is up and running on 4000
+2025-06-20T06:50:17.307Z | INFO    | Server is up and running on 4000
+2025-06-20T06:50:17.857Z | INFO    | Server is up and running on 4000
+2025-06-20T06:50:28.387Z | INFO    | Server is up and running on 4000
+2025-06-20T06:50:37.623Z | INFO    | Server is up and running on 4000
+2025-06-20T06:50:45.374Z | INFO    | Server is up and running on 4000
+2025-06-20T06:50:46.620Z | INFO    | Server is up and running on 4000
+2025-06-20T06:50:49.099Z | INFO    | Server is up and running on 4000
+2025-06-20T06:50:50.734Z | INFO    | Server is up and running on 4000
+2025-06-20T06:51:05.442Z | INFO    | Server is up and running on 4000
+2025-06-20T06:51:07.213Z | INFO    | Server is up and running on 4000
+2025-06-20T06:51:10.818Z | INFO    | Server is up and running on 4000
+2025-06-20T06:51:12.301Z | INFO    | Server is up and running on 4000
+2025-06-20T06:54:08.055Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Scan Settings fetched successfully
+2025-06-20T06:54:08.060Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/settings/31cd5135-73be-49aa-bc6e-c0d12fc01930 200 951.560 ms
+2025-06-20T06:54:11.042Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-20T06:54:11.044Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 842.689 ms
+2025-06-20T06:54:31.033Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Scan Settings fetched successfully
+2025-06-20T06:54:31.035Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/settings/31cd5135-73be-49aa-bc6e-c0d12fc01930 200 109.276 ms
+2025-06-20T06:54:32.604Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Scan Settings fetched successfully
+2025-06-20T06:54:32.605Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/settings/31cd5135-73be-49aa-bc6e-c0d12fc01930 200 51.201 ms
+2025-06-20T06:54:35.602Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Scan Settings fetched successfully
+2025-06-20T06:54:35.604Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/settings/31cd5135-73be-49aa-bc6e-c0d12fc01930 200 55.465 ms
+2025-06-20T06:54:37.719Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-20T06:54:37.720Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 648.979 ms
+2025-06-20T06:58:39.168Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Scan Settings fetched successfully
+2025-06-20T06:58:39.170Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/settings/31cd5135-73be-49aa-bc6e-c0d12fc01930 200 112.931 ms
+2025-06-20T06:58:40.082Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-20T06:58:40.083Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 729.083 ms
+2025-06-20T06:58:55.484Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Scan Settings fetched successfully
+2025-06-20T06:58:55.487Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/settings/31cd5135-73be-49aa-bc6e-c0d12fc01930 200 114.318 ms
+2025-06-20T06:58:56.313Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-20T06:58:56.313Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 626.143 ms
+2025-06-20T07:00:02.895Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Scan Settings fetched successfully
+2025-06-20T07:00:02.896Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/settings/31cd5135-73be-49aa-bc6e-c0d12fc01930 200 448.450 ms
+2025-06-20T07:00:03.793Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-20T07:00:03.794Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 847.667 ms
+2025-06-20T07:00:52.813Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Scan Settings fetched successfully
+2025-06-20T07:00:52.815Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/settings/31cd5135-73be-49aa-bc6e-c0d12fc01930 200 114.326 ms
+2025-06-20T07:00:53.502Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-20T07:00:53.503Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 616.188 ms
+2025-06-20T07:01:53.222Z | ERROR   | ❌ Password incorrect!
+2025-06-20T07:01:53.223Z | INFO    | METHOD: POST /api/v1/auth/login 403 690.531 ms
+2025-06-20T07:02:03.078Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Logged in Successful
+2025-06-20T07:02:03.079Z | INFO    | METHOD: POST /api/v1/auth/login 200 524.126 ms
+2025-06-20T07:02:10.796Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T07:02:10.798Z | INFO    | METHOD: GET /api/v1/users/me 200 420.972 ms
+2025-06-20T07:02:10.860Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T07:02:10.862Z | INFO    | METHOD: GET /api/v1/users/me 304 60.206 ms
+2025-06-20T07:02:11.374Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T07:02:11.375Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1352.732 ms
+2025-06-20T07:02:11.539Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T07:02:11.541Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1442.227 ms
+2025-06-20T07:02:11.854Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T07:02:11.856Z | INFO    | METHOD: GET /api/v1/qr-code/dashboard/stats 200 1667.224 ms
+2025-06-20T07:02:21.294Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T07:02:21.295Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 117.825 ms
+2025-06-20T07:02:22.761Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T07:02:22.762Z | INFO    | METHOD: GET /api/v1/users/me 304 106.826 ms
+2025-06-20T07:02:29.776Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Scan Settings fetched successfully
+2025-06-20T07:02:29.777Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/settings/31cd5135-73be-49aa-bc6e-c0d12fc01930 200 152.272 ms
+2025-06-20T07:02:30.603Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-20T07:02:30.603Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 780.777 ms
+2025-06-20T07:02:34.792Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T07:02:34.793Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 61.401 ms
+2025-06-20T07:02:35.711Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T07:02:35.712Z | INFO    | METHOD: GET /api/v1/users/me 304 63.357 ms
+2025-06-20T07:02:47.837Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | Scan Settings fetched successfully
+2025-06-20T07:02:47.837Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/settings/31cd5135-73be-49aa-bc6e-c0d12fc01930 200 114.713 ms
+2025-06-20T07:02:48.586Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code scan tracked successfully
+2025-06-20T07:02:48.586Z | INFO    | METHOD: POST /api/v1/qr-code/track-scan 200 586.397 ms
+2025-06-20T07:02:56.069Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Codes fetched successfully
+2025-06-20T07:02:56.070Z | INFO    | METHOD: GET /api/v1/qr-code/get-all-qr 200 63.312 ms
+2025-06-20T07:02:56.992Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T07:02:56.993Z | INFO    | METHOD: GET /api/v1/users/me 304 63.458 ms
+2025-06-20T07:03:01.789Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | QR Code data fetched successfully
+2025-06-20T07:03:01.790Z | INFO    | METHOD: GET /api/v1/qr-code/get-single-qr/31cd5135-73be-49aa-bc6e-c0d12fc01930 200 334.749 ms
+2025-06-20T07:03:02.197Z | INFO    | ↩️ Response Sent | 200 | SUCCESS | My Profile retrieved successfully!
+2025-06-20T07:03:02.198Z | INFO    | METHOD: GET /api/v1/users/me 304 55.476 ms

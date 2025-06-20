@@ -66,7 +66,6 @@ const trackScan = async (
   browser: string
 ) => {
 
-  console.log("qrid", qrId, fingerprint)
 
   if (!qrId || !fingerprint) {
     throw new AppError(StatusCodes.BAD_REQUEST, "Missing QR ID or fingerprint");
@@ -113,7 +112,10 @@ const trackScan = async (
 
 // ✅ GET ALL QR CODES
 const getAllQRCodes = async (creatorId?: string) => {
+  console.log("Creator Id", creatorId)
   const filter: Prisma.QRCodeFindManyArgs = creatorId
+
+
     ? {
       where: { creatorId },
       orderBy: { createdAt: Prisma.SortOrder.desc },
@@ -127,89 +129,125 @@ const getAllQRCodes = async (creatorId?: string) => {
 };
 
 const getSingleQRData = async (qrCodeId: string) => {
+  // Get QR Code metadata
   const qrCode = await prisma.qRCode.findUnique({
-    where: { id: qrCodeId }
-  })
-
-  // Get scans by device
-  const scansByDevice = await prisma.scan.groupBy({
-    by: ['deviceType'],
-    where: { qrId: qrCodeId },
-    _count: { _all: true },
+    where: { id: qrCodeId },
   });
 
-  // Get scans by location
-  const scansByLocation = await prisma.scan.groupBy({
-    by: ['region'],
+  // Get all scans for processing
+  const allScans = await prisma.scan.findMany({
     where: { qrId: qrCodeId },
-    _count: { _all: true }
+    select: {
+      timestamp: true,
+      deviceType: true,
+      region: true,
+      city: true,
+      country: true,
+    },
   });
 
-  // Get recent scans
-  const recentScans = await prisma.scan.findMany({
+  // Scan count by day
+  const scanActivityMap: Record<string, number> = {};
+  allScans.forEach(scan => {
+    const date = dayjs(scan.timestamp).format("YYYY-MM-DD");
+    scanActivityMap[date] = (scanActivityMap[date] || 0) + 1;
+  });
+  const scanActivity = Array.from({ length: 30 }).map((_, i) => {
+    const date = dayjs().subtract(i, "day").format("YYYY-MM-DD");
+    return {
+      date,
+      scans: scanActivityMap[date] || 0,
+    };
+  }).reverse();
+
+  // Scan count by hour
+  const hourlyMap: Record<string, number> = {};
+  allScans.forEach(scan => {
+    const hour = dayjs(scan.timestamp).hour();
+    const label = `${hour.toString().padStart(2, "0")}:00`;
+    hourlyMap[label] = (hourlyMap[label] || 0) + 1;
+  });
+  const scansOverTime = Array.from({ length: 24 }).map((_, i) => {
+    const label = `${i.toString().padStart(2, "0")}:00`;
+    return {
+      hour: label,
+      scans: hourlyMap[label] || 0,
+    };
+  });
+
+  // Group by device
+  const deviceMap: Record<string, number> = {};
+  allScans.forEach(scan => {
+    const device = scan.deviceType || "Unknown";
+    deviceMap[device] = (deviceMap[device] || 0) + 1;
+  });
+  const totalDeviceScans = allScans.length;
+  const scanByDevice = Object.entries(deviceMap).map(([device, count]) => ({
+    device,
+    count,
+    percentage: Math.round((count / totalDeviceScans) * 100),
+  }));
+
+  // Group by region
+  const regionMap: Record<string, number> = {};
+  allScans.forEach(scan => {
+    const region = scan.region || "Unknown";
+    regionMap[region] = (regionMap[region] || 0) + 1;
+  });
+  const totalRegionScans = allScans.length;
+  const scanByLocation = Object.entries(regionMap).map(([region, count]) => ({
+    country: region,
+    count,
+    percentage: Math.round((count / totalRegionScans) * 100),
+  }));
+
+  // Recent Scans
+  const recentScansRaw = await prisma.scan.findMany({
     where: { qrId: qrCodeId },
-    orderBy: { timestamp: 'desc' },
     take: 5,
+    orderBy: { timestamp: "desc" },
     select: {
       id: true,
       city: true,
       region: true,
       country: true,
       deviceType: true,
-      timestamp: true
-    }
-  });
-  const scans = await prisma.scan.findMany({
-    where: { qrId: qrCodeId },
-    select: {
       timestamp: true,
     },
   });
-  // Group scans by date (YYYY-MM-DD)
-  const scansByDate: Record<string, number> = {};
-
-  scans.forEach(({ timestamp }) => {
-    const date = new Date(timestamp);
-    const day = date.toISOString().split("T")[0]; // YYYY-MM-DD
-    scansByDate[day] = (scansByDate[day] || 0) + 1;
-  });
-
-  // Sort by date
-  const sortedDates = Object.keys(scansByDate).sort();
-
-  const chartData = sortedDates.map(date => ({
-    date,
-    scans: scansByDate[date],
-  }));
-
-  // Initialize an array for 24 hours
-  const hourlyScans: number[] = Array(24).fill(0);
-
-  scans.forEach(({ timestamp }) => {
-    const date = new Date(timestamp);
-    const hour = date.getHours(); // 0 - 23
-    hourlyScans[hour] += 1;
-  });
-
-  // Format for Recharts
-  const chartDataByHr = hourlyScans.map((count, hour) => ({
-    hour: `${hour.toString().padStart(2, "0")}:00`,
-    scans: count,
+  const recentScans = recentScansRaw.map(scan => ({
+    id: scan.id,
+    location: scan.region || "Unknown",
+    device: scan.deviceType || "Unknown",
+    timestamp: scan.timestamp,
   }));
 
   return {
     qrCode,
-    scansByLocation,
-    scansByDevice,
+    totalScans: allScans.length,
+    scanActivity,
+    scansOverTime,
+    scanByDevice,
+    scanByLocation,
     recentScans,
-    scansOverTime: chartDataByHr,
-    scansOverDay: chartData
+  };
+};
+const getQRCodeScanSettings = async (qrCodeId: string) => {
+  const qrCode = await prisma.qRCode.findUnique({
+    where: { id: qrCodeId },
+    select: {
+      id: true,
+      targetUrl: true,
+    },
+  });
 
-  }
-}
+  return {
+    qrCode,
+  };
+};
 
 const getDashboardStats = async (creatorId?: string) => {
-  const userId = creatorId; // Adjust based on auth middleware
+  const userId = creatorId;
   const today = dayjs();
   const lastWeek = today.subtract(7, 'day');
   const lastMonth = today.subtract(1, 'month');
@@ -570,12 +608,12 @@ const getDashboardAnalytics = async (creatorId?: string) => {
     };
   });
 
-  const last24HrScans ={
+  const last24HrScans = {
     count: scansOverTime.reduce((sum, entry) => sum + entry.scans, 0),
     diffPercentage: totalScans
-    ? Math.round((scansOverTime.reduce((sum, entry) => sum + entry.scans, 0) / totalScans) * 100)
-    : 0,
-  } 
+      ? Math.round((scansOverTime.reduce((sum, entry) => sum + entry.scans, 0) / totalScans) * 100)
+      : 0,
+  }
 
 
   return {
@@ -622,5 +660,6 @@ export const QRCodeService = {
   getSingleQRData,
   deleteQRCode,
   getDashboardStats,
-  getDashboardAnalytics
+  getDashboardAnalytics,
+  getQRCodeScanSettings
 };
