@@ -11,7 +11,7 @@ export const morganErrorLogFormat: FormatFn = (tokens, req, res) => {
   ].join(' ');
 };
 
-const logger = createLogger({
+export const logger = createLogger({
   level: 'info',
   format: format.combine(
     format.timestamp(),
@@ -28,5 +28,3 @@ const logger = createLogger({
     new transports.File({ filename: path.join(__dirname, '../logs/combined.log') }),
   ],
 });
-
-export default logger;

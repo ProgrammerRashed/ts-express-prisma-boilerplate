@@ -1,5 +1,5 @@
+import { logger } from "@helpers/logger";
 import { Response } from "express";
-import logger from "@helpers/logger";
 
 const SendResponse = <T>(res: Response, jsonData: {
   statusCode: number,

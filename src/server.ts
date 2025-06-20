@@ -1,7 +1,7 @@
 import 'module-alias/register';
 import { Server } from "http"
 import app from "./app"
-import logger from '@helpers/logger';
+import {logger} from '@helpers/logger';
 import config from "@config/index";
 
 

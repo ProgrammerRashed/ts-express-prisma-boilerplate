@@ -1,4 +1,4 @@
-import logger from "@helpers/logger";
+import {logger} from "@helpers/logger";
 import { Prisma } from "@prisma/client";
 import { NextFunction, Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";

@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 import config from "../config";
-import logger from "@helpers/logger";
+import {logger} from "@helpers/logger";
 
 const emailSender = async (to: string, subject: string, text: string, html: string) => {
   try {

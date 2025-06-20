@@ -3,7 +3,7 @@ import cors from "cors"
 import globalErrorHandler from "./middlewares/globalErrorHandler"
 import morgan from "morgan"
 import router from "./app/routers"
-import logger, { morganErrorLogFormat } from "@helpers/logger"
+import  { logger, morganErrorLogFormat } from "@helpers/logger"
 import notFoundHandler from "@middleware/notFoundHandler"
 import swaggerUi from 'swagger-ui-express';
 import { swaggerSpec } from "./swagger"
