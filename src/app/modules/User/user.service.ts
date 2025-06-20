@@ -4,7 +4,7 @@ import { Prisma, User, UserRole } from "@prisma/client";
 import { StatusCodes } from "http-status-codes";
 import { safeUserSelect, TAuthUser, userSearchAbleFields } from "./user.constant";
 import { paginationHelper } from "@helpers/paginationHelper";
-import prisma from "@utils/Prisma";
+import prisma from "@utils/prisma";
 import AppError from "@middleware/AppError";
 
 type TSafeUser = Omit<User, "password">;

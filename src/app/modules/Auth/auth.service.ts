@@ -1,7 +1,7 @@
 import bcrypt from "bcryptjs";
 import { Secret } from "jsonwebtoken";
 import { StatusCodes } from "http-status-codes";
-import prisma from "@utils/Prisma";
+import prisma from "@utils/prisma";
 import { jwtHelpers } from "@helpers/jwtHelpers";
 import emailSender from "@utils/emailSender";
 import config from "@config/index";

@@ -1,6 +1,6 @@
 import AppError from "@middleware/AppError";
 import { Prisma } from "@prisma/client";
-import prisma from "@utils/Prisma";
+import prisma from "@utils/prisma";
 import dayjs from "dayjs";
 import { Request } from "express";
 import { StatusCodes } from "http-status-codes";
