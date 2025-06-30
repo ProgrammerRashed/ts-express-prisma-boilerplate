@@ -10,12 +10,9 @@ export const parseUserAgent = (userAgent: string) => {
     deviceInfo: false,
     maxUserAgentSize: 500,
   });
-  // const userAgent = 'Mozilla/5.0 (Linux; Android 5.0; NX505J Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36';
   const result = detector.detect(userAgent);
-  console.log('result parse', result);
-  console.log("agent ", userAgent)
-  const deviceType = "unknown"
-  const os = "unknown"
-  const browser = "unknown"
+  const deviceType = result?.device.type === "smartphone" ? "mobile" : result?.device.type || "unknown"
+  const os = result?.os.name || result?.os?.family || "unknown"
+  const browser = result?.client.name || result?.client?.family || "unknown"
   return { deviceType, os, browser };
 };
